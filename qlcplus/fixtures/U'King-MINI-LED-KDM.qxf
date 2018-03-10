@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.10.5b</Version>
+  <Author>Filip Olszewski</Author>
+ </Creator>
+ <Manufacturer>U'King</Manufacturer>
+ <Model>MINI LED 540 270</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="PAN X">
+  <Group Byte="0">Pan</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="TILT Y">
+  <Group Byte="0">Tilt</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Master Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="7">Off</Capability>
+  <Capability Min="8" Max="134">Dimmer</Capability>
+  <Capability Min="135" Max="239">Strobe from slow to Fast</Capability>
+  <Capability Min="240" Max="255">Open</Capability>
+ </Channel>
+ <Channel Name="RED dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="GREEN dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="BLUE dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="WHITE dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="XY speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="RESET">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="150" Max="200"></Capability>
+ </Channel>
+ <Channel Name="Pan fine">
+  <Group Byte="1">Pan</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Tilt fine">
+  <Group Byte="1">Tilt</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Colors">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="7">MIx color</Capability>
+  <Capability Min="8" Max="231">Macro  color</Capability>
+  <Capability Min="232" Max="255">Color Jumping</Capability>
+ </Channel>
+ <Channel Name="Color jumping speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Control">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="7">Control freely</Capability>
+  <Capability Min="8" Max="63">Fast runing</Capability>
+  <Capability Min="64" Max="127">Slow runing</Capability>
+  <Capability Min="128" Max="191">Sound 1</Capability>
+  <Capability Min="192" Max="255">Sound 2</Capability>
+ </Channel>
+ <Mode Name="9ch">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="540" TiltMax="270"/>
+   <Technical PowerConsumption="70" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">PAN X</Channel>
+  <Channel Number="1">TILT Y</Channel>
+  <Channel Number="2">Master Dimmer</Channel>
+  <Channel Number="3">RED dimmer</Channel>
+  <Channel Number="4">GREEN dimmer</Channel>
+  <Channel Number="5">BLUE dimmer</Channel>
+  <Channel Number="6">WHITE dimmer</Channel>
+  <Channel Number="7">XY speed</Channel>
+  <Channel Number="8">RESET</Channel>
+ </Mode>
+ <Mode Name="14ch">
+  <Physical>
+   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="540" TiltMax="270"/>
+   <Technical PowerConsumption="70" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">PAN X</Channel>
+  <Channel Number="1">Pan fine</Channel>
+  <Channel Number="2">TILT Y</Channel>
+  <Channel Number="3">Tilt fine</Channel>
+  <Channel Number="4">XY speed</Channel>
+  <Channel Number="5">Master Dimmer</Channel>
+  <Channel Number="6">RED dimmer</Channel>
+  <Channel Number="7">GREEN dimmer</Channel>
+  <Channel Number="8">BLUE dimmer</Channel>
+  <Channel Number="9">WHITE dimmer</Channel>
+  <Channel Number="10">Colors</Channel>
+  <Channel Number="11">Color jumping speed</Channel>
+  <Channel Number="12">Control</Channel>
+  <Channel Number="13">RESET</Channel>
+ </Mode>
+</FixtureDefinition>
