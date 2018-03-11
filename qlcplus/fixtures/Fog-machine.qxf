@@ -6,7 +6,7 @@
   <Version>4.11.1</Version>
   <Author>Tymek</Author>
  </Creator>
- <Manufacturer>! NoName</Manufacturer>
+ <Manufacturer>NoName</Manufacturer>
  <Model>Fog machine</Model>
  <Type>Smoke</Type>
  <Channel Name="Emmiter">
