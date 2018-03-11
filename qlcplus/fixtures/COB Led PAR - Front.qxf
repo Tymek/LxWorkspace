@@ -7,45 +7,27 @@
   <Author>Filip Olszewski</Author>
  </Creator>
  <Manufacturer>NoName</Manufacturer>
- <Model>Led PAR 18x3W</Model>
- <Type>Color Changer</Type>
+ <Model>COB LED PAR</Model>
+ <Type>Dimmer</Type>
  <Channel Name="Total Dimmer">
   <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Warm White">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Cold White">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
   <Capability Min="0" Max="255"></Capability>
  </Channel>
  <Channel Name="Strobe">
   <Group Byte="0">Shutter</Group>
   <Capability Min="0" Max="255"></Capability>
  </Channel>
- <Channel Name="Settings">
-  <Group Byte="0">Maintenance</Group>
-  <Capability Min="0" Max="255"></Capability>
- </Channel>
- <Channel Name="Function speed">
-  <Group Byte="0">Nothing</Group>
-  <Capability Min="0" Max="255"></Capability>
- </Channel>
- <Channel Name="Red">
-  <Group Byte="0">Intensity</Group>
-  <Colour>Red</Colour>
-  <Capability Min="0" Max="255"></Capability>
- </Channel>
- <Channel Name="Green">
-  <Group Byte="0">Intensity</Group>
-  <Colour>Green</Colour>
-  <Capability Min="0" Max="255"></Capability>
- </Channel>
- <Channel Name="Blue">
-  <Group Byte="0">Intensity</Group>
-  <Colour>Blue</Colour>
-  <Capability Min="0" Max="255"></Capability>
- </Channel>
- <Channel Name="White">
-  <Group Byte="0">Intensity</Group>
-  <Colour>White</Colour>
-  <Capability Min="0" Max="255"></Capability>
- </Channel>
- <Mode Name="8ch">
+ <Mode Name="4ch">
   <Physical>
    <Bulb Type="" Lumens="0" ColourTemperature="0"/>
    <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
@@ -54,22 +36,14 @@
    <Technical PowerConsumption="0" DmxConnector="5-pin"/>
   </Physical>
   <Channel Number="0">Total Dimmer</Channel>
-  <Channel Number="1">Strobe</Channel>
-  <Channel Number="2">Settings</Channel>
-  <Channel Number="3">Function speed</Channel>
-  <Channel Number="4">Red</Channel>
-  <Channel Number="5">Green</Channel>
-  <Channel Number="6">Blue</Channel>
-  <Channel Number="7">White</Channel>
+  <Channel Number="1">Warm White</Channel>
+  <Channel Number="2">Cold White</Channel>
+  <Channel Number="3">Strobe</Channel>
   <Head>
    <Channel>0</Channel>
    <Channel>1</Channel>
    <Channel>2</Channel>
    <Channel>3</Channel>
-   <Channel>4</Channel>
-   <Channel>5</Channel>
-   <Channel>6</Channel>
-   <Channel>7</Channel>
   </Head>
  </Mode>
 </FixtureDefinition>
