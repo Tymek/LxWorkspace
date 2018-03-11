@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.1</Version>
+  <Author>Tymek</Author>
+ </Creator>
+ <Manufacturer>! NoName</Manufacturer>
+ <Model>Fog machine</Model>
+ <Type>Smoke</Type>
+ <Channel Name="Emmiter">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="0">OFF</Capability>
+  <Capability Min="255" Max="255" Color="#ffffff">ON</Capability>
+ </Channel>
+</FixtureDefinition>
