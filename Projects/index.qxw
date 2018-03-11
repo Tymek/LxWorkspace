@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SimpleDesk">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.1</Version>
@@ -9,9 +9,7 @@
  <Engine>
   <InputOutputMap>
    <Universe Name="DMX OUT" ID="0" Passthrough="True">
-    <Output Plugin="DMX USB" Line="0">
-     <PluginParameters UniverseChannels="423"/>
-    </Output>
+    <Output Plugin="DMX USB" Line="0"/>
    </Universe>
    <Universe Name="MIDI Console" ID="1">
     <Input Plugin="MIDI" Line="0"/>
@@ -25,33 +23,33 @@
    </Universe>
   </InputOutputMap>
   <Fixture>
-   <Manufacturer>Mini</Manufacturer>
-   <Model>Ledspot 60w</Model>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>LedSpot 60W</Model>
    <Mode>11 Channel</Mode>
    <ID>0</ID>
-   <Name>LedSpot</Name>
+   <Name>SPOT #1</Name>
    <Universe>0</Universe>
    <Address>227</Address>
    <Channels>11</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>Led par 18x3W</Model>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>Led PAR 18x3W</Model>
    <Mode>8ch</Mode>
    <ID>1</ID>
-   <Name>Par</Name>
+   <Name>PAR #1</Name>
    <Universe>0</Universe>
    <Address>309</Address>
    <Channels>8</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>LED FRONT </Model>
-   <Mode>4ch</Mode>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>COB LED PAR</Model>
+   <Mode>4 Channels Mode</Mode>
    <ID>2</ID>
-   <Name>LED FRONT </Name>
+   <Name>FRONT #1</Name>
    <Universe>0</Universe>
-   <Address>419</Address>
+   <Address>0</Address>
    <Channels>4</Channels>
   </Fixture>
   <Function ID="0" Type="Scene" Name="New Scene 0">
