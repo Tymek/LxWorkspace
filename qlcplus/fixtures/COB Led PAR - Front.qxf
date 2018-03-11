@@ -4,30 +4,58 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.1</Version>
-  <Author>Filip Olszewski</Author>
+  <Author>Filip Olszewski (remixed by Tymek)</Author>
  </Creator>
  <Manufacturer>NoName</Manufacturer>
  <Model>COB LED PAR</Model>
- <Type>Dimmer</Type>
+ <Type>Color Changer</Type>
  <Channel Name="Total Dimmer">
   <Group Byte="0">Intensity</Group>
-  <Capability Min="0" Max="255"></Capability>
+  <Capability Min="0" Max="255">Dark to Bright</Capability>
  </Channel>
  <Channel Name="Warm White">
   <Group Byte="0">Intensity</Group>
   <Colour>Amber</Colour>
-  <Capability Min="0" Max="255"></Capability>
+  <Capability Min="0" Max="255">Warm White Dimmer - Dark to Bright</Capability>
  </Channel>
  <Channel Name="Cold White">
   <Group Byte="0">Intensity</Group>
   <Colour>White</Colour>
-  <Capability Min="0" Max="255"></Capability>
+  <Capability Min="0" Max="255">Cold White Dimmer - Dark to Bright</Capability>
  </Channel>
  <Channel Name="Strobe">
   <Group Byte="0">Shutter</Group>
-  <Capability Min="0" Max="255"></Capability>
+  <Capability Min="0" Max="255">Slow to Fast</Capability>
  </Channel>
- <Mode Name="4ch">
+ <Channel Name="Function Choice">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="50">CH1-CH5 Control</Capability>
+  <Capability Min="51" Max="100">color temperature, Set by channel 6</Capability>
+  <Capability Min="101" Max="150">Colors Jump Change</Capability>
+  <Capability Min="151" Max="200">Colors Grade</Capability>
+  <Capability Min="201" Max="250">Colors Pulse Change</Capability>
+  <Capability Min="251" Max="255">Sound-Active</Capability>
+ </Channel>
+ <Channel Name="Function">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Slow to Fast (At the Colors output choose the color)</Capability>
+ </Channel>
+ <Mode Name="2 Channels Mode">
+  <Physical>
+   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Warm White</Channel>
+  <Channel Number="1">Cold White</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="4 Channels Mode">
   <Physical>
    <Bulb Type="" Lumens="0" ColourTemperature="0"/>
    <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
@@ -44,6 +72,29 @@
    <Channel>1</Channel>
    <Channel>2</Channel>
    <Channel>3</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="6 Channels Mode">
+  <Physical>
+   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Total Dimmer</Channel>
+  <Channel Number="1">Warm White</Channel>
+  <Channel Number="2">Cold White</Channel>
+  <Channel Number="3">Strobe</Channel>
+  <Channel Number="4">Function Choice</Channel>
+  <Channel Number="5">Function</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
   </Head>
  </Mode>
 </FixtureDefinition>
