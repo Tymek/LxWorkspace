@@ -340,6 +340,10 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255</FixtureVal>
   </Function>
+  <Function ID="65" Type="Collection" Name="LIVE - STATE OFF - SWITCH ON" Path="LIVE">
+   <Step Number="0">261</Step>
+   <Step Number="1">266</Step>
+  </Function>
   <Function ID="66" Type="Collection" Name="LIVE - STATE ON - SWITCH OFF" Path="LIVE">
    <Step Number="0">262</Step>
    <Step Number="1">265</Step>
@@ -455,15 +459,15 @@
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">261</Step>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="4294967294" FadeOut="0">65</Step>
   </Function>
   <Function ID="264" Type="Chaser" Name="LIVE play" Path="LIVE">
    <Speed FadeIn="0" FadeOut="0" Duration="10"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
-   <Step Number="0" FadeIn="0" Hold="150" FadeOut="0">265</Step>
+   <Step Number="0" FadeIn="0" Hold="100" FadeOut="0">265</Step>
    <Step Number="1" FadeIn="0" Hold="6" FadeOut="0">66</Step>
    <Step Number="2" FadeIn="0" Hold="6" FadeOut="0">67</Step>
    <Step Number="3" FadeIn="0" Hold="6" FadeOut="0">66</Step>
@@ -512,7 +516,7 @@
     <Font>Default</Font>
    </Appearance>
    <CueList Caption="Cue list" ID="0">
-    <WindowState Visible="True" X="5" Y="40" Width="265" Height="205"/>
+    <WindowState Visible="True" X="10" Y="30" Width="275" Height="150"/>
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -523,10 +527,10 @@
     <Chaser>257</Chaser>
     <NextPrevBehavior>0</NextPrevBehavior>
     <Next/>
-    <Previous/>
-    <Playback>
+    <Previous>
      <Input Universe="3" Channel="0"/>
-    </Playback>
+    </Previous>
+    <Playback/>
     <Stop/>
     <SlidersMode>Steps</SlidersMode>
     <CrossLeft>
@@ -541,7 +545,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="15" Y="245" Width="260" Height="240"/>
+    <WindowState Visible="True" X="20" Y="175" Width="260" Height="150"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -556,7 +560,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="0" Y="40" Width="260" Height="200"/>
+     <WindowState Visible="True" X="0" Y="40" Width="260" Height="110"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -564,19 +568,6 @@
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Button Caption="Prepare" ID="4" Icon="">
-      <WindowState Visible="True" X="140" Y="15" Width="105" Height="75"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4281637083</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="266"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
      <Button Caption="Live" ID="7" Icon="">
       <WindowState Visible="True" X="15" Y="15" Width="105" Height="75"/>
       <Appearance>
@@ -591,7 +582,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Go" ID="5" Icon="">
-      <WindowState Visible="True" X="140" Y="110" Width="105" Height="75"/>
+      <WindowState Visible="True" X="140" Y="15" Width="105" Height="75"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -606,7 +597,7 @@
     </SoloFrame>
    </Frame>
    <CueList Caption="Cue list" ID="1">
-    <WindowState Visible="True" X="290" Y="45" Width="95" Height="205"/>
+    <WindowState Visible="True" X="285" Y="30" Width="100" Height="240"/>
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -635,7 +626,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="285" Y="245" Width="85" Height="240"/>
+    <WindowState Visible="True" X="380" Y="30" Width="85" Height="240"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -653,7 +644,7 @@
      </Appearance>
      <Input Universe="1" Channel="149"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="222">
+     <Level LowLimit="0" HighLimit="255" Value="200">
       <Channel Fixture="1">0</Channel>
      </Level>
      <Playback>
