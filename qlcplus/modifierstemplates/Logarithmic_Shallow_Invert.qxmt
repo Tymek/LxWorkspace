@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ChannelModifier>
+<ChannelModifier xmlns="http://www.qlcplus.org/ChannelModifier">
+<Creator>
+<Name>Q Light Controller Plus</Name>
+<Version>4.11.1</Version>
+<Author>Tymoteusz Czech (uninverted by Luis García-Tornel)</Author>
+</Creator>
+<Name>Logarithmic Shallow Invert</Name>
+<Handler Modified="255" Original="0" />
+<Handler Modified="238" Original="9" />
+<Handler Modified="222" Original="18" />
+<Handler Modified="206" Original="27" />
+<Handler Modified="190" Original="37" />
+<Handler Modified="175" Original="48" />
+<Handler Modified="161" Original="59" />
+<Handler Modified="146" Original="70" />
+<Handler Modified="133" Original="82" />
+<Handler Modified="119" Original="94" />
+<Handler Modified="106" Original="106" />
+<Handler Modified="94" Original="119" />
+<Handler Modified="82" Original="133" />
+<Handler Modified="70" Original="146" />
+<Handler Modified="59" Original="161" />
+<Handler Modified="48" Original="175" />
+<Handler Modified="37" Original="190" />
+<Handler Modified="27" Original="206" />
+<Handler Modified="18" Original="222" />
+<Handler Modified="9" Original="238" />
+<Handler Modified="0" Original="255" />
+</ChannelModifier>
