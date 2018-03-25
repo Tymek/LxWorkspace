@@ -7,7 +7,7 @@
   <Author>Filip Olszewski (remixed by Tymek)</Author>
  </Creator>
  <Manufacturer>NoName</Manufacturer>
- <Model>COB LED PAR</Model>
+ <Model>WA LED PAR</Model>
  <Type>Color Changer</Type>
  <Channel Name="Total Dimmer">
   <Group Byte="0">Intensity</Group>

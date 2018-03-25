@@ -6,8 +6,8 @@
   <Version>4.11.1</Version>
   <Author>Filip Olszewski</Author>
  </Creator>
- <Manufacturer>NoName</Manufacturer>
- <Model>Led PAR 18x3W</Model>
+ <Manufacturer>Virtual</Manufacturer>
+ <Model>Virtual RGB Led PAR</Model>
  <Type>Color Changer</Type>
  <Channel Name="Total Dimmer">
   <Group Byte="0">Intensity</Group>

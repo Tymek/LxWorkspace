@@ -7,7 +7,7 @@
   <Author>Filip Olszewski</Author>
  </Creator>
  <Manufacturer>NoName</Manufacturer>
- <Model>Led PAR 18x3W</Model>
+ <Model>RGB Led PAR</Model>
  <Type>Color Changer</Type>
  <Channel Name="Total Dimmer">
   <Group Byte="0">Intensity</Group>

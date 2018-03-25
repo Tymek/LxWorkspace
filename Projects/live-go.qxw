@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.1</Version>
   <Author>Tymek</Author>
  </Creator>
- <Engine Autostart="259">
+ <Engine>
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0">
     <Input Plugin="ArtNet" Line="1"/>
@@ -59,6 +59,7 @@
    <Universe>3</Universe>
    <Address>1</Address>
    <Channels>1</Channels>
+   <ForcedLTP>0</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
@@ -79,6 +80,26 @@
    <Universe>3</Universe>
    <Address>0</Address>
    <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>5</ID>
+   <Name>Generic RGB</Name>
+   <Universe>0</Universe>
+   <Address>1</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic Smoke</Model>
+   <Mode>Normal</Mode>
+   <ID>6</ID>
+   <Name>Generic Smoke</Name>
+   <Universe>0</Universe>
+   <Address>4</Address>
+   <Channels>2</Channels>
   </Fixture>
   <Function ID="0" Type="Scene" Name="Output 000" Path="Output">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -352,6 +373,45 @@
    <Step Number="0">261</Step>
    <Step Number="1">265</Step>
   </Function>
+  <Function ID="68" Type="Chaser" Name="New Chaser 68">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="2" FadeIn="0" Hold="4294967294" FadeOut="0">57</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+  </Function>
+  <Function ID="69" Type="Chaser" Name="New Chaser 69" Path="LIVE/New folder">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">266</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">265</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">262</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">261</Step>
+  </Function>
+  <Function ID="70" Type="Scene" Name="New Scene 70">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,152,1,229</FixtureVal>
+  </Function>
   <Function ID="256" Type="Chaser" Name="Output chaser">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
@@ -433,8 +493,9 @@
   </Function>
   <Function ID="258" Type="Collection" Name="RESET">
    <Step Number="0">262</Step>
-   <Step Number="1">269</Step>
-   <Step Number="2">0</Step>
+   <Step Number="1">266</Step>
+   <Step Number="2">269</Step>
+   <Step Number="3">0</Step>
   </Function>
   <Function ID="259" Type="Chaser" Name="STARTUP">
    <Speed FadeIn="0" FadeOut="0" Duration="500"/>
@@ -516,7 +577,7 @@
     <Font>Default</Font>
    </Appearance>
    <CueList Caption="Cue list" ID="0">
-    <WindowState Visible="True" X="10" Y="30" Width="275" Height="150"/>
+    <WindowState Visible="False" X="10" Y="30" Width="275" Height="150"/>
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -545,7 +606,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="20" Y="175" Width="260" Height="150"/>
+    <WindowState Visible="False" X="20" Y="175" Width="260" Height="150"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -560,7 +621,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="0" Y="40" Width="260" Height="110"/>
+     <WindowState Visible="False" X="0" Y="40" Width="260" Height="110"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -569,7 +630,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Button Caption="Live" ID="7" Icon="">
-      <WindowState Visible="True" X="15" Y="15" Width="105" Height="75"/>
+      <WindowState Visible="False" X="15" Y="15" Width="105" Height="75"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4278190080</ForegroundColor>
@@ -582,7 +643,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Go" ID="5" Icon="">
-      <WindowState Visible="True" X="140" Y="15" Width="105" Height="75"/>
+      <WindowState Visible="False" X="140" Y="15" Width="105" Height="75"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -597,7 +658,7 @@
     </SoloFrame>
    </Frame>
    <CueList Caption="Cue list" ID="1">
-    <WindowState Visible="True" X="285" Y="30" Width="100" Height="240"/>
+    <WindowState Visible="False" X="285" Y="30" Width="100" Height="240"/>
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -626,7 +687,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="380" Y="30" Width="85" Height="240"/>
+    <WindowState Visible="False" X="380" Y="30" Width="85" Height="240"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -634,7 +695,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="Dimmer" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="10" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="False" X="10" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -644,7 +705,7 @@
      </Appearance>
      <Input Universe="1" Channel="149"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="200">
+     <Level LowLimit="0" HighLimit="255" Value="20">
       <Channel Fixture="1">0</Channel>
      </Level>
      <Playback>
@@ -654,7 +715,7 @@
    </Frame>
   </Frame>
   <Properties>
-   <Size Width="1920" Height="1080"/>
+   <Size Width="1850" Height="1080"/>
    <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
   </Properties>
  </VirtualConsole>

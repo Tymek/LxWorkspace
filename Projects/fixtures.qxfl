@@ -7,849 +7,203 @@
   <Author>Tymek</Author>
  </Creator>
  <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>Fog machine</Model>
+  <Mode>On/Off</Mode>
   <ID>0</ID>
-  <Name>Mega Bar LED #01</Name>
-  <Universe>0</Universe>
-  <Address>0</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>1</ID>
-  <Name>Mega Bar LED #02</Name>
-  <Universe>0</Universe>
-  <Address>3</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>2</ID>
-  <Name>Mega Bar LED #03</Name>
-  <Universe>0</Universe>
-  <Address>6</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>3</ID>
-  <Name>Mega Bar LED #04</Name>
-  <Universe>0</Universe>
-  <Address>9</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>4</ID>
-  <Name>Mega Bar LED #05</Name>
-  <Universe>0</Universe>
-  <Address>12</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>5</ID>
-  <Name>Mega Bar LED #06</Name>
-  <Universe>0</Universe>
-  <Address>15</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>6</ID>
-  <Name>Mega Bar LED #07</Name>
-  <Universe>0</Universe>
-  <Address>18</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>7</ID>
-  <Name>Mega Bar LED #08</Name>
-  <Universe>0</Universe>
-  <Address>21</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>8</ID>
-  <Name>Mega Bar LED #09</Name>
-  <Universe>0</Universe>
-  <Address>24</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>9</ID>
-  <Name>Mega Bar LED #10</Name>
-  <Universe>0</Universe>
-  <Address>27</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>10</ID>
-  <Name>Mega Bar LED #11</Name>
-  <Universe>0</Universe>
-  <Address>30</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>11</ID>
-  <Name>Mega Bar LED #12</Name>
-  <Universe>0</Universe>
-  <Address>33</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>12</ID>
-  <Name>Mega Bar LED #13</Name>
-  <Universe>0</Universe>
-  <Address>36</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>13</ID>
-  <Name>Mega Bar LED #14</Name>
-  <Universe>0</Universe>
-  <Address>39</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>14</ID>
-  <Name>Mega Bar LED #15</Name>
-  <Universe>0</Universe>
-  <Address>42</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>15</ID>
-  <Name>Mega Bar LED #16</Name>
-  <Universe>0</Universe>
-  <Address>45</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>16</ID>
-  <Name>Mega Bar LED #17</Name>
-  <Universe>0</Universe>
-  <Address>48</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>17</ID>
-  <Name>Mega Bar LED #18</Name>
-  <Universe>0</Universe>
-  <Address>51</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>18</ID>
-  <Name>Mega Bar LED #19</Name>
-  <Universe>0</Universe>
-  <Address>54</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>19</ID>
-  <Name>Mega Bar LED #20</Name>
-  <Universe>0</Universe>
-  <Address>57</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>20</ID>
-  <Name>Mega Bar LED #21</Name>
-  <Universe>0</Universe>
-  <Address>60</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>21</ID>
-  <Name>Mega Bar LED #22</Name>
-  <Universe>0</Universe>
-  <Address>63</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>22</ID>
-  <Name>Mega Bar LED #23</Name>
-  <Universe>0</Universe>
-  <Address>66</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>23</ID>
-  <Name>Mega Bar LED #24</Name>
-  <Universe>0</Universe>
-  <Address>69</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>24</ID>
-  <Name>Mega Bar LED #25</Name>
-  <Universe>0</Universe>
-  <Address>72</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>25</ID>
-  <Name>Mega Bar LED #26</Name>
-  <Universe>0</Universe>
-  <Address>75</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>26</ID>
-  <Name>Mega Bar LED #27</Name>
-  <Universe>0</Universe>
-  <Address>78</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>27</ID>
-  <Name>Mega Bar LED #28</Name>
-  <Universe>0</Universe>
-  <Address>81</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>28</ID>
-  <Name>Mega Bar LED #29</Name>
-  <Universe>0</Universe>
-  <Address>84</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>29</ID>
-  <Name>Mega Bar LED #30</Name>
-  <Universe>0</Universe>
-  <Address>87</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>30</ID>
-  <Name>Mega Bar LED #31</Name>
-  <Universe>0</Universe>
-  <Address>90</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega Bar LED</Model>
-  <Mode>3 Channel</Mode>
-  <ID>31</ID>
-  <Name>Mega Bar LED #32</Name>
-  <Universe>0</Universe>
-  <Address>93</Address>
-  <Channels>3</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>U'King</Manufacturer>
-  <Model>MINI LED 540 270</Model>
-  <Mode>14ch</Mode>
-  <ID>32</ID>
-  <Name>MINI LED #1</Name>
-  <Universe>0</Universe>
-  <Address>133</Address>
-  <Channels>14</Channels>
-  <ForcedLTP>6,7,8,9</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>U'King</Manufacturer>
-  <Model>MINI LED 540 270</Model>
-  <Mode>14ch</Mode>
-  <ID>33</ID>
-  <Name>MINI LED #2</Name>
-  <Universe>0</Universe>
-  <Address>147</Address>
-  <Channels>14</Channels>
-  <ForcedLTP>6,7,8,9</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>34</ID>
-  <Name>DYMIARKA</Name>
+  <Name>Fog</Name>
   <Universe>0</Universe>
   <Address>132</Address>
   <Channels>1</Channels>
-  <ForcedLTP>0</ForcedLTP>
  </Fixture>
  <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>35</ID>
-  <Name>Mirror control off</Name>
-  <Universe>2</Universe>
-  <Address>99</Address>
-  <Channels>1</Channels>
-  <ForcedLTP>0</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>36</ID>
-  <Name>Mirror control on</Name>
-  <Universe>2</Universe>
-  <Address>100</Address>
-  <Channels>1</Channels>
-  <ForcedLTP>0</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>37</ID>
-  <Name>Control  flash</Name>
-  <Universe>2</Universe>
-  <Address>101</Address>
-  <Channels>1</Channels>
-  <ForcedLTP>0</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic RGB</Model>
-  <Mode>RGB</Mode>
-  <ID>38</ID>
-  <Name>color grid strony 1-3</Name>
-  <Universe>2</Universe>
-  <Address>0</Address>
-  <Channels>3</Channels>
-  <ForcedLTP>0,1,2</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>39</ID>
-  <Name>Przod PRAWY</Name>
-  <Universe>0</Universe>
-  <Address>96</Address>
-  <Channels>1</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>40</ID>
-  <Name>Przod SRODEK</Name>
-  <Universe>0</Universe>
-  <Address>97</Address>
-  <Channels>1</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>41</ID>
-  <Name>PRZOD LEWY</Name>
-  <Universe>0</Universe>
-  <Address>98</Address>
-  <Channels>1</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>42</ID>
-  <Name>BACKLIGHT</Name>
-  <Universe>0</Universe>
-  <Address>99</Address>
-  <Channels>1</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega PAR Profile</Model>
-  <Mode>4 Channel</Mode>
-  <ID>43</ID>
-  <Name>PARY #1</Name>
-  <Universe>0</Universe>
-  <Address>100</Address>
-  <Channels>4</Channels>
-  <ForcedLTP>0,1,2</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega PAR Profile</Model>
-  <Mode>4 Channel</Mode>
-  <ID>44</ID>
-  <Name>PARY #2</Name>
-  <Universe>0</Universe>
-  <Address>104</Address>
-  <Channels>4</Channels>
-  <ForcedLTP>0,1,2</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega PAR Profile</Model>
-  <Mode>4 Channel</Mode>
-  <ID>45</ID>
-  <Name>PARY #3</Name>
-  <Universe>0</Universe>
-  <Address>108</Address>
-  <Channels>4</Channels>
-  <ForcedLTP>0,1,2</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega PAR Profile</Model>
-  <Mode>4 Channel</Mode>
-  <ID>46</ID>
-  <Name>PARY #4</Name>
-  <Universe>0</Universe>
-  <Address>112</Address>
-  <Channels>4</Channels>
-  <ForcedLTP>0,1,2</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega PAR Profile</Model>
-  <Mode>4 Channel</Mode>
-  <ID>47</ID>
-  <Name>PARY #5</Name>
-  <Universe>0</Universe>
-  <Address>116</Address>
-  <Channels>4</Channels>
-  <ForcedLTP>0,1,2</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega PAR Profile</Model>
-  <Mode>4 Channel</Mode>
-  <ID>48</ID>
-  <Name>PARY #6</Name>
-  <Universe>0</Universe>
-  <Address>120</Address>
-  <Channels>4</Channels>
-  <ForcedLTP>0,1,2</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega PAR Profile</Model>
-  <Mode>4 Channel</Mode>
-  <ID>49</ID>
-  <Name>PARY #7</Name>
-  <Universe>0</Universe>
-  <Address>124</Address>
-  <Channels>4</Channels>
-  <ForcedLTP>0,1,2</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>American DJ</Manufacturer>
-  <Model>Mega PAR Profile</Model>
-  <Mode>4 Channel</Mode>
-  <ID>50</ID>
-  <Name>PARY #8</Name>
-  <Universe>0</Universe>
-  <Address>128</Address>
-  <Channels>4</Channels>
-  <ForcedLTP>0,1,2</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>Mini</Manufacturer>
-  <Model>Ledspot 60w</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>LedSpot Moving Head</Model>
   <Mode>11 Channel</Mode>
-  <ID>51</ID>
-  <Name>Ledspot 60w #5</Name>
-  <Universe>0</Universe>
-  <Address>205</Address>
-  <Channels>11</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>Mini</Manufacturer>
-  <Model>Ledspot 60w</Model>
-  <Mode>11 Channel</Mode>
-  <ID>52</ID>
-  <Name>Ledspot 60w #6</Name>
-  <Universe>0</Universe>
-  <Address>216</Address>
-  <Channels>11</Channels>
-  <Modifier Channel="7" Name="Logarithmic Deep"/>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>53</ID>
-  <Name>color grid control</Name>
-  <Universe>2</Universe>
-  <Address>9</Address>
-  <Channels>1</Channels>
-  <ForcedLTP>0</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic RGB</Model>
-  <Mode>RGB</Mode>
-  <ID>54</ID>
-  <Name>color grid strony 4-6</Name>
-  <Universe>2</Universe>
-  <Address>3</Address>
-  <Channels>3</Channels>
-  <ForcedLTP>0,1,2</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>55</ID>
-  <Name>START</Name>
-  <Universe>2</Universe>
-  <Address>10</Address>
-  <Channels>1</Channels>
-  <ForcedLTP>0</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>Mini</Manufacturer>
-  <Model>Ledspot 60w</Model>
-  <Mode>11 Channel</Mode>
-  <ID>56</ID>
-  <Name>Ledspot 60w #1</Name>
+  <ID>1</ID>
+  <Name>Spot #1</Name>
   <Universe>0</Universe>
   <Address>161</Address>
   <Channels>11</Channels>
  </Fixture>
  <Fixture>
-  <Manufacturer>Mini</Manufacturer>
-  <Model>Ledspot 60w</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>LedSpot Moving Head</Model>
   <Mode>11 Channel</Mode>
-  <ID>57</ID>
-  <Name>Ledspot 60w #2</Name>
+  <ID>2</ID>
+  <Name>Spot #2</Name>
   <Universe>0</Universe>
   <Address>172</Address>
   <Channels>11</Channels>
  </Fixture>
  <Fixture>
-  <Manufacturer>Mini</Manufacturer>
-  <Model>Ledspot 60w</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>LedSpot Moving Head</Model>
   <Mode>11 Channel</Mode>
-  <ID>58</ID>
-  <Name>Ledspot 60w #3</Name>
+  <ID>3</ID>
+  <Name>Spot #3</Name>
   <Universe>0</Universe>
   <Address>183</Address>
   <Channels>11</Channels>
  </Fixture>
  <Fixture>
-  <Manufacturer>Mini</Manufacturer>
-  <Model>Ledspot 60w</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>LedSpot Moving Head</Model>
   <Mode>11 Channel</Mode>
-  <ID>59</ID>
-  <Name>Ledspot 60w #4</Name>
+  <ID>4</ID>
+  <Name>Spot #4</Name>
   <Universe>0</Universe>
   <Address>194</Address>
   <Channels>11</Channels>
  </Fixture>
  <Fixture>
-  <Manufacturer>Mini</Manufacturer>
-  <Model>Ledspot 60w</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>LedSpot Moving Head</Model>
   <Mode>11 Channel</Mode>
-  <ID>60</ID>
-  <Name>Ledspot 60w #7</Name>
+  <ID>5</ID>
+  <Name>Spot #5</Name>
+  <Universe>0</Universe>
+  <Address>205</Address>
+  <Channels>11</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>LedSpot Moving Head</Model>
+  <Mode>11 Channel</Mode>
+  <ID>6</ID>
+  <Name>Spot #6</Name>
+  <Universe>0</Universe>
+  <Address>216</Address>
+  <Channels>11</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>LedSpot Moving Head</Model>
+  <Mode>11 Channel</Mode>
+  <ID>7</ID>
+  <Name>Spot #7</Name>
   <Universe>0</Universe>
   <Address>227</Address>
   <Channels>11</Channels>
  </Fixture>
  <Fixture>
-  <Manufacturer>Mini</Manufacturer>
-  <Model>Ledspot 60w</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>LedSpot Moving Head</Model>
   <Mode>11 Channel</Mode>
-  <ID>61</ID>
-  <Name>Ledspot 60w #8</Name>
+  <ID>8</ID>
+  <Name>Spot #8</Name>
   <Universe>0</Universe>
   <Address>238</Address>
   <Channels>11</Channels>
  </Fixture>
  <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>62</ID>
-  <Name>GRANDMASTER CONTROL</Name>
-  <Universe>2</Universe>
-  <Address>102</Address>
-  <Channels>1</Channels>
-  <ForcedLTP>0</ForcedLTP>
- </Fixture>
- <Fixture>
-  <Manufacturer>Aliexpress</Manufacturer>
-  <Model>Led par 18x3W</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>RGB Led PAR</Model>
   <Mode>8ch</Mode>
-  <ID>63</ID>
-  <Name>Led par 18x3W #1</Name>
+  <ID>9</ID>
+  <Name>PAR #1</Name>
   <Universe>0</Universe>
   <Address>309</Address>
   <Channels>8</Channels>
-  <ForcedHTP>1</ForcedHTP>
  </Fixture>
  <Fixture>
-  <Manufacturer>Aliexpress</Manufacturer>
-  <Model>Led par 18x3W</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>RGB Led PAR</Model>
   <Mode>8ch</Mode>
-  <ID>64</ID>
-  <Name>Led par 18x3W #2</Name>
+  <ID>10</ID>
+  <Name>PAR #2</Name>
   <Universe>0</Universe>
   <Address>319</Address>
   <Channels>8</Channels>
-  <ForcedHTP>1</ForcedHTP>
  </Fixture>
  <Fixture>
-  <Manufacturer>Aliexpress</Manufacturer>
-  <Model>Led par 18x3W</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>RGB Led PAR</Model>
   <Mode>8ch</Mode>
-  <ID>65</ID>
-  <Name>Led par 18x3W #3</Name>
+  <ID>11</ID>
+  <Name>PAR #3</Name>
   <Universe>0</Universe>
   <Address>329</Address>
   <Channels>8</Channels>
-  <ForcedHTP>1</ForcedHTP>
  </Fixture>
  <Fixture>
-  <Manufacturer>Aliexpress</Manufacturer>
-  <Model>Led par 18x3W</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>RGB Led PAR</Model>
   <Mode>8ch</Mode>
-  <ID>66</ID>
-  <Name>Led par 18x3W #4</Name>
+  <ID>12</ID>
+  <Name>PAR #4</Name>
   <Universe>0</Universe>
   <Address>339</Address>
   <Channels>8</Channels>
-  <ForcedHTP>1</ForcedHTP>
  </Fixture>
  <Fixture>
-  <Manufacturer>Aliexpress</Manufacturer>
-  <Model>Led par 18x3W</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>RGB Led PAR</Model>
   <Mode>8ch</Mode>
-  <ID>67</ID>
-  <Name>Led par 18x3W #5</Name>
+  <ID>13</ID>
+  <Name>PAR #5</Name>
   <Universe>0</Universe>
   <Address>349</Address>
   <Channels>8</Channels>
-  <ForcedHTP>1</ForcedHTP>
  </Fixture>
  <Fixture>
-  <Manufacturer>Aliexpress</Manufacturer>
-  <Model>Led par 18x3W</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>RGB Led PAR</Model>
   <Mode>8ch</Mode>
-  <ID>68</ID>
-  <Name>Led par 18x3W #6</Name>
+  <ID>14</ID>
+  <Name>PAR #6</Name>
   <Universe>0</Universe>
   <Address>359</Address>
   <Channels>8</Channels>
-  <ForcedHTP>1</ForcedHTP>
  </Fixture>
  <Fixture>
-  <Manufacturer>Aliexpress</Manufacturer>
-  <Model>Led par 18x3W</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>RGB Led PAR</Model>
   <Mode>8ch</Mode>
-  <ID>69</ID>
-  <Name>Led par 18x3W #7</Name>
+  <ID>15</ID>
+  <Name>PAR #7</Name>
   <Universe>0</Universe>
   <Address>369</Address>
   <Channels>8</Channels>
-  <ForcedHTP>1</ForcedHTP>
  </Fixture>
  <Fixture>
-  <Manufacturer>Aliexpress</Manufacturer>
-  <Model>Led par 18x3W</Model>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>RGB Led PAR</Model>
   <Mode>8ch</Mode>
-  <ID>70</ID>
-  <Name>Led par 18x3W #8</Name>
+  <ID>16</ID>
+  <Name>PAR #8</Name>
   <Universe>0</Universe>
   <Address>379</Address>
   <Channels>8</Channels>
-  <ForcedHTP>1</ForcedHTP>
  </Fixture>
  <Fixture>
-  <Manufacturer>Aliexpress</Manufacturer>
-  <Model>LED FRONT </Model>
-  <Mode>4ch</Mode>
-  <ID>71</ID>
-  <Name>LED FRONT  #1</Name>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>WA LED PAR</Model>
+  <Mode>6 Channels Mode</Mode>
+  <ID>17</ID>
+  <Name>Front #1</Name>
+  <Universe>0</Universe>
+  <Address>399</Address>
+  <Channels>6</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>WA LED PAR</Model>
+  <Mode>6 Channels Mode</Mode>
+  <ID>18</ID>
+  <Name>Front #2</Name>
   <Universe>0</Universe>
   <Address>409</Address>
-  <Channels>4</Channels>
+  <Channels>6</Channels>
  </Fixture>
  <Fixture>
-  <Manufacturer>Aliexpress</Manufacturer>
-  <Model>LED FRONT </Model>
-  <Mode>4ch</Mode>
-  <ID>72</ID>
-  <Name>LED FRONT  #2</Name>
+  <Manufacturer>NoName</Manufacturer>
+  <Model>WA LED PAR</Model>
+  <Mode>6 Channels Mode</Mode>
+  <ID>19</ID>
+  <Name>Front #3</Name>
   <Universe>0</Universe>
   <Address>419</Address>
-  <Channels>4</Channels>
+  <Channels>6</Channels>
  </Fixture>
- <Fixture>
-  <Manufacturer>Aliexpress</Manufacturer>
-  <Model>LED FRONT </Model>
-  <Mode>4ch</Mode>
-  <ID>73</ID>
-  <Name>LED FRONT  #3</Name>
-  <Universe>0</Universe>
-  <Address>429</Address>
-  <Channels>4</Channels>
- </Fixture>
- <Fixture>
-  <Manufacturer>Generic</Manufacturer>
-  <Model>Generic</Model>
-  <Mode>1 Channel</Mode>
-  <ID>74</ID>
-  <Name>SPEED</Name>
-  <Universe>2</Universe>
-  <Address>19</Address>
-  <Channels>1</Channels>
- </Fixture>
- <FixtureGroup ID="0">
-  <Name>ledy</Name>
-  <Size X="10" Y="4"/>
-  <Head X="0" Y="0" Fixture="55">0</Head>
-  <Head X="1" Y="0" Fixture="0">0</Head>
-  <Head X="2" Y="0" Fixture="1">0</Head>
-  <Head X="3" Y="0" Fixture="2">0</Head>
-  <Head X="4" Y="0" Fixture="3">0</Head>
-  <Head X="5" Y="0" Fixture="11">0</Head>
-  <Head X="6" Y="0" Fixture="10">0</Head>
-  <Head X="7" Y="0" Fixture="9">0</Head>
-  <Head X="8" Y="0" Fixture="8">0</Head>
-  <Head X="9" Y="0" Fixture="71">0</Head>
-  <Head X="0" Y="1" Fixture="72">0</Head>
-  <Head X="1" Y="1" Fixture="4">0</Head>
-  <Head X="2" Y="1" Fixture="5">0</Head>
-  <Head X="3" Y="1" Fixture="6">0</Head>
-  <Head X="4" Y="1" Fixture="7">0</Head>
-  <Head X="5" Y="1" Fixture="15">0</Head>
-  <Head X="6" Y="1" Fixture="14">0</Head>
-  <Head X="7" Y="1" Fixture="13">0</Head>
-  <Head X="8" Y="1" Fixture="12">0</Head>
-  <Head X="9" Y="1" Fixture="73">0</Head>
-  <Head X="0" Y="2" Fixture="16">0</Head>
-  <Head X="1" Y="2" Fixture="17">0</Head>
-  <Head X="2" Y="2" Fixture="18">0</Head>
-  <Head X="3" Y="2" Fixture="19">0</Head>
-  <Head X="4" Y="2" Fixture="20">0</Head>
-  <Head X="5" Y="2" Fixture="24">0</Head>
-  <Head X="6" Y="2" Fixture="25">0</Head>
-  <Head X="7" Y="2" Fixture="26">0</Head>
-  <Head X="8" Y="2" Fixture="27">0</Head>
-  <Head X="9" Y="2" Fixture="28">0</Head>
-  <Head X="1" Y="3" Fixture="21">0</Head>
-  <Head X="2" Y="3" Fixture="22">0</Head>
-  <Head X="3" Y="3" Fixture="23">0</Head>
-  <Head X="6" Y="3" Fixture="29">0</Head>
-  <Head X="7" Y="3" Fixture="30">0</Head>
-  <Head X="8" Y="3" Fixture="31">0</Head>
- </FixtureGroup>
- <FixtureGroup ID="1">
-  <Name>Pary</Name>
-  <Size X="8" Y="2"/>
-  <Head X="0" Y="0" Fixture="49">0</Head>
-  <Head X="1" Y="0" Fixture="43">0</Head>
-  <Head X="2" Y="0" Fixture="44">0</Head>
-  <Head X="3" Y="0" Fixture="45">0</Head>
-  <Head X="4" Y="0" Fixture="46">0</Head>
-  <Head X="5" Y="0" Fixture="47">0</Head>
-  <Head X="6" Y="0" Fixture="48">0</Head>
-  <Head X="7" Y="0" Fixture="50">0</Head>
- </FixtureGroup>
- <FixtureGroup ID="2">
-  <Name>Pary grupa 1</Name>
-  <Size X="4" Y="1"/>
-  <Head X="0" Y="0" Fixture="43">0</Head>
-  <Head X="1" Y="0" Fixture="48">0</Head>
-  <Head X="2" Y="0" Fixture="49">0</Head>
-  <Head X="3" Y="0" Fixture="50">0</Head>
- </FixtureGroup>
- <FixtureGroup ID="3">
-  <Name>Pary grupa 2</Name>
-  <Size X="4" Y="1"/>
-  <Head X="0" Y="0" Fixture="44">0</Head>
-  <Head X="1" Y="0" Fixture="45">0</Head>
-  <Head X="2" Y="0" Fixture="46">0</Head>
-  <Head X="3" Y="0" Fixture="47">0</Head>
- </FixtureGroup>
 </FixtureList>

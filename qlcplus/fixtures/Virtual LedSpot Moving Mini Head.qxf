@@ -6,8 +6,8 @@
   <Version>4.11.1</Version>
   <Author>Filip Olszewski (remixed by Tymek)</Author>
  </Creator>
- <Manufacturer>NoName</Manufacturer>
- <Model>LedSpot 60W</Model>
+ <Manufacturer>Virtual</Manufacturer>
+ <Model>Virtual LedSpot Moving Head</Model>
  <Type>Moving Head</Type>
  <Channel Name="Pan">
   <Group Byte="0">Pan</Group>

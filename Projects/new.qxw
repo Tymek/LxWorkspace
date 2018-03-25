@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.1</Version>
@@ -12,7 +12,7 @@
     <Input Plugin="ArtNet" Line="1"/>
     <Output Plugin="DMX USB" Line="0"/>
    </Universe>
-   <Universe Name="APC MINI" ID="1">
+   <Universe Name="Controller" ID="1">
     <Input Plugin="MIDI" Line="0"/>
     <Feedback Plugin="MIDI" Line="1"/>
    </Universe>
@@ -33,71 +33,11 @@
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
-   <ID>0</ID>
-   <Name>STARTUP</Name>
-   <Universe>3</Universe>
-   <Address>0</Address>
-   <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic</Model>
-   <Mode>1 Channel</Mode>
    <ID>1</ID>
    <Name>Fog machine preset - chaser</Name>
    <Universe>3</Universe>
    <Address>9</Address>
    <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>LedSpot 60W</Model>
-   <Mode>11 Channel</Mode>
-   <ID>29</ID>
-   <Name>@ LedSpot #1</Name>
-   <Universe>2</Universe>
-   <Address>99</Address>
-   <Channels>11</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>LedSpot 60W</Model>
-   <Mode>11 Channel</Mode>
-   <ID>30</ID>
-   <Name>@ LedSpot #2</Name>
-   <Universe>2</Universe>
-   <Address>119</Address>
-   <Channels>11</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>LedSpot 60W</Model>
-   <Mode>11 Channel</Mode>
-   <ID>31</ID>
-   <Name>@ LedSpot #3</Name>
-   <Universe>2</Universe>
-   <Address>139</Address>
-   <Channels>11</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>LedSpot 60W</Model>
-   <Mode>11 Channel</Mode>
-   <ID>32</ID>
-   <Name>@ LedSpot #4</Name>
-   <Universe>2</Universe>
-   <Address>159</Address>
-   <Channels>11</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>LedSpot 60W</Model>
-   <Mode>11 Channel</Mode>
-   <ID>33</ID>
-   <Name>@ LedSpot #5</Name>
-   <Universe>2</Universe>
-   <Address>179</Address>
-   <Channels>11</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -108,116 +48,6 @@
    <Universe>0</Universe>
    <Address>132</Address>
    <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>LedSpot 60W</Model>
-   <Mode>11 Channel</Mode>
-   <ID>35</ID>
-   <Name>@ LedSpot #6</Name>
-   <Universe>2</Universe>
-   <Address>199</Address>
-   <Channels>11</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>LedSpot 60W</Model>
-   <Mode>11 Channel</Mode>
-   <ID>36</ID>
-   <Name>@ LedSpot #7</Name>
-   <Universe>2</Universe>
-   <Address>219</Address>
-   <Channels>11</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>LedSpot 60W</Model>
-   <Mode>11 Channel</Mode>
-   <ID>37</ID>
-   <Name>@ LedSpot #8</Name>
-   <Universe>2</Universe>
-   <Address>239</Address>
-   <Channels>11</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>Led PAR 18x3W</Model>
-   <Mode>8ch</Mode>
-   <ID>45</ID>
-   <Name>@ Led PAR #1</Name>
-   <Universe>2</Universe>
-   <Address>299</Address>
-   <Channels>8</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>Led PAR 18x3W</Model>
-   <Mode>8ch</Mode>
-   <ID>46</ID>
-   <Name>@ Led PAR #2</Name>
-   <Universe>2</Universe>
-   <Address>309</Address>
-   <Channels>8</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>Led PAR 18x3W</Model>
-   <Mode>8ch</Mode>
-   <ID>47</ID>
-   <Name>@ Led PAR #3</Name>
-   <Universe>2</Universe>
-   <Address>319</Address>
-   <Channels>8</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>Led PAR 18x3W</Model>
-   <Mode>8ch</Mode>
-   <ID>48</ID>
-   <Name>@ Led PAR #4</Name>
-   <Universe>2</Universe>
-   <Address>329</Address>
-   <Channels>8</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>Led PAR 18x3W</Model>
-   <Mode>8ch</Mode>
-   <ID>49</ID>
-   <Name>@ Led PAR #5</Name>
-   <Universe>2</Universe>
-   <Address>339</Address>
-   <Channels>8</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>Led PAR 18x3W</Model>
-   <Mode>8ch</Mode>
-   <ID>50</ID>
-   <Name>@ Led PAR #6</Name>
-   <Universe>2</Universe>
-   <Address>349</Address>
-   <Channels>8</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>Led PAR 18x3W</Model>
-   <Mode>8ch</Mode>
-   <ID>51</ID>
-   <Name>@ Led PAR #7</Name>
-   <Universe>2</Universe>
-   <Address>359</Address>
-   <Channels>8</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>Led PAR 18x3W</Model>
-   <Mode>8ch</Mode>
-   <ID>52</ID>
-   <Name>@ Led PAR #8</Name>
-   <Universe>2</Universe>
-   <Address>369</Address>
-   <Channels>8</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -246,36 +76,6 @@
    <ID>55</ID>
    <Name>COB LED #3</Name>
    <Universe>0</Universe>
-   <Address>419</Address>
-   <Channels>6</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>COB LED PAR</Model>
-   <Mode>6 Channels Mode</Mode>
-   <ID>56</ID>
-   <Name>@ COB LED #1</Name>
-   <Universe>2</Universe>
-   <Address>399</Address>
-   <Channels>6</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>COB LED PAR</Model>
-   <Mode>6 Channels Mode</Mode>
-   <ID>57</ID>
-   <Name>@ COB LED #2</Name>
-   <Universe>2</Universe>
-   <Address>409</Address>
-   <Channels>6</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>NoName</Manufacturer>
-   <Model>COB LED PAR</Model>
-   <Mode>6 Channels Mode</Mode>
-   <ID>58</ID>
-   <Name>@ COB LED #3</Name>
-   <Universe>2</Universe>
    <Address>419</Address>
    <Channels>6</Channels>
   </Fixture>
@@ -447,38 +247,6 @@
    <Address>379</Address>
    <Channels>8</Channels>
   </Fixture>
-  <FixtureGroup ID="0">
-   <Name>LedSpot</Name>
-   <Size X="3" Y="3"/>
-   <Head X="0" Y="0" Fixture="74">0</Head>
-   <Head X="1" Y="0" Fixture="75">0</Head>
-   <Head X="2" Y="0" Fixture="76">0</Head>
-   <Head X="0" Y="1" Fixture="77">0</Head>
-   <Head X="1" Y="1" Fixture="78">0</Head>
-   <Head X="2" Y="1" Fixture="79">0</Head>
-   <Head X="0" Y="2" Fixture="80">0</Head>
-   <Head X="1" Y="2" Fixture="81">0</Head>
-   <Head X="2" Y="2" Fixture="0">0</Head>
-  </FixtureGroup>
-  <FixtureGroup ID="1">
-   <Name>PAR</Name>
-   <Size X="3" Y="3"/>
-   <Head X="0" Y="0" Fixture="89">0</Head>
-   <Head X="1" Y="0" Fixture="90">0</Head>
-   <Head X="2" Y="0" Fixture="91">0</Head>
-   <Head X="0" Y="1" Fixture="92">0</Head>
-   <Head X="1" Y="1" Fixture="93">0</Head>
-   <Head X="2" Y="1" Fixture="94">0</Head>
-   <Head X="0" Y="2" Fixture="95">0</Head>
-   <Head X="1" Y="2" Fixture="96">0</Head>
-  </FixtureGroup>
-  <FixtureGroup ID="2">
-   <Name>COB</Name>
-   <Size X="2" Y="2"/>
-   <Head X="0" Y="0" Fixture="53">0</Head>
-   <Head X="1" Y="0" Fixture="54">0</Head>
-   <Head X="0" Y="1" Fixture="55">0</Head>
-  </FixtureGroup>
   <Function ID="0" Type="Scene" Name="All spot dimmer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="74">7,255</FixtureVal>
@@ -528,11 +296,9 @@
   </Function>
   <Function ID="6" Type="Scene" Name="STARTUP ON - runtime - function" Path="Function/Runtime">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,255</FixtureVal>
   </Function>
   <Function ID="7" Type="Scene" Name="STARTUP OFF - runtime - function" Path="Function/Runtime">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,0</FixtureVal>
   </Function>
   <Function ID="8" Type="Scene" Name="" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -647,7 +413,7 @@
     <Font>Default</Font>
    </Appearance>
    <Button Caption="All spot dimmer" ID="3" Icon="">
-    <WindowState Visible="True" X="350" Y="110" Width="50" Height="50"/>
+    <WindowState Visible="False" X="350" Y="110" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -660,7 +426,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="All par dimmer" ID="4" Icon="">
-    <WindowState Visible="True" X="410" Y="110" Width="50" Height="50"/>
+    <WindowState Visible="False" X="410" Y="110" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -680,7 +446,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1535" Y="30" Width="175" Height="300"/>
+    <WindowState Visible="False" X="1535" Y="30" Width="175" Height="300"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -688,7 +454,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="" ID="2" WidgetStyle="Slider" InvertedAppearance="true">
-     <WindowState Visible="True" X="5" Y="40" Width="45" Height="255"/>
+     <WindowState Visible="False" X="5" Y="40" Width="45" Height="255"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -706,7 +472,7 @@
      </Playback>
     </Slider>
     <CueList Caption="Fog machine" ID="6">
-     <WindowState Visible="True" X="50" Y="40" Width="120" Height="255"/>
+     <WindowState Visible="False" X="50" Y="40" Width="120" Height="255"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -729,7 +495,7 @@
     </CueList>
    </Frame>
    <Slider Caption="Slider 12" ID="12" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="270" Y="190" Width="60" Height="200"/>
+    <WindowState Visible="False" X="270" Y="190" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -744,7 +510,7 @@
     </Playback>
    </Slider>
    <Clock Type="Clock" Caption="" ID="13">
-    <WindowState Visible="True" X="5" Y="5" Width="150" Height="50"/>
+    <WindowState Visible="False" X="5" Y="5" Width="150" Height="50"/>
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>4293848814</ForegroundColor>
@@ -761,7 +527,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="160" Y="10" Width="165" Height="145"/>
+    <WindowState Visible="False" X="160" Y="10" Width="165" Height="145"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -769,7 +535,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="STARTUP" ID="5" Icon="">
-     <WindowState Visible="True" X="10" Y="90" Width="150" Height="50"/>
+     <WindowState Visible="False" X="10" Y="90" Width="150" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -782,7 +548,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Clock Type="Stopwatch" Caption="" ID="14">
-     <WindowState Visible="True" X="10" Y="40" Width="150" Height="50"/>
+     <WindowState Visible="False" X="10" Y="40" Width="150" Height="50"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4289374890</ForegroundColor>
@@ -797,7 +563,7 @@
     </Clock>
    </Frame>
    <Slider Caption="Slider 61" ID="61" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="495" Y="275" Width="150" Height="330"/>
+    <WindowState Visible="False" X="495" Y="275" Width="150" Height="330"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -821,7 +587,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Slider 62" ID="62" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="550" Y="45" Width="60" Height="200"/>
+    <WindowState Visible="False" X="550" Y="45" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -845,7 +611,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Slider 64" ID="64" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="105" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="False" X="105" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -885,7 +651,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Slider 65" ID="65" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="215" Y="465" Width="60" Height="200"/>
+    <WindowState Visible="False" X="215" Y="465" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -916,7 +682,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="910" Y="1095" Width="935" Height="900"/>
+    <WindowState Visible="False" X="910" Y="1095" Width="935" Height="900"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -924,7 +690,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <XYPad Caption="XY Pad" ID="63" InvertedAppearance="0">
-     <WindowState Visible="True" X="5" Y="340" Width="925" Height="555"/>
+     <WindowState Visible="False" X="5" Y="340" Width="925" Height="555"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1016,7 +782,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1150" Y="30" Width="385" Height="410"/>
+    <WindowState Visible="False" X="1150" Y="30" Width="385" Height="410"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1028,7 +794,7 @@
     <Shortcut Page="1" Name="Front - Debug"/>
     <PagesLoop>False</PagesLoop>
     <Slider Caption="Slider 17" ID="17" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="5" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="False" X="5" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1043,7 +809,7 @@
      </Playback>
     </Slider>
     <Slider Caption="" ID="10" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="65" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="False" X="65" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1058,7 +824,7 @@
      </Playback>
     </Slider>
     <Slider Caption="" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="125" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="False" X="125" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1073,7 +839,7 @@
      </Playback>
     </Slider>
     <Slider Caption="" ID="16" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="185" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="False" X="185" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
