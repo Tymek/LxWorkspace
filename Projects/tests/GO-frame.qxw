@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.1</Version>
+  <Author>Tymek</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="OUTPUT" ID="0">
+    <Output Plugin="ArtNet" Line="2"/>
+    <Feedback Plugin="OSC" Line="1"/>
+   </Universe>
+   <Universe Name="MIDI" ID="1">
+    <Input Plugin="MIDI" Line="0"/>
+    <Feedback Plugin="MIDI" Line="0"/>
+   </Universe>
+   <Universe Name="LOOPBACK" ID="2">
+    <Input Plugin="Loopback" Line="0"/>
+    <Output Plugin="Loopback" Line="0">
+     <PluginParameters UniverseChannels="2"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 4" ID="3"/>
+   <Universe Name="Universe 5" ID="4"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>2 Channel</Mode>
+   <ID>0</ID>
+   <Name>GO frame</Name>
+   <Universe>2</Universe>
+   <Address>0</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="GO frame 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="NOOP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="2" Type="Scene" Name="GO frame 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Chaser" Name="STATE">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+  </Function>
+  <Function ID="4" Type="Chaser" Name="LIVE GO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+  </Function>
+  <Function ID="5" Type="Chaser" Name="LIVE PAUSE">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <SoloFrame Caption="" ID="0">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="385" Y="160" Width="360" Height="215"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Multipage PagesNum="2" CurrentPage="0"/>
+    <Next>
+     <Input Universe="2" Channel="8"/>
+    </Next>
+    <Previous>
+     <Input Universe="2" Channel="7"/>
+    </Previous>
+    <Shortcut Page="0" Name="Page: 1"/>
+    <Shortcut Page="1" Name="Page: 2"/>
+    <PagesLoop>False</PagesLoop>
+   </SoloFrame>
+   <CueList Caption="Cue list" ID="3">
+    <WindowState Visible="True" X="815" Y="85" Width="300" Height="220"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Chaser>4294967295</Chaser>
+    <NextPrevBehavior>0</NextPrevBehavior>
+    <Next/>
+    <Previous/>
+    <Playback/>
+    <Stop/>
+    <SlidersMode>Crossfade</SlidersMode>
+   </CueList>
+   <Button Caption="GO" ID="1" Icon="">
+    <WindowState Visible="True" X="540" Y="610" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="2"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="HOLD" ID="2" Icon="">
+    <WindowState Visible="True" X="755" Y="655" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="0"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Width="2000" Height="4000"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>

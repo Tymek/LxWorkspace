@@ -713,6 +713,27 @@
      </Playback>
     </Slider>
    </Frame>
+   <SoloFrame Caption="" ID="4">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="545" Y="95" Width="345" Height="220"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Multipage PagesNum="2" CurrentPage="0"/>
+    <Shortcut Page="0" Name="Page: 1"/>
+    <Shortcut Page="1" Name="Page: 2"/>
+    <PagesLoop>False</PagesLoop>
+   </SoloFrame>
   </Frame>
   <Properties>
    <Size Width="1850" Height="1080"/>
