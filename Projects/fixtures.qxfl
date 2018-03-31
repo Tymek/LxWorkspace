@@ -105,6 +105,7 @@
   <Universe>0</Universe>
   <Address>309</Address>
   <Channels>8</Channels>
+  <ForcedLTP>4,5,6,7</ForcedLTP>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -115,6 +116,7 @@
   <Universe>0</Universe>
   <Address>319</Address>
   <Channels>8</Channels>
+  <ForcedLTP>4,5,6,7</ForcedLTP>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -125,6 +127,7 @@
   <Universe>0</Universe>
   <Address>329</Address>
   <Channels>8</Channels>
+  <ForcedLTP>4,5,6,7</ForcedLTP>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -135,6 +138,7 @@
   <Universe>0</Universe>
   <Address>339</Address>
   <Channels>8</Channels>
+  <ForcedLTP>4,5,6,7</ForcedLTP>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -145,6 +149,7 @@
   <Universe>0</Universe>
   <Address>349</Address>
   <Channels>8</Channels>
+  <ForcedLTP>4,5,6,7</ForcedLTP>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -155,6 +160,7 @@
   <Universe>0</Universe>
   <Address>359</Address>
   <Channels>8</Channels>
+  <ForcedLTP>4,5,6,7</ForcedLTP>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -165,6 +171,7 @@
   <Universe>0</Universe>
   <Address>369</Address>
   <Channels>8</Channels>
+  <ForcedLTP>4,5,6,7</ForcedLTP>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -175,6 +182,7 @@
   <Universe>0</Universe>
   <Address>379</Address>
   <Channels>8</Channels>
+  <ForcedLTP>4,5,6,7</ForcedLTP>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -206,4 +214,98 @@
   <Address>419</Address>
   <Channels>6</Channels>
  </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>9 Channel</Mode>
+  <ID>20</ID>
+  <Name>Submasters</Name>
+  <Universe>2</Universe>
+  <Address>49</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Virtual</Manufacturer>
+  <Model>Loopback</Model>
+  <Mode>8</Mode>
+  <ID>21</ID>
+  <Name>PAR - color cue</Name>
+  <Universe>2</Universe>
+  <Address>69</Address>
+  <Channels>8</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Virtual</Manufacturer>
+  <Model>Loopback</Model>
+  <Mode>2</Mode>
+  <ID>22</ID>
+  <Name>Start/Stop</Name>
+  <Universe>2</Universe>
+  <Address>9</Address>
+  <Channels>2</Channels>
+  <ForcedHTP>0,1</ForcedHTP>
+ </Fixture>
+ <FixtureGroup ID="2">
+  <Name>Spot</Name>
+  <Size X="8" Y="4"/>
+  <Head X="0" Y="0" Fixture="7">0</Head>
+  <Head X="2" Y="0" Fixture="5">0</Head>
+  <Head X="5" Y="0" Fixture="6">0</Head>
+  <Head X="7" Y="0" Fixture="8">0</Head>
+  <Head X="2" Y="2" Fixture="1">0</Head>
+  <Head X="5" Y="2" Fixture="2">0</Head>
+  <Head X="0" Y="3" Fixture="3">0</Head>
+  <Head X="7" Y="3" Fixture="4">0</Head>
+ </FixtureGroup>
+ <FixtureGroup ID="3">
+  <Name>PAR</Name>
+  <Size X="7" Y="3"/>
+  <Head X="0" Y="0" Fixture="10">0</Head>
+  <Head X="2" Y="0" Fixture="11">0</Head>
+  <Head X="4" Y="0" Fixture="12">0</Head>
+  <Head X="6" Y="0" Fixture="13">0</Head>
+  <Head X="0" Y="1" Fixture="9">0</Head>
+  <Head X="6" Y="1" Fixture="14">0</Head>
+  <Head X="0" Y="2" Fixture="15">0</Head>
+  <Head X="6" Y="2" Fixture="16">0</Head>
+ </FixtureGroup>
+ <FixtureGroup ID="4">
+  <Name>Front</Name>
+  <Size X="3" Y="1"/>
+  <Head X="0" Y="0" Fixture="17">0</Head>
+  <Head X="1" Y="0" Fixture="18">0</Head>
+  <Head X="2" Y="0" Fixture="19">0</Head>
+ </FixtureGroup>
+ <FixtureGroup ID="5">
+  <Name>Scene</Name>
+  <Size X="11" Y="6"/>
+  <Head X="0" Y="0" Fixture="7">0</Head>
+  <Head X="1" Y="0" Fixture="10">0</Head>
+  <Head X="2" Y="0" Fixture="5">0</Head>
+  <Head X="4" Y="0" Fixture="11">0</Head>
+  <Head X="6" Y="0" Fixture="12">0</Head>
+  <Head X="8" Y="0" Fixture="6">0</Head>
+  <Head X="9" Y="0" Fixture="13">0</Head>
+  <Head X="10" Y="0" Fixture="8">0</Head>
+  <Head X="1" Y="1" Fixture="9">0</Head>
+  <Head X="9" Y="1" Fixture="14">0</Head>
+  <Head X="1" Y="2" Fixture="15">0</Head>
+  <Head X="9" Y="2" Fixture="16">0</Head>
+  <Head X="3" Y="4" Fixture="1">0</Head>
+  <Head X="7" Y="4" Fixture="2">0</Head>
+  <Head X="0" Y="5" Fixture="3">0</Head>
+  <Head X="10" Y="5" Fixture="4">0</Head>
+ </FixtureGroup>
+ <FixtureGroup ID="6">
+  <Name>RGB Led PAR - RGB Group</Name>
+  <Size X="8" Y="1"/>
+  <Head X="0" Y="0" Fixture="9">0</Head>
+  <Head X="1" Y="0" Fixture="10">0</Head>
+  <Head X="2" Y="0" Fixture="11">0</Head>
+  <Head X="3" Y="0" Fixture="12">0</Head>
+  <Head X="4" Y="0" Fixture="13">0</Head>
+  <Head X="5" Y="0" Fixture="14">0</Head>
+  <Head X="6" Y="0" Fixture="15">0</Head>
+  <Head X="7" Y="0" Fixture="16">0</Head>
+ </FixtureGroup>
 </FixtureList>
