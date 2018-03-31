@@ -25,6 +25,7 @@
   <Universe>0</Universe>
   <Address>161</Address>
   <Channels>11</Channels>
+  <Modifier Channel="8" Name="Speed ledspot"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -35,6 +36,7 @@
   <Universe>0</Universe>
   <Address>172</Address>
   <Channels>11</Channels>
+  <Modifier Channel="8" Name="Speed ledspot"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -45,6 +47,7 @@
   <Universe>0</Universe>
   <Address>183</Address>
   <Channels>11</Channels>
+  <Modifier Channel="8" Name="Speed ledspot"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -55,6 +58,7 @@
   <Universe>0</Universe>
   <Address>194</Address>
   <Channels>11</Channels>
+  <Modifier Channel="8" Name="Speed ledspot"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -65,6 +69,7 @@
   <Universe>0</Universe>
   <Address>205</Address>
   <Channels>11</Channels>
+  <Modifier Channel="8" Name="Speed ledspot"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -75,6 +80,7 @@
   <Universe>0</Universe>
   <Address>216</Address>
   <Channels>11</Channels>
+  <Modifier Channel="8" Name="Speed ledspot"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -85,6 +91,7 @@
   <Universe>0</Universe>
   <Address>227</Address>
   <Channels>11</Channels>
+  <Modifier Channel="8" Name="Speed ledspot"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -95,6 +102,7 @@
   <Universe>0</Universe>
   <Address>238</Address>
   <Channels>11</Channels>
+  <Modifier Channel="8" Name="Speed ledspot"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -106,6 +114,7 @@
   <Address>309</Address>
   <Channels>8</Channels>
   <ForcedLTP>4,5,6,7</ForcedLTP>
+  <Modifier Channel="4" Name="Logarithmic Shallow"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -117,6 +126,7 @@
   <Address>319</Address>
   <Channels>8</Channels>
   <ForcedLTP>4,5,6,7</ForcedLTP>
+  <Modifier Channel="4" Name="Logarithmic Shallow"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -128,6 +138,7 @@
   <Address>329</Address>
   <Channels>8</Channels>
   <ForcedLTP>4,5,6,7</ForcedLTP>
+  <Modifier Channel="4" Name="Logarithmic Shallow"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -139,6 +150,7 @@
   <Address>339</Address>
   <Channels>8</Channels>
   <ForcedLTP>4,5,6,7</ForcedLTP>
+  <Modifier Channel="4" Name="Logarithmic Shallow"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -150,6 +162,7 @@
   <Address>349</Address>
   <Channels>8</Channels>
   <ForcedLTP>4,5,6,7</ForcedLTP>
+  <Modifier Channel="4" Name="Logarithmic Shallow"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -161,6 +174,7 @@
   <Address>359</Address>
   <Channels>8</Channels>
   <ForcedLTP>4,5,6,7</ForcedLTP>
+  <Modifier Channel="4" Name="Logarithmic Shallow"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -172,6 +186,7 @@
   <Address>369</Address>
   <Channels>8</Channels>
   <ForcedLTP>4,5,6,7</ForcedLTP>
+  <Modifier Channel="4" Name="Logarithmic Shallow"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
@@ -183,6 +198,7 @@
   <Address>379</Address>
   <Channels>8</Channels>
   <ForcedLTP>4,5,6,7</ForcedLTP>
+  <Modifier Channel="4" Name="Logarithmic Shallow"/>
  </Fixture>
  <Fixture>
   <Manufacturer>NoName</Manufacturer>
