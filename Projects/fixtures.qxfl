@@ -255,16 +255,60 @@
   <Model>Loopback</Model>
   <Mode>2</Mode>
   <ID>22</ID>
-  <Name>Start/Stop</Name>
+  <Name>Play/Stop</Name>
   <Universe>2</Universe>
-  <Address>9</Address>
+  <Address>0</Address>
   <Channels>2</Channels>
   <ForcedHTP>0,1</ForcedHTP>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Virtual</Manufacturer>
+  <Model>Loopback</Model>
+  <Mode>2</Mode>
+  <ID>23</ID>
+  <Name>GO page</Name>
+  <Universe>2</Universe>
+  <Address>5</Address>
+  <Channels>2</Channels>
+  <ForcedHTP>0,1</ForcedHTP>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Virtual</Manufacturer>
+  <Model>Loopback</Model>
+  <Mode>1</Mode>
+  <ID>24</ID>
+  <Name>State</Name>
+  <Universe>2</Universe>
+  <Address>4</Address>
+  <Channels>1</Channels>
+  <ForcedHTP>0</ForcedHTP>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Virtual</Manufacturer>
+  <Model>Loopback</Model>
+  <Mode>2</Mode>
+  <ID>25</ID>
+  <Name>Init/Halt</Name>
+  <Universe>2</Universe>
+  <Address>2</Address>
+  <Channels>2</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Virtual</Manufacturer>
+  <Model>Loopback</Model>
+  <Mode>4</Mode>
+  <ID>26</ID>
+  <Name>Clock</Name>
+  <Universe>2</Universe>
+  <Address>14</Address>
+  <Channels>4</Channels>
+  <ForcedHTP>0,1,2,3</ForcedHTP>
  </Fixture>
  <FixtureGroup ID="2">
   <Name>Spot</Name>
   <Size X="8" Y="4"/>
   <Head X="0" Y="0" Fixture="7">0</Head>
+  <Head X="1" Y="0" Fixture="24">0</Head>
   <Head X="2" Y="0" Fixture="5">0</Head>
   <Head X="5" Y="0" Fixture="6">0</Head>
   <Head X="7" Y="0" Fixture="8">0</Head>
