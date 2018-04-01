@@ -6,7 +6,7 @@
   <Version>4.11.1</Version>
   <Author>Tymek</Author>
  </Creator>
- <Engine Autostart="88">
+ <Engine>
   <InputOutputMap>
    <Universe Name="OUTPUT" ID="0">
     <Output Plugin="DMX USB" Line="0"/>
@@ -308,6 +308,7 @@
    <Universe>2</Universe>
    <Address>2</Address>
    <Channels>2</Channels>
+   <ForcedHTP>0,1</ForcedHTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Virtual</Manufacturer>
@@ -319,6 +320,16 @@
    <Address>14</Address>
    <Channels>4</Channels>
    <ForcedHTP>0,1,2,3</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>4</Mode>
+   <ID>27</ID>
+   <Name>Front cue</Name>
+   <Universe>2</Universe>
+   <Address>58</Address>
+   <Channels>4</Channels>
   </Fixture>
   <FixtureGroup ID="2">
    <Name>Spot</Name>
@@ -441,6 +452,7 @@
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">113</Step>
   </Function>
   <Function ID="9" Type="Scene" Name="Front - cold" Path=" Front">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1009,15 +1021,16 @@
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">69</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">78</Step>
+   <Step Number="0" FadeIn="0" Hold="4294967294" FadeOut="0">7</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">69</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">78</Step>
   </Function>
   <Function ID="59" Type="Chaser" Name="GO - Playback - Utils" Path=" Utils/ Playback">
    <Speed FadeIn="0" FadeOut="0" Duration="300"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
-   <Step Number="0" FadeIn="0" Hold="15" FadeOut="0">98</Step>
+   <Step Number="0" FadeIn="0" Hold="100" FadeOut="0">98</Step>
   </Function>
   <Function ID="60" Type="Scene" Name="P1C05 | Fixture 1 - Color 05 - PAR" Path=" PAR/Color/Color 05">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1110,18 +1123,20 @@
   <Function ID="68" Type="Chaser" Name="LIVE - Playback - Utils" Path=" Utils/ Playback">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">98</Step>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="100" FadeOut="0">98</Step>
+   <Step Number="1" FadeIn="0" Hold="4294967294" FadeOut="0">98</Step>
   </Function>
   <Function ID="69" Type="Chaser" Name="State HIGH - Playback - Utils" Path=" Utils/ Playback">
-   <Speed FadeIn="0" FadeOut="0" Duration="6"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="25"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">102</Step>
-   <Step Number="1" FadeIn="0" Hold="6" FadeOut="0">101</Step>
-   <Step Number="2" FadeIn="0" Hold="6" FadeOut="0">98</Step>
+   <Step Number="0" FadeIn="0" Hold="12" FadeOut="0">102</Step>
+   <Step Number="1" FadeIn="0" Hold="12" FadeOut="0">98</Step>
+   <Step Number="2" FadeIn="0" Hold="12" FadeOut="0">101</Step>
+   <Step Number="3" FadeIn="0" Hold="500" FadeOut="0">98</Step>
   </Function>
   <Function ID="70" Type="Scene" Name="P1C06 | Fixture 1 - Color 06 - PAR" Path=" PAR/Color/Color 06">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1212,7 +1227,7 @@
    <FixtureVal ID="16">4,0,5,0,6,255,7,0</FixtureVal>
   </Function>
   <Function ID="78" Type="Chaser" Name="State LOW - Playback - Utils" Path=" Utils/ Playback">
-   <Speed FadeIn="0" FadeOut="0" Duration="6"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="25"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1410,15 +1425,15 @@
   </Function>
   <Function ID="98" Type="Scene" Name="5. State - Playback - Utils" Path=" Utils/ Playback">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="24">0,255</FixtureVal>
+   <FixtureVal ID="24">0,160</FixtureVal>
   </Function>
   <Function ID="99" Type="Scene" Name="6. Show GO page - Playback - Utils" Path=" Utils/ Playback">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="23">0,255</FixtureVal>
+   <FixtureVal ID="23">0,255,1,0</FixtureVal>
   </Function>
   <Function ID="100" Type="Scene" Name="7. Hide GO page - Playback - Utils" Path=" Utils/ Playback">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="23">1,255</FixtureVal>
+   <FixtureVal ID="23">0,0,1,255</FixtureVal>
   </Function>
   <Function ID="101" Type="Collection" Name="Play &amp; keep - Playback - Utils" Path=" Utils">
    <Step Number="0">98</Step>
@@ -1459,32 +1474,40 @@
    <FixtureVal ID="26">3,255</FixtureVal>
   </Function>
   <Function ID="109" Type="Chaser" Name="1. Play - Clock - Utils" Path=" Utils/ Clock">
-   <Speed FadeIn="0" FadeOut="0" Duration="12"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="25"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">105</Step>
+   <Step Number="0" FadeIn="0" Hold="25" FadeOut="0">7</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">105</Step>
+   <Step Number="2" FadeIn="0" Hold="25" FadeOut="0">7</Step>
   </Function>
   <Function ID="110" Type="Chaser" Name="2. Stop - Clock - Utils" Path=" Utils/ Clock">
-   <Speed FadeIn="0" FadeOut="0" Duration="12"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="25"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="6" FadeOut="0">106</Step>
+   <Step Number="0" FadeIn="0" Hold="25" FadeOut="0">7</Step>
+   <Step Number="1" FadeIn="0" Hold="6" FadeOut="0">106</Step>
+   <Step Number="2" FadeIn="0" Hold="25" FadeOut="0">7</Step>
   </Function>
   <Function ID="111" Type="Chaser" Name="3. Previous - Clock - Utils" Path=" Utils/ Clock">
-   <Speed FadeIn="0" FadeOut="0" Duration="6"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="25"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="6" FadeOut="0">107</Step>
   </Function>
   <Function ID="112" Type="Chaser" Name="4. Next - Clock - Utils" Path=" Utils/ Clock">
-   <Speed FadeIn="0" FadeOut="0" Duration="6"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="25"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="6" FadeOut="0">108</Step>
+  </Function>
+  <Function ID="113" Type="Scene" Name="New Scene From Live 113">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="27">0,174</FixtureVal>
   </Function>
   <Function ID="216" Type="Scene" Name="White - LedSpot Moving Head" Path=" Utils/ Wizard-generated">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -2935,26 +2958,26 @@
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
    <Grid Width="5" Height="3" Depth="3" Units="0"/>
-   <FxItem ID="18" XPos="2350" YPos="0"/>
-   <FxItem ID="19" XPos="2900" YPos="0"/>
-   <FxItem ID="16" XPos="4000" YPos="1500"/>
-   <FxItem ID="17" XPos="1800" YPos="0"/>
-   <FxItem ID="14" XPos="4000" YPos="1000"/>
-   <FxItem ID="15" XPos="700" YPos="1500"/>
-   <FxItem ID="12" XPos="2700" YPos="500"/>
-   <FxItem ID="13" XPos="4000" YPos="500"/>
-   <FxItem ID="10" XPos="700" YPos="500"/>
-   <FxItem ID="11" XPos="2000" YPos="500"/>
-   <FxItem ID="8" XPos="4700" YPos="500"/>
-   <FxItem ID="9" XPos="712" YPos="1000"/>
-   <FxItem ID="6" XPos="3500" YPos="500"/>
-   <FxItem ID="7" XPos="0" YPos="500"/>
-   <FxItem ID="4" XPos="4500" YPos="2700"/>
-   <FxItem ID="5" XPos="1200" YPos="500"/>
    <FxItem ID="2" XPos="2900" YPos="2300"/>
    <FxItem ID="3" XPos="1100" YPos="2700"/>
    <FxItem ID="0" XPos="2400" YPos="2700"/>
    <FxItem ID="1" XPos="1800" YPos="2300"/>
+   <FxItem ID="6" XPos="3500" YPos="500"/>
+   <FxItem ID="7" XPos="0" YPos="500"/>
+   <FxItem ID="4" XPos="4500" YPos="2700"/>
+   <FxItem ID="5" XPos="1200" YPos="500"/>
+   <FxItem ID="10" XPos="700" YPos="500"/>
+   <FxItem ID="11" XPos="2000" YPos="500"/>
+   <FxItem ID="8" XPos="4700" YPos="500"/>
+   <FxItem ID="9" XPos="712" YPos="1000"/>
+   <FxItem ID="14" XPos="4000" YPos="1000"/>
+   <FxItem ID="15" XPos="700" YPos="1500"/>
+   <FxItem ID="12" XPos="2700" YPos="500"/>
+   <FxItem ID="13" XPos="4000" YPos="500"/>
+   <FxItem ID="18" XPos="2350" YPos="0"/>
+   <FxItem ID="19" XPos="2900" YPos="0"/>
+   <FxItem ID="16" XPos="4000" YPos="1500"/>
+   <FxItem ID="17" XPos="1800" YPos="0"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
@@ -2981,28 +3004,6 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Clock Type="Clock" Caption="" ID="448">
-     <WindowState Visible="True" X="5" Y="5" Width="145" Height="30"/>
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>4291611852</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>MS Shell Dlg 2,-1,28,5,75,0,0,0,0,0</Font>
-     </Appearance>
-    </Clock>
-    <Clock Type="Stopwatch" Caption="" ID="449">
-     <WindowState Visible="True" X="5" Y="35" Width="145" Height="30"/>
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>4283782485</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>MS Shell Dlg 2,21,-1,5,75,0,0,0,0,0</Font>
-     </Appearance>
-     <PlayPause/>
-     <Reset/>
-    </Clock>
    </Frame>
    <Frame Caption="" ID="36">
     <Appearance>
@@ -5938,12 +5939,16 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Chaser>4294967295</Chaser>
+     <Chaser>8</Chaser>
      <NextPrevBehavior>2</NextPrevBehavior>
      <Next/>
      <Previous/>
-     <Playback/>
-     <Stop/>
+     <Playback>
+      <Input Universe="2" Channel="0"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="1"/>
+     </Stop>
      <SlidersMode>Steps</SlidersMode>
     </CueList>
    </Frame>
@@ -6003,12 +6008,19 @@
        <Font>Default</Font>
       </Appearance>
       <Chaser>1</Chaser>
-      <NextPrevBehavior>0</NextPrevBehavior>
+      <NextPrevBehavior>2</NextPrevBehavior>
       <Next/>
       <Previous/>
-      <Playback/>
-      <Stop/>
+      <Playback>
+       <Input Universe="2" Channel="2"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="3"/>
+      </Stop>
       <SlidersMode>Steps</SlidersMode>
+      <CrossLeft>
+       <Input Universe="2" Channel="58"/>
+      </CrossLeft>
      </CueList>
     </Frame>
     <Slider Caption=" " ID="30" WidgetStyle="Slider" InvertedAppearance="false">
@@ -6021,7 +6033,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="1" HighLimit="255" Value="1"/>
+     <Level LowLimit="1" HighLimit="255" Value="255">
+      <Channel Fixture="27">0</Channel>
+     </Level>
      <Playback>
       <Function>4294967295</Function>
      </Playback>
@@ -6162,39 +6176,6 @@
       <Fixture ID="8" Head="0"/>
      </Preset>
     </XYPad>
-   </Frame>
-   <Frame Caption="" ID="94">
-    <Appearance>
-     <FrameStyle>Raised</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4279308561</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <WindowState Visible="True" X="595" Y="10" Width="285" Height="335"/>
-    <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
-    <ShowHeader>True</ShowHeader>
-    <ShowEnableButton>False</ShowEnableButton>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
-    <CueList Caption="Global presets" ID="114">
-     <WindowState Visible="True" X="0" Y="40" Width="285" Height="295"/>
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Chaser>4294967295</Chaser>
-     <NextPrevBehavior>0</NextPrevBehavior>
-     <Next/>
-     <Previous/>
-     <Playback/>
-     <Stop/>
-     <SlidersMode>Steps</SlidersMode>
-    </CueList>
    </Frame>
    <Frame Caption="" ID="51">
     <Appearance>
@@ -6928,7 +6909,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="175" Y="395" Width="350" Height="290"/>
+    <WindowState Visible="True" X="190" Y="365" Width="350" Height="290"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -6945,12 +6926,12 @@
       <Font>Default</Font>
      </Appearance>
      <Chaser>58</Chaser>
-     <NextPrevBehavior>2</NextPrevBehavior>
-     <Next/>
-     <Previous/>
-     <Playback>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next>
       <Input Universe="2" Channel="2"/>
-     </Playback>
+     </Next>
+     <Previous/>
+     <Playback/>
      <Stop>
       <Input Universe="2" Channel="3"/>
      </Stop>
@@ -6968,7 +6949,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="10" Y="90" Width="155" Height="110"/>
+    <WindowState Visible="True" X="10" Y="225" Width="155" Height="110"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -6999,7 +6980,7 @@
       <Input Universe="2" Channel="6"/>
      </Shortcut>
      <PagesLoop>False</PagesLoop>
-     <Button Caption="PAUSE" ID="90" Page="1" Icon="">
+     <Button Caption="GO" ID="90" Page="1" Icon="">
       <WindowState Visible="False" X="0" Y="35" Width="135" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -7008,7 +6989,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="68"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Key>Space</Key>
       <Intensity Adjust="False">100</Intensity>
@@ -7049,6 +7030,7 @@
      </Appearance>
      <Function ID="68"/>
      <Action>Toggle</Action>
+     <Key>L</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
    </Frame>
@@ -7060,7 +7042,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="15" Y="225" Width="145" Height="80"/>
+    <WindowState Visible="True" X="15" Y="15" Width="145" Height="80"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -7068,7 +7050,7 @@
     <Mixing>False</Mixing>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="3" CurrentPage="0"/>
+    <Multipage PagesNum="4" CurrentPage="0"/>
     <Next>
      <Input Universe="2" Channel="17"/>
     </Next>
@@ -7078,6 +7060,7 @@
     <Shortcut Page="0" Name="Page: 1"/>
     <Shortcut Page="1" Name="Page: 2"/>
     <Shortcut Page="2" Name="Page: 3"/>
+    <Shortcut Page="3" Name="Page: 4"/>
     <PagesLoop>False</PagesLoop>
     <Frame Caption="" ID="213">
      <Appearance>
@@ -7137,7 +7120,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Clock Type="Stopwatch" Caption="" ID="200">
-      <WindowState Visible="False" X="5" Y="10" Width="135" Height="30"/>
+      <WindowState Visible="False" X="5" Y="5" Width="135" Height="30"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4283782485</ForegroundColor>
@@ -7169,7 +7152,39 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Clock Type="Countdown" Hours="0" Minutes="10" Seconds="0" Caption="" ID="215">
-      <WindowState Visible="False" X="5" Y="10" Width="135" Height="30"/>
+      <WindowState Visible="False" X="5" Y="5" Width="135" Height="30"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>4283782485</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,21,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <PlayPause>
+       <Input Universe="2" Channel="14"/>
+      </PlayPause>
+      <Reset>
+       <Input Universe="2" Channel="15"/>
+      </Reset>
+     </Clock>
+    </Frame>
+    <Frame Caption="" ID="91" Page="3">
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="False" X="0" Y="35" Width="145" Height="45"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Clock Type="Countdown" Hours="0" Minutes="3" Seconds="0" Caption="" ID="88">
+      <WindowState Visible="False" X="5" Y="5" Width="135" Height="30"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4283782485</ForegroundColor>
@@ -7188,13 +7203,13 @@
    </SoloFrame>
    <Frame Caption="" ID="208">
     <Appearance>
-     <FrameStyle>None</FrameStyle>
+     <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
      <BackgroundColor>4279308561</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="15" Y="210" Width="145" Height="50"/>
+    <WindowState Visible="True" X="15" Y="145" Width="145" Height="50"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -7230,7 +7245,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="15" Y="300" Width="145" Height="40"/>
+    <WindowState Visible="True" X="15" Y="90" Width="145" Height="40"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -7293,6 +7308,32 @@
      <Key>.</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
+   </Frame>
+   <Frame Caption="" ID="26">
+    <Appearance>
+     <FrameStyle>Raised</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4279308561</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="10" Y="10" Width="155" Height="45"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>False</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Clock Type="Clock" Caption="" ID="448">
+     <WindowState Visible="True" X="5" Y="5" Width="145" Height="30"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>4291611852</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>MS Shell Dlg 2,-1,28,5,75,0,0,0,0,0</Font>
+     </Appearance>
+    </Clock>
    </Frame>
   </Frame>
   <Properties>
