@@ -273,13 +273,13 @@
    <Address>69</Address>
    <Channels>8</Channels>
    <Modifier Channel="1" Name="Invert"/>
-   <Modifier Channel="0" Name="Invert"/>
-   <Modifier Channel="3" Name="Invert"/>
-   <Modifier Channel="2" Name="Invert"/>
-   <Modifier Channel="5" Name="Invert"/>
-   <Modifier Channel="4" Name="Invert"/>
-   <Modifier Channel="7" Name="Invert"/>
    <Modifier Channel="6" Name="Invert"/>
+   <Modifier Channel="7" Name="Invert"/>
+   <Modifier Channel="4" Name="Invert"/>
+   <Modifier Channel="5" Name="Invert"/>
+   <Modifier Channel="2" Name="Invert"/>
+   <Modifier Channel="3" Name="Invert"/>
+   <Modifier Channel="0" Name="Invert"/>
   </Fixture>
   <Fixture>
    <Manufacturer>Virtual</Manufacturer>
@@ -3178,31 +3178,633 @@
    <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">1014</Step>
    <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">1015</Step>
   </Function>
+  <Function ID="1020" Type="Scene" Name="Color 00 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,8</FixtureVal>
+  </Function>
+  <Function ID="1021" Type="Scene" Name="Color 01 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,24</FixtureVal>
+  </Function>
+  <Function ID="1022" Type="Scene" Name="Color 02 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,40</FixtureVal>
+  </Function>
+  <Function ID="1023" Type="Scene" Name="Color 03 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,56</FixtureVal>
+  </Function>
+  <Function ID="1024" Type="Scene" Name="Color 04 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,72</FixtureVal>
+  </Function>
+  <Function ID="1025" Type="Scene" Name="Color 05 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,88</FixtureVal>
+  </Function>
+  <Function ID="1026" Type="Scene" Name="Color 06 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,104</FixtureVal>
+  </Function>
+  <Function ID="1027" Type="Scene" Name="Color 07 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,120</FixtureVal>
+  </Function>
+  <Function ID="1028" Type="Scene" Name="Color 08 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,136</FixtureVal>
+  </Function>
+  <Function ID="1029" Type="Scene" Name="Color 09 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,152</FixtureVal>
+  </Function>
+  <Function ID="1030" Type="Scene" Name="Color 10 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,168</FixtureVal>
+  </Function>
+  <Function ID="1031" Type="Scene" Name="Color 11 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,184</FixtureVal>
+  </Function>
+  <Function ID="1032" Type="Scene" Name="Color 12 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,200</FixtureVal>
+  </Function>
+  <Function ID="1033" Type="Scene" Name="Color 13 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,216</FixtureVal>
+  </Function>
+  <Function ID="1034" Type="Scene" Name="Color 14 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,232</FixtureVal>
+  </Function>
+  <Function ID="1035" Type="Scene" Name="Color 15 - Fixture 2 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,248</FixtureVal>
+  </Function>
+  <Function ID="1036" Type="Chaser" Name="Fixture 2 - Color - PAR - Utils" Path=" Utils/ PAR/Color">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">1020</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1021</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">1022</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">1023</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">1024</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">1025</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">1026</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">1027</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">1028</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">1029</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">1030</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">1031</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">1032</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">1033</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">1034</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">1035</Step>
+  </Function>
+  <Function ID="1037" Type="Scene" Name="Color 00 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,8</FixtureVal>
+  </Function>
+  <Function ID="1038" Type="Scene" Name="Color 01 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,24</FixtureVal>
+  </Function>
+  <Function ID="1039" Type="Scene" Name="Color 02 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,40</FixtureVal>
+  </Function>
+  <Function ID="1040" Type="Scene" Name="Color 03 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,56</FixtureVal>
+  </Function>
+  <Function ID="1041" Type="Scene" Name="Color 04 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,72</FixtureVal>
+  </Function>
+  <Function ID="1042" Type="Scene" Name="Color 05 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,88</FixtureVal>
+  </Function>
+  <Function ID="1043" Type="Scene" Name="Color 06 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,104</FixtureVal>
+  </Function>
+  <Function ID="1044" Type="Scene" Name="Color 07 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,120</FixtureVal>
+  </Function>
+  <Function ID="1045" Type="Scene" Name="Color 08 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,136</FixtureVal>
+  </Function>
+  <Function ID="1046" Type="Scene" Name="Color 09 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,152</FixtureVal>
+  </Function>
+  <Function ID="1047" Type="Scene" Name="Color 10 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,168</FixtureVal>
+  </Function>
+  <Function ID="1048" Type="Scene" Name="Color 11 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,184</FixtureVal>
+  </Function>
+  <Function ID="1049" Type="Scene" Name="Color 12 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,200</FixtureVal>
+  </Function>
+  <Function ID="1050" Type="Scene" Name="Color 13 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,216</FixtureVal>
+  </Function>
+  <Function ID="1051" Type="Scene" Name="Color 14 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,232</FixtureVal>
+  </Function>
+  <Function ID="1052" Type="Scene" Name="Color 15 - Fixture 3 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">1,248</FixtureVal>
+  </Function>
+  <Function ID="1053" Type="Chaser" Name="Fixture 3 - Color - PAR - Utils" Path=" Utils/ PAR/Color">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">1037</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1038</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">1039</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">1040</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">1041</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">1042</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">1043</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">1044</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">1045</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">1046</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">1047</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">1048</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">1049</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">1050</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">1051</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">1052</Step>
+  </Function>
+  <Function ID="1054" Type="Scene" Name="Color 00 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,8</FixtureVal>
+  </Function>
+  <Function ID="1055" Type="Scene" Name="Color 01 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,24</FixtureVal>
+  </Function>
+  <Function ID="1056" Type="Scene" Name="Color 02 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,40</FixtureVal>
+  </Function>
+  <Function ID="1057" Type="Scene" Name="Color 03 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,56</FixtureVal>
+  </Function>
+  <Function ID="1058" Type="Scene" Name="Color 04 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,72</FixtureVal>
+  </Function>
+  <Function ID="1059" Type="Scene" Name="Color 05 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,88</FixtureVal>
+  </Function>
+  <Function ID="1060" Type="Scene" Name="Color 06 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,104</FixtureVal>
+  </Function>
+  <Function ID="1061" Type="Scene" Name="Color 07 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,120</FixtureVal>
+  </Function>
+  <Function ID="1062" Type="Scene" Name="Color 08 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,136</FixtureVal>
+  </Function>
+  <Function ID="1063" Type="Scene" Name="Color 09 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,152</FixtureVal>
+  </Function>
+  <Function ID="1064" Type="Scene" Name="Color 10 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,168</FixtureVal>
+  </Function>
+  <Function ID="1065" Type="Scene" Name="Color 11 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,184</FixtureVal>
+  </Function>
+  <Function ID="1066" Type="Scene" Name="Color 12 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,200</FixtureVal>
+  </Function>
+  <Function ID="1067" Type="Scene" Name="Color 13 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,216</FixtureVal>
+  </Function>
+  <Function ID="1068" Type="Scene" Name="Color 14 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,232</FixtureVal>
+  </Function>
+  <Function ID="1069" Type="Scene" Name="Color 15 - Fixture 4 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">3,248</FixtureVal>
+  </Function>
+  <Function ID="1070" Type="Chaser" Name="Fixture 4 - Color - PAR - Utils" Path=" Utils/ PAR/Color">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">1054</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1055</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">1056</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">1057</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">1058</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">1059</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">1060</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">1061</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">1062</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">1063</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">1064</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">1065</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">1066</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">1067</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">1068</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">1069</Step>
+  </Function>
+  <Function ID="1071" Type="Scene" Name="Color 00 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,8</FixtureVal>
+  </Function>
+  <Function ID="1072" Type="Scene" Name="Color 01 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,24</FixtureVal>
+  </Function>
+  <Function ID="1073" Type="Scene" Name="Color 02 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,40</FixtureVal>
+  </Function>
+  <Function ID="1074" Type="Scene" Name="Color 03 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,56</FixtureVal>
+  </Function>
+  <Function ID="1075" Type="Scene" Name="Color 04 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,72</FixtureVal>
+  </Function>
+  <Function ID="1076" Type="Scene" Name="Color 05 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,88</FixtureVal>
+  </Function>
+  <Function ID="1077" Type="Scene" Name="Color 06 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,104</FixtureVal>
+  </Function>
+  <Function ID="1078" Type="Scene" Name="Color 07 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,120</FixtureVal>
+  </Function>
+  <Function ID="1079" Type="Scene" Name="Color 08 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,136</FixtureVal>
+  </Function>
+  <Function ID="1080" Type="Scene" Name="Color 09 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,152</FixtureVal>
+  </Function>
+  <Function ID="1081" Type="Scene" Name="Color 10 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,168</FixtureVal>
+  </Function>
+  <Function ID="1082" Type="Scene" Name="Color 11 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,184</FixtureVal>
+  </Function>
+  <Function ID="1083" Type="Scene" Name="Color 12 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,200</FixtureVal>
+  </Function>
+  <Function ID="1084" Type="Scene" Name="Color 13 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,216</FixtureVal>
+  </Function>
+  <Function ID="1085" Type="Scene" Name="Color 14 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,232</FixtureVal>
+  </Function>
+  <Function ID="1086" Type="Scene" Name="Color 15 - Fixture 5 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">4,248</FixtureVal>
+  </Function>
+  <Function ID="1087" Type="Chaser" Name="Fixture 5 - Color - PAR - Utils" Path=" Utils/ PAR/Color">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">1071</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1072</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">1073</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">1074</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">1075</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">1076</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">1077</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">1078</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">1079</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">1080</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">1081</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">1082</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">1083</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">1084</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">1085</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">1086</Step>
+  </Function>
+  <Function ID="1088" Type="Scene" Name="Color 00 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,8</FixtureVal>
+  </Function>
+  <Function ID="1089" Type="Scene" Name="Color 01 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,24</FixtureVal>
+  </Function>
+  <Function ID="1090" Type="Scene" Name="Color 02 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,40</FixtureVal>
+  </Function>
+  <Function ID="1091" Type="Scene" Name="Color 03 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,56</FixtureVal>
+  </Function>
+  <Function ID="1092" Type="Scene" Name="Color 04 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,72</FixtureVal>
+  </Function>
+  <Function ID="1093" Type="Scene" Name="Color 05 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,88</FixtureVal>
+  </Function>
+  <Function ID="1094" Type="Scene" Name="Color 06 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,104</FixtureVal>
+  </Function>
+  <Function ID="1095" Type="Scene" Name="Color 07 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,120</FixtureVal>
+  </Function>
+  <Function ID="1096" Type="Scene" Name="Color 08 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,136</FixtureVal>
+  </Function>
+  <Function ID="1097" Type="Scene" Name="Color 09 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,152</FixtureVal>
+  </Function>
+  <Function ID="1098" Type="Scene" Name="Color 10 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,168</FixtureVal>
+  </Function>
+  <Function ID="1099" Type="Scene" Name="Color 11 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,184</FixtureVal>
+  </Function>
+  <Function ID="1100" Type="Scene" Name="Color 12 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,200</FixtureVal>
+  </Function>
+  <Function ID="1101" Type="Scene" Name="Color 13 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,216</FixtureVal>
+  </Function>
+  <Function ID="1102" Type="Scene" Name="Color 14 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,232</FixtureVal>
+  </Function>
+  <Function ID="1103" Type="Scene" Name="Color 15 - Fixture 6 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">5,248</FixtureVal>
+  </Function>
+  <Function ID="1104" Type="Chaser" Name="Fixture 6 - Color - PAR - Utils" Path=" Utils/ PAR/Color">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">1088</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1089</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">1090</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">1091</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">1092</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">1093</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">1094</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">1095</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">1096</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">1097</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">1098</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">1099</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">1100</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">1101</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">1102</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">1103</Step>
+  </Function>
+  <Function ID="1105" Type="Scene" Name="Color 00 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,8</FixtureVal>
+  </Function>
+  <Function ID="1106" Type="Scene" Name="Color 01 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,24</FixtureVal>
+  </Function>
+  <Function ID="1107" Type="Scene" Name="Color 02 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,40</FixtureVal>
+  </Function>
+  <Function ID="1108" Type="Scene" Name="Color 03 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,56</FixtureVal>
+  </Function>
+  <Function ID="1109" Type="Scene" Name="Color 04 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,72</FixtureVal>
+  </Function>
+  <Function ID="1110" Type="Scene" Name="Color 05 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,88</FixtureVal>
+  </Function>
+  <Function ID="1111" Type="Scene" Name="Color 06 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,104</FixtureVal>
+  </Function>
+  <Function ID="1112" Type="Scene" Name="Color 07 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,120</FixtureVal>
+  </Function>
+  <Function ID="1113" Type="Scene" Name="Color 08 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,136</FixtureVal>
+  </Function>
+  <Function ID="1114" Type="Scene" Name="Color 09 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,152</FixtureVal>
+  </Function>
+  <Function ID="1115" Type="Scene" Name="Color 10 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,168</FixtureVal>
+  </Function>
+  <Function ID="1116" Type="Scene" Name="Color 11 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,184</FixtureVal>
+  </Function>
+  <Function ID="1117" Type="Scene" Name="Color 12 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,200</FixtureVal>
+  </Function>
+  <Function ID="1118" Type="Scene" Name="Color 13 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,216</FixtureVal>
+  </Function>
+  <Function ID="1119" Type="Scene" Name="Color 14 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,232</FixtureVal>
+  </Function>
+  <Function ID="1120" Type="Scene" Name="Color 15 - Fixture 7 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">6,248</FixtureVal>
+  </Function>
+  <Function ID="1121" Type="Chaser" Name="Fixture 7 - Color - PAR - Utils" Path=" Utils/ PAR/Color">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">1105</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1106</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">1107</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">1108</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">1109</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">1110</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">1111</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">1112</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">1113</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">1114</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">1115</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">1116</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">1117</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">1118</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">1119</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">1120</Step>
+  </Function>
+  <Function ID="1122" Type="Scene" Name="Color 00 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,8</FixtureVal>
+  </Function>
+  <Function ID="1123" Type="Scene" Name="Color 01 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,24</FixtureVal>
+  </Function>
+  <Function ID="1124" Type="Scene" Name="Color 02 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,40</FixtureVal>
+  </Function>
+  <Function ID="1125" Type="Scene" Name="Color 03 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,56</FixtureVal>
+  </Function>
+  <Function ID="1126" Type="Scene" Name="Color 04 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,72</FixtureVal>
+  </Function>
+  <Function ID="1127" Type="Scene" Name="Color 05 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,88</FixtureVal>
+  </Function>
+  <Function ID="1128" Type="Scene" Name="Color 06 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,104</FixtureVal>
+  </Function>
+  <Function ID="1129" Type="Scene" Name="Color 07 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,120</FixtureVal>
+  </Function>
+  <Function ID="1130" Type="Scene" Name="Color 08 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,136</FixtureVal>
+  </Function>
+  <Function ID="1131" Type="Scene" Name="Color 09 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,152</FixtureVal>
+  </Function>
+  <Function ID="1132" Type="Scene" Name="Color 10 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,168</FixtureVal>
+  </Function>
+  <Function ID="1133" Type="Scene" Name="Color 11 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,184</FixtureVal>
+  </Function>
+  <Function ID="1134" Type="Scene" Name="Color 12 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,200</FixtureVal>
+  </Function>
+  <Function ID="1135" Type="Scene" Name="Color 13 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,216</FixtureVal>
+  </Function>
+  <Function ID="1136" Type="Scene" Name="Color 14 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,232</FixtureVal>
+  </Function>
+  <Function ID="1137" Type="Scene" Name="Color 15 - Fixture 8 - Color - Par - Utils" Path=" Utils/ PAR/Color/Fixture 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">7,248</FixtureVal>
+  </Function>
+  <Function ID="1138" Type="Chaser" Name="Fixture 8 - Color - PAR - Utils" Path=" Utils/ PAR/Color">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">1122</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1123</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">1124</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">1125</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">1126</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">1127</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">1128</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">1129</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">1130</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">1131</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">1132</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">1133</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">1134</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">1135</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">1136</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">1137</Step>
+  </Function>
   <Monitor DisplayMode="0" ShowLabels="1">
    <Font>Consolas,11,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
    <Grid Width="5" Height="3" Depth="3" Units="0"/>
    <FxItem ID="9" XPos="712" YPos="1000"/>
-   <FxItem ID="8" XPos="4700" YPos="500"/>
-   <FxItem ID="11" XPos="2000" YPos="500"/>
-   <FxItem ID="10" XPos="700" YPos="500"/>
-   <FxItem ID="13" XPos="4000" YPos="500"/>
-   <FxItem ID="12" XPos="2700" YPos="500"/>
-   <FxItem ID="15" XPos="700" YPos="1500"/>
    <FxItem ID="14" XPos="4000" YPos="1000"/>
-   <FxItem ID="1" XPos="1800" YPos="2300"/>
-   <FxItem ID="0" XPos="2400" YPos="2700"/>
-   <FxItem ID="3" XPos="1100" YPos="2700"/>
-   <FxItem ID="2" XPos="2900" YPos="2300"/>
-   <FxItem ID="5" XPos="1200" YPos="500"/>
-   <FxItem ID="4" XPos="4500" YPos="2700"/>
-   <FxItem ID="7" XPos="0" YPos="500"/>
-   <FxItem ID="6" XPos="3500" YPos="500"/>
-   <FxItem ID="17" XPos="1800" YPos="0"/>
-   <FxItem ID="16" XPos="4000" YPos="1500"/>
-   <FxItem ID="19" XPos="2900" YPos="0"/>
+   <FxItem ID="15" XPos="700" YPos="1500"/>
+   <FxItem ID="12" XPos="2700" YPos="500"/>
+   <FxItem ID="13" XPos="4000" YPos="500"/>
    <FxItem ID="18" XPos="2350" YPos="0"/>
+   <FxItem ID="19" XPos="2900" YPos="0"/>
+   <FxItem ID="16" XPos="4000" YPos="1500"/>
+   <FxItem ID="17" XPos="1800" YPos="0"/>
+   <FxItem ID="2" XPos="2900" YPos="2300"/>
+   <FxItem ID="3" XPos="1100" YPos="2700"/>
+   <FxItem ID="0" XPos="2400" YPos="2700"/>
+   <FxItem ID="1" XPos="1800" YPos="2300"/>
+   <FxItem ID="6" XPos="3500" YPos="500"/>
+   <FxItem ID="7" XPos="0" YPos="500"/>
+   <FxItem ID="4" XPos="4500" YPos="2700"/>
+   <FxItem ID="5" XPos="1200" YPos="500"/>
+   <FxItem ID="10" XPos="700" YPos="500"/>
+   <FxItem ID="11" XPos="2000" YPos="500"/>
+   <FxItem ID="8" XPos="4700" YPos="500"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
@@ -3529,7 +4131,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Red" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="9">4</Channel>
       </Level>
       <Playback>
@@ -3663,7 +4265,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Red" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="10">4</Channel>
       </Level>
       <Playback>
@@ -3931,7 +4533,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Red" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="12">4</Channel>
       </Level>
       <Playback>
@@ -4065,7 +4667,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Red" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="13">4</Channel>
       </Level>
       <Playback>
@@ -4199,7 +4801,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Red" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="14">4</Channel>
       </Level>
       <Playback>
@@ -4333,7 +4935,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Red" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="15">4</Channel>
       </Level>
       <Playback>
@@ -4467,7 +5069,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Red" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="16">4</Channel>
       </Level>
       <Playback>
@@ -6698,7 +7300,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="1" HighLimit="255" Value="255">
+      <Level LowLimit="1" HighLimit="255" Value="215">
        <Channel Fixture="28">0</Channel>
       </Level>
       <Playback>
@@ -6730,7 +7332,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Chaser>4294967295</Chaser>
+      <Chaser>1036</Chaser>
       <NextPrevBehavior>2</NextPrevBehavior>
       <Next/>
       <Previous/>
@@ -6742,7 +7344,7 @@
       </Stop>
       <SlidersMode>Steps</SlidersMode>
       <CrossLeft>
-       <Input Universe="2" Channel="70"/>
+       <Input Universe="3" Channel="30"/>
       </CrossLeft>
      </CueList>
      <Slider Caption=" 2" ID="225" WidgetStyle="Slider" InvertedAppearance="false">
@@ -6754,9 +7356,10 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="1" HighLimit="255" Value="255">
-       <Channel Fixture="21">1</Channel>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="1" HighLimit="255" Value="215">
+       <Channel Fixture="28">1</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
@@ -6787,7 +7390,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Chaser>4294967295</Chaser>
+      <Chaser>1053</Chaser>
       <NextPrevBehavior>2</NextPrevBehavior>
       <Next/>
       <Previous/>
@@ -6799,7 +7402,7 @@
       </Stop>
       <SlidersMode>Steps</SlidersMode>
       <CrossLeft>
-       <Input Universe="2" Channel="71"/>
+       <Input Universe="3" Channel="31"/>
       </CrossLeft>
      </CueList>
      <Slider Caption="3" ID="39" WidgetStyle="Slider" InvertedAppearance="false">
@@ -6811,9 +7414,10 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="1" HighLimit="255" Value="255">
-       <Channel Fixture="21">2</Channel>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="1" HighLimit="255" Value="215">
+       <Channel Fixture="28">2</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
@@ -6844,7 +7448,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Chaser>4294967295</Chaser>
+      <Chaser>1070</Chaser>
       <NextPrevBehavior>2</NextPrevBehavior>
       <Next/>
       <Previous/>
@@ -6856,7 +7460,7 @@
       </Stop>
       <SlidersMode>Steps</SlidersMode>
       <CrossLeft>
-       <Input Universe="2" Channel="72"/>
+       <Input Universe="3" Channel="32"/>
       </CrossLeft>
      </CueList>
      <Slider Caption="4" ID="298" WidgetStyle="Slider" InvertedAppearance="false">
@@ -6868,9 +7472,10 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="1" HighLimit="255" Value="255">
-       <Channel Fixture="21">3</Channel>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="1" HighLimit="255" Value="215">
+       <Channel Fixture="28">3</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
@@ -6901,7 +7506,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Chaser>4294967295</Chaser>
+      <Chaser>1087</Chaser>
       <NextPrevBehavior>2</NextPrevBehavior>
       <Next/>
       <Previous/>
@@ -6913,7 +7518,7 @@
       </Stop>
       <SlidersMode>Steps</SlidersMode>
       <CrossLeft>
-       <Input Universe="2" Channel="73"/>
+       <Input Universe="3" Channel="33"/>
       </CrossLeft>
      </CueList>
      <Slider Caption="5" ID="319" WidgetStyle="Slider" InvertedAppearance="false">
@@ -6925,9 +7530,10 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="1" HighLimit="255" Value="255">
-       <Channel Fixture="21">4</Channel>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="0" HighLimit="255" Value="215">
+       <Channel Fixture="28">4</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
@@ -6958,7 +7564,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Chaser>4294967295</Chaser>
+      <Chaser>1104</Chaser>
       <NextPrevBehavior>2</NextPrevBehavior>
       <Next/>
       <Previous/>
@@ -6970,7 +7576,7 @@
       </Stop>
       <SlidersMode>Steps</SlidersMode>
       <CrossLeft>
-       <Input Universe="2" Channel="74"/>
+       <Input Universe="3" Channel="34"/>
       </CrossLeft>
      </CueList>
      <Slider Caption="6" ID="322" WidgetStyle="Slider" InvertedAppearance="false">
@@ -6982,9 +7588,10 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="1" HighLimit="255" Value="255">
-       <Channel Fixture="21">5</Channel>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="1" HighLimit="255" Value="215">
+       <Channel Fixture="28">5</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
@@ -7015,7 +7622,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Chaser>4294967295</Chaser>
+      <Chaser>1121</Chaser>
       <NextPrevBehavior>2</NextPrevBehavior>
       <Next/>
       <Previous/>
@@ -7027,7 +7634,7 @@
       </Stop>
       <SlidersMode>Steps</SlidersMode>
       <CrossLeft>
-       <Input Universe="2" Channel="75"/>
+       <Input Universe="3" Channel="35"/>
       </CrossLeft>
      </CueList>
      <Slider Caption="7" ID="326" WidgetStyle="Slider" InvertedAppearance="false">
@@ -7039,9 +7646,10 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="1" HighLimit="255" Value="255">
-       <Channel Fixture="21">6</Channel>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="1" HighLimit="255" Value="215">
+       <Channel Fixture="28">6</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
@@ -7072,7 +7680,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Chaser>4294967295</Chaser>
+      <Chaser>1138</Chaser>
       <NextPrevBehavior>2</NextPrevBehavior>
       <Next/>
       <Previous/>
@@ -7084,7 +7692,7 @@
       </Stop>
       <SlidersMode>Steps</SlidersMode>
       <CrossLeft>
-       <Input Universe="2" Channel="76"/>
+       <Input Universe="3" Channel="36"/>
       </CrossLeft>
      </CueList>
      <Slider Caption="8" ID="329" WidgetStyle="Slider" InvertedAppearance="false">
@@ -7096,9 +7704,10 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="1" HighLimit="255" Value="255">
-       <Channel Fixture="21">7</Channel>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="1" HighLimit="255" Value="215">
+       <Channel Fixture="28">7</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
@@ -7302,7 +7911,7 @@
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Multipage PagesNum="2" CurrentPage="1"/>
+     <Multipage PagesNum="2" CurrentPage="0"/>
      <Shortcut Page="0" Name="Page: 1">
       <Input Universe="2" Channel="5"/>
      </Shortcut>
@@ -7311,7 +7920,7 @@
      </Shortcut>
      <PagesLoop>False</PagesLoop>
      <Button Caption="GO" ID="90" Page="1" Icon="">
-      <WindowState Visible="True" X="0" Y="35" Width="135" Height="50"/>
+      <WindowState Visible="False" X="0" Y="35" Width="135" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -7325,7 +7934,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="GO" ID="11" Icon="">
-      <WindowState Visible="False" X="0" Y="35" Width="135" Height="50"/>
+      <WindowState Visible="True" X="0" Y="35" Width="135" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -8146,7 +8755,7 @@
      </Appearance>
      <Visibility>65660</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>4</Time>
+     <Time>6</Time>
     </SpeedDial>
    </Frame>
    <Frame Caption="Fog" ID="33">
@@ -8796,7 +9405,7 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="215">
        <Channel Fixture="28">0</Channel>
        <Channel Fixture="28">1</Channel>
        <Channel Fixture="28">2</Channel>
@@ -9033,18 +9642,8 @@
      </Playback>
     </Slider>
    </Frame>
-   <Label Caption="TODO - generate chasers" ID="41">
-    <WindowState Visible="True" X="200" Y="1155" Width="685" Height="200"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>4294967040</ForegroundColor>
-     <BackgroundColor>4278190080</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>MS Shell Dlg 2,18,-1,5,75,0,0,0,0,0</Font>
-    </Appearance>
-   </Label>
    <Label Caption="TODO - other groups" ID="42">
-    <WindowState Visible="True" X="1095" Y="1350" Width="375" Height="60"/>
+    <WindowState Visible="True" X="1200" Y="1340" Width="375" Height="60"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>4294967040</ForegroundColor>
