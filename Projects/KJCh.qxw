@@ -15220,7 +15220,7 @@
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Multipage PagesNum="2" CurrentPage="1"/>
+     <Multipage PagesNum="2" CurrentPage="0"/>
      <Shortcut Page="0" Name="Page: 1">
       <Input Universe="2" Channel="5"/>
      </Shortcut>
@@ -15229,7 +15229,7 @@
      </Shortcut>
      <PagesLoop>False</PagesLoop>
      <Button Caption="GO" ID="90" Page="1" Icon="">
-      <WindowState Visible="True" X="0" Y="35" Width="135" Height="50"/>
+      <WindowState Visible="False" X="0" Y="35" Width="135" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -15243,7 +15243,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="GO" ID="11" Icon="">
-      <WindowState Visible="False" X="0" Y="35" Width="135" Height="50"/>
+      <WindowState Visible="True" X="0" Y="35" Width="135" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -16090,7 +16090,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1190" Y="425" Width="340" Height="385"/>
+    <WindowState Visible="True" X="1190" Y="470" Width="340" Height="385"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -16394,7 +16394,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="820" Y="425" Width="340" Height="385"/>
+    <WindowState Visible="True" X="850" Y="445" Width="340" Height="385"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -16672,7 +16672,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="555" Y="730" Width="250" Height="100"/>
+    <WindowState Visible="True" X="945" Y="770" Width="250" Height="100"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -19048,7 +19048,7 @@
        </Appearance>
        <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
        <Reset/>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="255">
         <Channel Fixture="9">0</Channel>
        </Level>
        <Playback>
@@ -19182,7 +19182,7 @@
        </Appearance>
        <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
        <Reset/>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="255">
         <Channel Fixture="10">0</Channel>
        </Level>
        <Playback>
@@ -19316,7 +19316,7 @@
        </Appearance>
        <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
        <Reset/>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="255">
         <Channel Fixture="11">0</Channel>
        </Level>
        <Playback>
@@ -19450,7 +19450,7 @@
        </Appearance>
        <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
        <Reset/>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="255">
         <Channel Fixture="12">0</Channel>
        </Level>
        <Playback>
@@ -19584,7 +19584,7 @@
        </Appearance>
        <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
        <Reset/>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="255">
         <Channel Fixture="13">0</Channel>
        </Level>
        <Playback>
@@ -19718,7 +19718,7 @@
        </Appearance>
        <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
        <Reset/>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="255">
         <Channel Fixture="14">0</Channel>
        </Level>
        <Playback>
@@ -19852,7 +19852,7 @@
        </Appearance>
        <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
        <Reset/>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="255">
         <Channel Fixture="15">0</Channel>
        </Level>
        <Playback>
@@ -20553,7 +20553,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="1335" Y="430" Width="250" Height="360"/>
+     <WindowState Visible="True" X="1340" Y="430" Width="250" Height="360"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -21421,6 +21421,36 @@
      </CueList>
     </Frame>
    </Frame>
+   <Label Caption="TODO - delete" ID="480">
+    <WindowState Visible="True" X="940" Y="580" Width="480" Height="165"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>4294967040</ForegroundColor>
+     <BackgroundColor>4278190080</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>MS Shell Dlg 2,18,-1,5,75,0,0,0,0,0</Font>
+    </Appearance>
+   </Label>
+   <Label Caption="TODO - colors" ID="481">
+    <WindowState Visible="True" X="335" Y="3805" Width="480" Height="165"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>4294967040</ForegroundColor>
+     <BackgroundColor>4278190080</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>MS Shell Dlg 2,18,-1,5,75,0,0,0,0,0</Font>
+    </Appearance>
+   </Label>
+   <Label Caption="TODO - dimmer" ID="482">
+    <WindowState Visible="True" X="330" Y="3310" Width="480" Height="165"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>4294967040</ForegroundColor>
+     <BackgroundColor>4278190080</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>MS Shell Dlg 2,18,-1,5,75,0,0,0,0,0</Font>
+    </Appearance>
+   </Label>
   </Frame>
   <Properties>
    <Size Width="1850" Height="5000"/>
