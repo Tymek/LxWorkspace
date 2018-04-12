@@ -25,7 +25,7 @@
    <Universe Name="Presets" ID="3">
     <Input Plugin="Loopback" Line="1"/>
     <Output Plugin="Loopback" Line="1">
-     <PluginParameters UniverseChannels="24"/>
+     <PluginParameters UniverseChannels="42"/>
     </Output>
    </Universe>
    <Universe Name="Virtual fixtures" ID="4">
@@ -413,6 +413,26 @@
    <Universe>3</Universe>
    <Address>20</Address>
    <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>1</Mode>
+   <ID>34</ID>
+   <Name>! Gobo</Name>
+   <Universe>3</Universe>
+   <Address>30</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>2</Mode>
+   <ID>35</ID>
+   <Name>! Position</Name>
+   <Universe>3</Universe>
+   <Address>40</Address>
+   <Channels>2</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
@@ -1228,6 +1248,19 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="33">0,243</FixtureVal>
   </Function>
+  <Function ID="46" Type="Chaser" Name=" Movement">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="1" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="2" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="3" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="4" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="5" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="6" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+  </Function>
   <Function ID="48" Type="Scene" Name="1. Play - Playback - Utils" Path=" Utils/ Playback">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="22">0,255</FixtureVal>
@@ -1470,6 +1503,13 @@
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="1" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="2" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="3" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="4" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="5" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="6" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="7" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
   </Function>
   <Function ID="127" Type="RGBMatrix" Name=" On" Path=" @Scene">
    <Speed FadeIn="0" FadeOut="0" Duration="100"/>
@@ -1720,7 +1760,7 @@
    <FixtureVal ID="7">5,124</FixtureVal>
    <FixtureVal ID="8">5,124</FixtureVal>
   </Function>
-  <Function ID="161" Type="Chaser" Name=" GOBO">
+  <Function ID="161" Type="Chaser" Name=" Gobo">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -3070,51 +3110,343 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="29">3,19</FixtureVal>
   </Function>
-  <Function ID="20205" Type="Scene" Name="31 - Quaternary - Color - Presets - Utils" Path=" Utils/ Presets/ Color/4 Quaternary">
+  <Function ID="20205" Type="Scene" Name="01 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="29">3,11</FixtureVal>
+   <FixtureVal ID="31">0,251</FixtureVal>
   </Function>
-  <Function ID="20206" Type="Scene" Name="32 - Quaternary - Color - Presets - Utils" Path=" Utils/ Presets/ Color/4 Quaternary">
+  <Function ID="20206" Type="Scene" Name="02 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="29">3,3</FixtureVal>
+   <FixtureVal ID="31">0,243</FixtureVal>
   </Function>
-  <Function ID="20207" Type="Chaser" Name="Quaternary - Color - Preset - Utils" Path=" Utils/ Presets/ Color">
+  <Function ID="20207" Type="Scene" Name="03 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,235</FixtureVal>
+  </Function>
+  <Function ID="20208" Type="Scene" Name="04 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,227</FixtureVal>
+  </Function>
+  <Function ID="20209" Type="Scene" Name="05 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,219</FixtureVal>
+  </Function>
+  <Function ID="20210" Type="Scene" Name="06 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,211</FixtureVal>
+  </Function>
+  <Function ID="20211" Type="Scene" Name="07 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,203</FixtureVal>
+  </Function>
+  <Function ID="20212" Type="Scene" Name="08 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,195</FixtureVal>
+  </Function>
+  <Function ID="20213" Type="Scene" Name="09 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,187</FixtureVal>
+  </Function>
+  <Function ID="20214" Type="Scene" Name="10 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,179</FixtureVal>
+  </Function>
+  <Function ID="20215" Type="Scene" Name="11 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,171</FixtureVal>
+  </Function>
+  <Function ID="20216" Type="Scene" Name="12 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,163</FixtureVal>
+  </Function>
+  <Function ID="20217" Type="Scene" Name="13 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,155</FixtureVal>
+  </Function>
+  <Function ID="20218" Type="Scene" Name="14 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,147</FixtureVal>
+  </Function>
+  <Function ID="20219" Type="Scene" Name="15 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,139</FixtureVal>
+  </Function>
+  <Function ID="20220" Type="Scene" Name="16 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,131</FixtureVal>
+  </Function>
+  <Function ID="20221" Type="Scene" Name="17 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,123</FixtureVal>
+  </Function>
+  <Function ID="20222" Type="Scene" Name="18 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,115</FixtureVal>
+  </Function>
+  <Function ID="20223" Type="Scene" Name="19 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,107</FixtureVal>
+  </Function>
+  <Function ID="20224" Type="Scene" Name="20 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,99</FixtureVal>
+  </Function>
+  <Function ID="20225" Type="Scene" Name="21 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,91</FixtureVal>
+  </Function>
+  <Function ID="20226" Type="Scene" Name="22 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,83</FixtureVal>
+  </Function>
+  <Function ID="20227" Type="Scene" Name="23 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,75</FixtureVal>
+  </Function>
+  <Function ID="20228" Type="Scene" Name="24 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,67</FixtureVal>
+  </Function>
+  <Function ID="20229" Type="Scene" Name="25 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,59</FixtureVal>
+  </Function>
+  <Function ID="20230" Type="Scene" Name="26 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,51</FixtureVal>
+  </Function>
+  <Function ID="20231" Type="Scene" Name="27 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,43</FixtureVal>
+  </Function>
+  <Function ID="20232" Type="Scene" Name="28 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,35</FixtureVal>
+  </Function>
+  <Function ID="20233" Type="Scene" Name="29 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,27</FixtureVal>
+  </Function>
+  <Function ID="20234" Type="Scene" Name="30 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,19</FixtureVal>
+  </Function>
+  <Function ID="20235" Type="Scene" Name="31 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,11</FixtureVal>
+  </Function>
+  <Function ID="20236" Type="Scene" Name="32 - Position - Presets - Utils" Path=" Utils/ Presets/ Position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,3</FixtureVal>
+  </Function>
+  <Function ID="20237" Type="Chaser" Name="Position - Preset - Utils" Path=" Utils/ Presets">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">20175</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">20176</Step>
-   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">20177</Step>
-   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">20178</Step>
-   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">20179</Step>
-   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">20180</Step>
-   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">20181</Step>
-   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">20182</Step>
-   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">20183</Step>
-   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">20184</Step>
-   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">20185</Step>
-   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">20186</Step>
-   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">20187</Step>
-   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">20188</Step>
-   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">20189</Step>
-   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">20190</Step>
-   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">20191</Step>
-   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">20192</Step>
-   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">20193</Step>
-   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">20194</Step>
-   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">20195</Step>
-   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">20196</Step>
-   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">20197</Step>
-   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">20198</Step>
-   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">20199</Step>
-   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">20200</Step>
-   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">20201</Step>
-   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">20202</Step>
-   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">20203</Step>
-   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">20204</Step>
-   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">20205</Step>
-   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">20206</Step>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">20205</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">20206</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">20207</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">20208</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">20209</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">20210</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">20211</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">20212</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">20213</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">20214</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">20215</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">20216</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">20217</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">20218</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">20219</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">20220</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">20221</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">20222</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">20223</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">20224</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">20225</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">20226</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">20227</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">20228</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">20229</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">20230</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">20231</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">20232</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">20233</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">20234</Step>
+   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">20235</Step>
+   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">20236</Step>
+  </Function>
+  <Function ID="20240" Type="Scene" Name="01 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,247</FixtureVal>
+  </Function>
+  <Function ID="20241" Type="Scene" Name="02 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,231</FixtureVal>
+  </Function>
+  <Function ID="20242" Type="Scene" Name="03 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,215</FixtureVal>
+  </Function>
+  <Function ID="20243" Type="Scene" Name="04 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,199</FixtureVal>
+  </Function>
+  <Function ID="20244" Type="Scene" Name="05 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,183</FixtureVal>
+  </Function>
+  <Function ID="20245" Type="Scene" Name="06 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,167</FixtureVal>
+  </Function>
+  <Function ID="20246" Type="Scene" Name="07 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,151</FixtureVal>
+  </Function>
+  <Function ID="20247" Type="Scene" Name="08 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,135</FixtureVal>
+  </Function>
+  <Function ID="20248" Type="Scene" Name="09 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,119</FixtureVal>
+  </Function>
+  <Function ID="20249" Type="Scene" Name="10 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,103</FixtureVal>
+  </Function>
+  <Function ID="20250" Type="Scene" Name="11 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,87</FixtureVal>
+  </Function>
+  <Function ID="20251" Type="Scene" Name="12 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,71</FixtureVal>
+  </Function>
+  <Function ID="20252" Type="Scene" Name="13 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,55</FixtureVal>
+  </Function>
+  <Function ID="20253" Type="Scene" Name="14 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,39</FixtureVal>
+  </Function>
+  <Function ID="20254" Type="Scene" Name="15 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,23</FixtureVal>
+  </Function>
+  <Function ID="20255" Type="Scene" Name="16 - Movement - Presets - Utils" Path=" Utils/ Presets/ Movement">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">1,7</FixtureVal>
+  </Function>
+  <Function ID="20256" Type="Chaser" Name="Movement - Preset - Utils" Path=" Utils/ Presets">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">20240</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">20241</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">20242</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">20243</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">20244</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">20245</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">20246</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">20247</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">20248</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">20249</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">20250</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">20251</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">20252</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">20253</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">20254</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">20255</Step>
+  </Function>
+  <Function ID="202257" Type="Scene" Name="01 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,247</FixtureVal>
+  </Function>
+  <Function ID="202258" Type="Scene" Name="02 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,231</FixtureVal>
+  </Function>
+  <Function ID="202259" Type="Scene" Name="03 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,215</FixtureVal>
+  </Function>
+  <Function ID="202260" Type="Scene" Name="04 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,199</FixtureVal>
+  </Function>
+  <Function ID="202261" Type="Scene" Name="05 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,183</FixtureVal>
+  </Function>
+  <Function ID="202262" Type="Scene" Name="06 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,167</FixtureVal>
+  </Function>
+  <Function ID="202263" Type="Scene" Name="07 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,151</FixtureVal>
+  </Function>
+  <Function ID="202264" Type="Scene" Name="08 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,135</FixtureVal>
+  </Function>
+  <Function ID="202265" Type="Scene" Name="09 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,119</FixtureVal>
+  </Function>
+  <Function ID="202266" Type="Scene" Name="10 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,103</FixtureVal>
+  </Function>
+  <Function ID="202267" Type="Scene" Name="11 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,87</FixtureVal>
+  </Function>
+  <Function ID="202268" Type="Scene" Name="12 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,71</FixtureVal>
+  </Function>
+  <Function ID="202269" Type="Scene" Name="13 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,55</FixtureVal>
+  </Function>
+  <Function ID="202270" Type="Scene" Name="14 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,39</FixtureVal>
+  </Function>
+  <Function ID="202271" Type="Scene" Name="15 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,23</FixtureVal>
+  </Function>
+  <Function ID="202272" Type="Scene" Name="16 - Gobo - Presets - Utils" Path=" Utils/ Presets/ Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,7</FixtureVal>
+  </Function>
+  <Function ID="202273" Type="Chaser" Name="Gobo - Preset - Utils" Path=" Utils/ Presets">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">202257</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">202258</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">202259</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">202260</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">202261</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">202262</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">202263</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">202264</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">202265</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">202266</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">202267</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">202268</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">202269</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">202270</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">202271</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">202272</Step>
   </Function>
   <Monitor DisplayMode="0" ShowLabels="1">
    <Font>Consolas,11,-1,5,50,0,0,0,0,0</Font>
@@ -9804,7 +10136,7 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <CueList Caption="Cue list" ID="451">
+    <CueList Caption="Primary" ID="239">
      <WindowState Visible="True" X="50" Y="40" Width="365" Height="295"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
@@ -9817,9 +10149,16 @@
      <NextPrevBehavior>0</NextPrevBehavior>
      <Next/>
      <Previous/>
-     <Playback/>
-     <Stop/>
-     <SlidersMode>Crossfade</SlidersMode>
+     <Playback>
+      <Input Universe="2" Channel="2"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="3"/>
+     </Stop>
+     <SlidersMode>Steps</SlidersMode>
+     <CrossLeft>
+      <Input Universe="2" Channel="140"/>
+     </CrossLeft>
     </CueList>
     <Slider Caption="" ID="520" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="5" Y="40" Width="55" Height="295"/>
@@ -9830,8 +10169,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="255"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="255">
+      <Channel Fixture="35">0</Channel>
+     </Level>
      <Playback>
       <Function>4294967295</Function>
      </Playback>
@@ -10421,72 +10763,8 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-   </Frame>
-   <Frame Caption="Spot movement" ID="298">
-    <Appearance>
-     <FrameStyle>Raised</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4280821800</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <WindowState Visible="True" X="395" Y="700" Width="335" Height="295"/>
-    <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
-    <ShowHeader>True</ShowHeader>
-    <ShowEnableButton>True</ShowEnableButton>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
-    <CueList Caption="Cue list" ID="282">
-     <WindowState Visible="True" X="50" Y="40" Width="280" Height="250"/>
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>4279308561</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Chaser>4294967295</Chaser>
-     <NextPrevBehavior>0</NextPrevBehavior>
-     <Next/>
-     <Previous/>
-     <Playback/>
-     <Stop/>
-     <SlidersMode>Crossfade</SlidersMode>
-    </CueList>
-    <Slider Caption="" ID="297" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="5" Y="40" Width="55" Height="250"/>
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>4279308561</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="255"/>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
-   </Frame>
-   <Frame Caption="" ID="421">
-    <Appearance>
-     <FrameStyle>Raised</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4280427042</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <WindowState Visible="True" X="735" Y="690" Width="170" Height="305"/>
-    <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
-    <ShowHeader>False</ShowHeader>
-    <ShowEnableButton>False</ShowEnableButton>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
     <Button Caption="Reset manual override" ID="419" Icon="">
-     <WindowState Visible="True" X="50" Y="55" Width="75" Height="75"/>
+     <WindowState Visible="True" X="95" Y="25" Width="75" Height="75"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -10499,7 +10777,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Reset multiplier factor" ID="420" Icon="">
-     <WindowState Visible="True" X="50" Y="170" Width="75" Height="75"/>
+     <WindowState Visible="True" X="185" Y="25" Width="75" Height="75"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -10560,8 +10838,8 @@
      <Input Universe="3" Channel="22"/>
     </CrossLeft>
    </CueList>
-   <CueList Caption="" ID="29">
-    <WindowState Visible="True" X="1615" Y="3975" Width="185" Height="250"/>
+   <CueList Caption="" ID="30">
+    <WindowState Visible="True" X="235" Y="3975" Width="185" Height="250"/>
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -10569,7 +10847,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Chaser>20207</Chaser>
+    <Chaser>20237</Chaser>
     <NextPrevBehavior>0</NextPrevBehavior>
     <Next/>
     <Previous/>
@@ -10581,7 +10859,171 @@
     </Stop>
     <SlidersMode>Steps</SlidersMode>
     <CrossLeft>
-     <Input Universe="3" Channel="23"/>
+     <Input Universe="3" Channel="40"/>
+    </CrossLeft>
+   </CueList>
+   <Frame Caption="Gobo" ID="206">
+    <Appearance>
+     <FrameStyle>Raised</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4280821800</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="650" Y="700" Width="255" Height="295"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <CueList Caption="Primary" ID="242">
+     <WindowState Visible="True" X="50" Y="40" Width="205" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>161</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback>
+      <Input Universe="2" Channel="2"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="3"/>
+     </Stop>
+     <SlidersMode>Steps</SlidersMode>
+     <CrossLeft>
+      <Input Universe="2" Channel="130"/>
+     </CrossLeft>
+    </CueList>
+    <Slider Caption="" ID="243" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="0" Y="40" Width="55" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="255">
+      <Channel Fixture="34">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame Caption="Spot movement" ID="238">
+    <Appearance>
+     <FrameStyle>Raised</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4280821800</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="395" Y="700" Width="255" Height="295"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <CueList Caption="Primary" ID="232">
+     <WindowState Visible="True" X="50" Y="40" Width="205" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>46</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback>
+      <Input Universe="2" Channel="2"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="3"/>
+     </Stop>
+     <SlidersMode>Steps</SlidersMode>
+     <CrossLeft>
+      <Input Universe="2" Channel="141"/>
+     </CrossLeft>
+    </CueList>
+    <Slider Caption="" ID="241" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="5" Y="40" Width="55" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="255">
+      <Channel Fixture="35">1</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <CueList Caption="" ID="240">
+    <WindowState Visible="True" X="425" Y="3975" Width="185" Height="250"/>
+    <Appearance>
+     <FrameStyle>Raised</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4279308561</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Chaser>20256</Chaser>
+    <NextPrevBehavior>0</NextPrevBehavior>
+    <Next/>
+    <Previous/>
+    <Playback>
+     <Input Universe="2" Channel="0"/>
+    </Playback>
+    <Stop>
+     <Input Universe="2" Channel="1"/>
+    </Stop>
+    <SlidersMode>Steps</SlidersMode>
+    <CrossLeft>
+     <Input Universe="3" Channel="41"/>
+    </CrossLeft>
+   </CueList>
+   <CueList Caption="" ID="237">
+    <WindowState Visible="True" X="1620" Y="3975" Width="185" Height="250"/>
+    <Appearance>
+     <FrameStyle>Raised</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4279308561</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Chaser>202273</Chaser>
+    <NextPrevBehavior>0</NextPrevBehavior>
+    <Next/>
+    <Previous/>
+    <Playback>
+     <Input Universe="2" Channel="0"/>
+    </Playback>
+    <Stop>
+     <Input Universe="2" Channel="1"/>
+    </Stop>
+    <SlidersMode>Steps</SlidersMode>
+    <CrossLeft>
+     <Input Universe="3" Channel="30"/>
     </CrossLeft>
    </CueList>
   </Frame>
