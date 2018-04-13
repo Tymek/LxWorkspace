@@ -719,7 +719,7 @@
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
    <Step Number="0" FadeIn="0" Hold="15000" FadeOut="0">4</Step>
   </Function>
-  <Function ID="3" Type="Chaser" Name="NOOP">
+  <Function ID="3" Type="Chaser" Name="">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
@@ -749,7 +749,7 @@
   <Function ID="7" Type="Scene" Name="...">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
-  <Function ID="8" Type="Chaser" Name="Presets">
+  <Function ID="8" Type="Chaser" Name="">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1260,6 +1260,18 @@
    <Step Number="4" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
    <Step Number="5" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
    <Step Number="6" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="7" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="8" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="9" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="10" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="11" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="12" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="13" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="14" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="15" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+  </Function>
+  <Function ID="47" Type="Show" Name="Test">
+   <TimeDivision Type="Time" BPM="120"/>
   </Function>
   <Function ID="48" Type="Scene" Name="1. Play - Playback - Utils" Path=" Utils/ Playback">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1302,6 +1314,18 @@
    <FixtureVal ID="7">7,0</FixtureVal>
    <FixtureVal ID="8">7,0</FixtureVal>
   </Function>
+  <Function ID="55" Type="Scene" Name="Gobo 1 - Pad" Path=" Pad">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,255</FixtureVal>
+  </Function>
+  <Function ID="56" Type="Scene" Name="Gobo 2 - Pad" Path=" Pad">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,235</FixtureVal>
+  </Function>
+  <Function ID="57" Type="Scene" Name="Gobo 3 - Pad" Path=" Pad">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,221</FixtureVal>
+  </Function>
   <Function ID="58" Type="Chaser" Name="State - Playback - Utils" Path=" Utils/ Playback">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
@@ -1317,6 +1341,34 @@
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
    <Step Number="0" FadeIn="0" Hold="100" FadeOut="0">98</Step>
+  </Function>
+  <Function ID="60" Type="Scene" Name="Gobo 4 - Pad" Path=" Pad">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,195</FixtureVal>
+  </Function>
+  <Function ID="61" Type="Scene" Name="Gobo 5 - Pad" Path=" Pad">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,179</FixtureVal>
+  </Function>
+  <Function ID="62" Type="Scene" Name="Gobo 6 - Pad" Path=" Pad">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,171</FixtureVal>
+  </Function>
+  <Function ID="63" Type="Scene" Name="Gobo 7 - Pad" Path=" Pad">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,158</FixtureVal>
+  </Function>
+  <Function ID="64" Type="Scene" Name="Gobo 8 - Pad" Path=" Pad">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,135</FixtureVal>
+  </Function>
+  <Function ID="65" Type="Chaser" Name="Risen - Tymek - Preset" Path=" Preset/Tymek">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">7</Step>
   </Function>
   <Function ID="68" Type="Chaser" Name="LIVE - Playback - Utils" Path=" Utils/ Playback">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
@@ -1510,6 +1562,30 @@
    <Step Number="5" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
    <Step Number="6" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
    <Step Number="7" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="8" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="9" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="10" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="11" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="12" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="13" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="14" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="15" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="16" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="17" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="18" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="19" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="20" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="21" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="22" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="23" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="24" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="25" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="26" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="27" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="28" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="29" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="30" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="31" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
   </Function>
   <Function ID="127" Type="RGBMatrix" Name=" On" Path=" @Scene">
    <Speed FadeIn="0" FadeOut="0" Duration="100"/>
@@ -3484,30 +3560,6 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
-   <CueList Caption="" ID="235">
-    <WindowState Visible="True" X="1045" Y="3975" Width="185" Height="250"/>
-    <Appearance>
-     <FrameStyle>Raised</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4279308561</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Chaser>20102</Chaser>
-    <NextPrevBehavior>0</NextPrevBehavior>
-    <Next/>
-    <Previous/>
-    <Playback>
-     <Input Universe="2" Channel="0"/>
-    </Playback>
-    <Stop>
-     <Input Universe="2" Channel="1"/>
-    </Stop>
-    <SlidersMode>Steps</SlidersMode>
-    <CrossLeft>
-     <Input Universe="3" Channel="20"/>
-    </CrossLeft>
-   </CueList>
    <Frame Caption="" ID="195">
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
@@ -4308,107 +4360,107 @@
       <Mixing>False</Mixing>
       <Collapsed>False</Collapsed>
       <Disabled>False</Disabled>
-      <Button Caption="" ID="156" Icon="">
+      <Button Caption="E" ID="156" Icon="">
        <WindowState Visible="True" X="0" Y="0" Width="50" Height="35"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4293848814</BackgroundColor>
+        <BackgroundColor>4287137928</BackgroundColor>
         <BackgroundImage>D:/Host/LxWorkspace/qlcplus/gobos/NoName/gobo01-01.png</BackgroundImage>
         <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="4294967295"/>
+       <Function ID="55"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="" ID="109" Icon="">
+      <Button Caption="E2" ID="109" Icon="">
        <WindowState Visible="True" X="55" Y="0" Width="50" Height="35"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4293848814</BackgroundColor>
+        <BackgroundColor>4287137928</BackgroundColor>
         <BackgroundImage>D:/Host/LxWorkspace/qlcplus/gobos/NoName/gobo01-02.png</BackgroundImage>
         <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="4294967295"/>
+       <Function ID="56"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="" ID="171" Icon="">
+      <Button Caption="E3" ID="171" Icon="">
        <WindowState Visible="True" X="110" Y="0" Width="50" Height="35"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4293848814</BackgroundColor>
+        <BackgroundColor>4287137928</BackgroundColor>
         <BackgroundImage>D:/Host/LxWorkspace/qlcplus/gobos/NoName/gobo01-03.png</BackgroundImage>
         <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="4294967295"/>
+       <Function ID="57"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="" ID="177" Icon="">
+      <Button Caption="E4" ID="177" Icon="">
        <WindowState Visible="True" X="165" Y="0" Width="50" Height="35"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4293848814</BackgroundColor>
+        <BackgroundColor>4287137928</BackgroundColor>
         <BackgroundImage>D:/Host/LxWorkspace/qlcplus/gobos/NoName/gobo01-04.png</BackgroundImage>
         <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="4294967295"/>
+       <Function ID="60"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="" ID="184" Icon="">
+      <Button Caption="E5" ID="184" Icon="">
        <WindowState Visible="True" X="220" Y="0" Width="50" Height="35"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4293848814</BackgroundColor>
+        <BackgroundColor>4287137928</BackgroundColor>
         <BackgroundImage>D:/Host/LxWorkspace/qlcplus/gobos/NoName/gobo01-05.png</BackgroundImage>
         <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="4294967295"/>
+       <Function ID="61"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="" ID="302" Icon="">
+      <Button Caption="E6" ID="302" Icon="">
        <WindowState Visible="True" X="275" Y="0" Width="50" Height="35"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4293848814</BackgroundColor>
+        <BackgroundColor>4287137928</BackgroundColor>
         <BackgroundImage>D:/Host/LxWorkspace/qlcplus/gobos/NoName/gobo01-06.png</BackgroundImage>
         <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="4294967295"/>
+       <Function ID="62"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="" ID="308" Icon="">
+      <Button Caption="E7" ID="308" Icon="">
        <WindowState Visible="True" X="330" Y="0" Width="50" Height="35"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4293848814</BackgroundColor>
+        <BackgroundColor>4287137928</BackgroundColor>
         <BackgroundImage>D:/Host/LxWorkspace/qlcplus/gobos/NoName/gobo01-07.png</BackgroundImage>
         <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="4294967295"/>
+       <Function ID="63"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="" ID="314" Icon="">
+      <Button Caption="E8" ID="314" Icon="">
        <WindowState Visible="True" X="385" Y="0" Width="50" Height="35"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4293848814</BackgroundColor>
+        <BackgroundColor>4287137928</BackgroundColor>
         <BackgroundImage>D:/Host/LxWorkspace/qlcplus/gobos/NoName/gobo01-08.png</BackgroundImage>
         <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="4294967295"/>
+       <Function ID="64"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
@@ -4430,27 +4482,324 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <CueList Caption="Global presets" ID="3">
-     <WindowState Visible="True" X="0" Y="40" Width="420" Height="295"/>
+    <Multipage PagesNum="1" CurrentPage="0"/>
+    <Shortcut Page="0" Name="Public"/>
+    <PagesLoop>False</PagesLoop>
+    <Frame Caption="" ID="29">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4280427042</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Chaser>8</Chaser>
-     <NextPrevBehavior>2</NextPrevBehavior>
-     <Next/>
-     <Previous/>
-     <Playback>
-      <Input Universe="2" Channel="0"/>
-     </Playback>
-     <Stop>
-      <Input Universe="2" Channel="1"/>
-     </Stop>
-     <SlidersMode>Steps</SlidersMode>
-    </CueList>
+     <WindowState Visible="True" X="0" Y="40" Width="420" Height="295"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Multipage PagesNum="1" CurrentPage="0"/>
+     <Shortcut Page="0" Name="Page: 1"/>
+     <PagesLoop>False</PagesLoop>
+     <CueList Caption="" ID="3">
+      <WindowState Visible="True" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>4294967295</Chaser>
+      <NextPrevBehavior>2</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="0"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="1"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+     <CueList Caption="" ID="35" Page="1">
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>4294967295</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="65536"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="65537"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+     <CueList Caption="" ID="47" Page="2">
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>4294967295</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="131072"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="131073"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+     <CueList Caption="" ID="253" Page="3">
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>4294967295</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="196608"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="196609"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+    </Frame>
+    <Frame Caption="" ID="258" Page="1">
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4280427042</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="False" X="0" Y="40" Width="420" Height="295"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Multipage PagesNum="4" CurrentPage="0"/>
+     <Shortcut Page="0" Name="Page: 1"/>
+     <Shortcut Page="1" Name="Page: 2"/>
+     <Shortcut Page="2" Name="Page: 3"/>
+     <Shortcut Page="3" Name="Page: 4"/>
+     <PagesLoop>False</PagesLoop>
+     <CueList Caption="Risen" ID="254">
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>65</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="0"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="1"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+     <CueList Caption="" ID="255" Page="1">
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>4294967295</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="65536"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="65537"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+     <CueList Caption="" ID="256" Page="2">
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>4294967295</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="131072"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="131073"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+     <CueList Caption="" ID="257" Page="3">
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>4294967295</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="196608"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="196609"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+    </Frame>
+    <Frame Caption="" ID="263" Page="2">
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4280427042</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="False" X="0" Y="40" Width="420" Height="295"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Multipage PagesNum="4" CurrentPage="0"/>
+     <Shortcut Page="0" Name="Page: 1"/>
+     <Shortcut Page="1" Name="Page: 2"/>
+     <Shortcut Page="2" Name="Page: 3"/>
+     <Shortcut Page="3" Name="Page: 4"/>
+     <PagesLoop>False</PagesLoop>
+     <CueList Caption="" ID="259">
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>4294967295</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="0"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="1"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+     <CueList Caption="" ID="260" Page="1">
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>4294967295</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="65536"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="65537"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+     <CueList Caption="" ID="261" Page="2">
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>4294967295</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="131072"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="131073"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+     <CueList Caption="" ID="262" Page="3">
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>4294967295</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next/>
+      <Previous/>
+      <Playback>
+       <Input Universe="2" Channel="196608"/>
+      </Playback>
+      <Stop>
+       <Input Universe="2" Channel="196609"/>
+      </Stop>
+      <SlidersMode>Steps</SlidersMode>
+     </CueList>
+    </Frame>
    </Frame>
    <Frame Caption="" ID="105">
     <Appearance>
@@ -4483,7 +4832,7 @@
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Multipage PagesNum="2" CurrentPage="0"/>
+     <Multipage PagesNum="2" CurrentPage="1"/>
      <Shortcut Page="0" Name="Page: 1">
       <Input Universe="2" Channel="5"/>
      </Shortcut>
@@ -4492,7 +4841,7 @@
      </Shortcut>
      <PagesLoop>False</PagesLoop>
      <Button Caption="GO" ID="90" Page="1" Icon="">
-      <WindowState Visible="False" X="0" Y="35" Width="135" Height="50"/>
+      <WindowState Visible="True" X="0" Y="35" Width="135" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -4506,7 +4855,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="GO" ID="11" Icon="">
-      <WindowState Visible="True" X="0" Y="35" Width="135" Height="50"/>
+      <WindowState Visible="False" X="0" Y="35" Width="135" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -5203,7 +5552,7 @@
      <MultDivReset>
       <Input Universe="2" Channel="8"/>
      </MultDivReset>
-     <Time>1344</Time>
+     <Time>1000</Time>
     </SpeedDial>
    </Frame>
    <Frame Caption="Fog" ID="33">
@@ -7264,7 +7613,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="5" Y="2300" Width="1840" Height="1285"/>
+    <WindowState Visible="True" X="5" Y="1820" Width="1840" Height="1285"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -8948,7 +9297,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="5" Y="4280" Width="1840" Height="405"/>
+    <WindowState Visible="True" X="5" Y="3125" Width="1840" Height="405"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -8998,7 +9347,7 @@
        <Reset>
         <Input Universe="2" Channel="7"/>
        </Reset>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="255">
         <Channel Fixture="18">0</Channel>
        </Level>
        <Playback>
@@ -9018,7 +9367,7 @@
        <Reset>
         <Input Universe="2" Channel="7"/>
        </Reset>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="255">
         <Channel Fixture="19">0</Channel>
        </Level>
        <Playback>
@@ -9170,7 +9519,7 @@
        <Reset>
         <Input Universe="2" Channel="7"/>
        </Reset>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="255">
         <Channel Fixture="18">2</Channel>
        </Level>
        <Playback>
@@ -9190,7 +9539,7 @@
        <Reset>
         <Input Universe="2" Channel="7"/>
        </Reset>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="255">
         <Channel Fixture="19">2</Channel>
        </Level>
        <Playback>
@@ -9410,7 +9759,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="10" Y="4715" Width="480" Height="275"/>
+    <WindowState Visible="True" X="10" Y="4120" Width="480" Height="275"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -9699,11 +10048,11 @@
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4278190080</BackgroundColor>
+     <BackgroundColor>4281874488</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="505" Y="4715" Width="285" Height="275"/>
+    <WindowState Visible="True" X="505" Y="4120" Width="285" Height="275"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -9724,7 +10073,7 @@
      <WindowState Visible="True" X="0" Y="5" Width="125" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>4278190080</ForegroundColor>
+      <ForegroundColor>4287137928</ForegroundColor>
       <BackgroundColor>4280427042</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>MS Shell Dlg 2,21,-1,5,75,0,0,0,0,0</Font>
@@ -10164,7 +10513,7 @@
      <WindowState Visible="True" X="5" Y="40" Width="55" Height="295"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4287137928</ForegroundColor>
       <BackgroundColor>4279308561</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -10187,7 +10536,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="805" Y="4715" Width="1040" Height="275"/>
+    <WindowState Visible="True" X="800" Y="4120" Width="1040" Height="275"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -10215,74 +10564,6 @@
      </Appearance>
     </Label>
    </Frame>
-   <CueList Caption="" ID="225">
-    <WindowState Visible="True" X="640" Y="3975" Width="185" Height="250"/>
-    <Appearance>
-     <FrameStyle>Raised</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4279308561</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Chaser>20026</Chaser>
-    <NextPrevBehavior>2</NextPrevBehavior>
-    <Next/>
-    <Previous/>
-    <Playback>
-     <Input Universe="2" Channel="0"/>
-    </Playback>
-    <Stop>
-     <Input Universe="2" Channel="1"/>
-    </Stop>
-    <SlidersMode>Steps</SlidersMode>
-    <CrossLeft>
-     <Input Universe="3" Channel="10"/>
-    </CrossLeft>
-   </CueList>
-   <CueList Caption="" ID="231">
-    <WindowState Visible="True" X="825" Y="3975" Width="185" Height="250"/>
-    <Appearance>
-     <FrameStyle>Raised</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4279308561</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Chaser>20046</Chaser>
-    <NextPrevBehavior>0</NextPrevBehavior>
-    <Next/>
-    <Previous/>
-    <Playback>
-     <Input Universe="2" Channel="0"/>
-    </Playback>
-    <Stop>
-     <Input Universe="2" Channel="1"/>
-    </Stop>
-    <SlidersMode>Steps</SlidersMode>
-    <CrossLeft>
-     <Input Universe="3" Channel="11"/>
-    </CrossLeft>
-   </CueList>
-   <Label Caption="Nothing to see here" ID="522">
-    <WindowState Visible="True" X="715" Y="3980" Width="355" Height="45"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>4294967295</ForegroundColor>
-     <BackgroundColor>4280427042</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-   </Label>
-   <Label Caption="Warning" ID="523">
-    <WindowState Visible="True" X="715" Y="3935" Width="355" Height="50"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>4287102976</ForegroundColor>
-     <BackgroundColor>4278190080</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>MS Shell Dlg 2,21,-1,5,75,0,0,0,0,0</Font>
-    </Appearance>
-   </Label>
    <SoloFrame Caption="" ID="245">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
@@ -10317,7 +10598,7 @@
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4278190080</ForegroundColor>
-      <BackgroundColor>4291611852</BackgroundColor>
+      <BackgroundColor>4293125091</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
      </Appearance>
@@ -10330,7 +10611,7 @@
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4278190080</ForegroundColor>
-      <BackgroundColor>4292202167</BackgroundColor>
+      <BackgroundColor>4292267960</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
      </Appearance>
@@ -10790,78 +11071,6 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
    </Frame>
-   <CueList Caption="" ID="12">
-    <WindowState Visible="True" X="1235" Y="3975" Width="185" Height="250"/>
-    <Appearance>
-     <FrameStyle>Raised</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4279308561</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Chaser>20137</Chaser>
-    <NextPrevBehavior>0</NextPrevBehavior>
-    <Next/>
-    <Previous/>
-    <Playback>
-     <Input Universe="2" Channel="0"/>
-    </Playback>
-    <Stop>
-     <Input Universe="2" Channel="1"/>
-    </Stop>
-    <SlidersMode>Steps</SlidersMode>
-    <CrossLeft>
-     <Input Universe="3" Channel="21"/>
-    </CrossLeft>
-   </CueList>
-   <CueList Caption="" ID="21">
-    <WindowState Visible="True" X="1425" Y="3975" Width="185" Height="250"/>
-    <Appearance>
-     <FrameStyle>Raised</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4279308561</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Chaser>20172</Chaser>
-    <NextPrevBehavior>0</NextPrevBehavior>
-    <Next/>
-    <Previous/>
-    <Playback>
-     <Input Universe="2" Channel="0"/>
-    </Playback>
-    <Stop>
-     <Input Universe="2" Channel="1"/>
-    </Stop>
-    <SlidersMode>Steps</SlidersMode>
-    <CrossLeft>
-     <Input Universe="3" Channel="22"/>
-    </CrossLeft>
-   </CueList>
-   <CueList Caption="" ID="30">
-    <WindowState Visible="True" X="235" Y="3975" Width="185" Height="250"/>
-    <Appearance>
-     <FrameStyle>Raised</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4279308561</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Chaser>20237</Chaser>
-    <NextPrevBehavior>0</NextPrevBehavior>
-    <Next/>
-    <Previous/>
-    <Playback>
-     <Input Universe="2" Channel="0"/>
-    </Playback>
-    <Stop>
-     <Input Universe="2" Channel="1"/>
-    </Stop>
-    <SlidersMode>Steps</SlidersMode>
-    <CrossLeft>
-     <Input Universe="3" Channel="40"/>
-    </CrossLeft>
-   </CueList>
    <Frame Caption="Gobo" ID="206">
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
@@ -10887,7 +11096,7 @@
       <Font>Default</Font>
      </Appearance>
      <Chaser>161</Chaser>
-     <NextPrevBehavior>0</NextPrevBehavior>
+     <NextPrevBehavior>2</NextPrevBehavior>
      <Next/>
      <Previous/>
      <Playback>
@@ -10905,7 +11114,7 @@
      <WindowState Visible="True" X="0" Y="40" Width="55" Height="250"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4287137928</ForegroundColor>
       <BackgroundColor>4279308561</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -10945,7 +11154,7 @@
       <Font>Default</Font>
      </Appearance>
      <Chaser>46</Chaser>
-     <NextPrevBehavior>0</NextPrevBehavior>
+     <NextPrevBehavior>2</NextPrevBehavior>
      <Next/>
      <Previous/>
      <Playback>
@@ -10963,7 +11172,7 @@
      <WindowState Visible="True" X="5" Y="40" Width="55" Height="250"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4287137928</ForegroundColor>
       <BackgroundColor>4279308561</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -10978,57 +11187,237 @@
      </Playback>
     </Slider>
    </Frame>
-   <CueList Caption="" ID="240">
-    <WindowState Visible="True" X="425" Y="3975" Width="185" Height="250"/>
+   <Frame Caption="PRESETS CTRL" ID="244">
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4279308561</BackgroundColor>
+     <BackgroundColor>4280427042</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Chaser>20256</Chaser>
-    <NextPrevBehavior>0</NextPrevBehavior>
-    <Next/>
-    <Previous/>
-    <Playback>
-     <Input Universe="2" Channel="0"/>
-    </Playback>
-    <Stop>
-     <Input Universe="2" Channel="1"/>
-    </Stop>
-    <SlidersMode>Steps</SlidersMode>
-    <CrossLeft>
-     <Input Universe="3" Channel="41"/>
-    </CrossLeft>
-   </CueList>
-   <CueList Caption="" ID="237">
-    <WindowState Visible="True" X="1620" Y="3975" Width="185" Height="250"/>
-    <Appearance>
-     <FrameStyle>Raised</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>4279308561</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Chaser>202273</Chaser>
-    <NextPrevBehavior>0</NextPrevBehavior>
-    <Next/>
-    <Previous/>
-    <Playback>
-     <Input Universe="2" Channel="0"/>
-    </Playback>
-    <Stop>
-     <Input Universe="2" Channel="1"/>
-    </Stop>
-    <SlidersMode>Steps</SlidersMode>
-    <CrossLeft>
-     <Input Universe="3" Channel="30"/>
-    </CrossLeft>
-   </CueList>
+    <WindowState Visible="True" X="200" Y="3700" Width="1485" Height="295"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <CueList Caption="" ID="225">
+     <WindowState Visible="True" X="5" Y="40" Width="185" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>20026</Chaser>
+     <NextPrevBehavior>2</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback>
+      <Input Universe="2" Channel="0"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="1"/>
+     </Stop>
+     <SlidersMode>Steps</SlidersMode>
+     <CrossLeft>
+      <Input Universe="3" Channel="10"/>
+     </CrossLeft>
+    </CueList>
+    <CueList Caption="" ID="231">
+     <WindowState Visible="True" X="185" Y="40" Width="185" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>20046</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback>
+      <Input Universe="2" Channel="0"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="1"/>
+     </Stop>
+     <SlidersMode>Steps</SlidersMode>
+     <CrossLeft>
+      <Input Universe="3" Channel="11"/>
+     </CrossLeft>
+    </CueList>
+    <CueList Caption="" ID="235">
+     <WindowState Visible="True" X="375" Y="40" Width="185" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>20102</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback>
+      <Input Universe="2" Channel="0"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="1"/>
+     </Stop>
+     <SlidersMode>Steps</SlidersMode>
+     <CrossLeft>
+      <Input Universe="3" Channel="20"/>
+     </CrossLeft>
+    </CueList>
+    <CueList Caption="" ID="12">
+     <WindowState Visible="True" X="555" Y="40" Width="185" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>20137</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback>
+      <Input Universe="2" Channel="0"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="1"/>
+     </Stop>
+     <SlidersMode>Steps</SlidersMode>
+     <CrossLeft>
+      <Input Universe="3" Channel="21"/>
+     </CrossLeft>
+    </CueList>
+    <CueList Caption="" ID="21">
+     <WindowState Visible="True" X="735" Y="40" Width="185" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>20172</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback>
+      <Input Universe="2" Channel="0"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="1"/>
+     </Stop>
+     <SlidersMode>Steps</SlidersMode>
+     <CrossLeft>
+      <Input Universe="3" Channel="22"/>
+     </CrossLeft>
+    </CueList>
+    <CueList Caption="" ID="237">
+     <WindowState Visible="True" X="925" Y="40" Width="185" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>202273</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback>
+      <Input Universe="2" Channel="0"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="1"/>
+     </Stop>
+     <SlidersMode>Steps</SlidersMode>
+     <CrossLeft>
+      <Input Universe="3" Channel="30"/>
+     </CrossLeft>
+    </CueList>
+    <CueList Caption="" ID="30">
+     <WindowState Visible="True" X="1115" Y="40" Width="185" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>20237</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback>
+      <Input Universe="2" Channel="0"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="1"/>
+     </Stop>
+     <SlidersMode>Steps</SlidersMode>
+     <CrossLeft>
+      <Input Universe="3" Channel="40"/>
+     </CrossLeft>
+    </CueList>
+    <CueList Caption="" ID="240">
+     <WindowState Visible="True" X="1295" Y="40" Width="185" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279308561</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>20256</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback>
+      <Input Universe="2" Channel="0"/>
+     </Playback>
+     <Stop>
+      <Input Universe="2" Channel="1"/>
+     </Stop>
+     <SlidersMode>Steps</SlidersMode>
+     <CrossLeft>
+      <Input Universe="3" Channel="41"/>
+     </CrossLeft>
+    </CueList>
+    <Label Caption="Auto-generated - do not edit" ID="522">
+     <WindowState Visible="True" X="295" Y="145" Width="905" Height="45"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4280427042</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="Presets" ID="523">
+     <WindowState Visible="True" X="295" Y="95" Width="905" Height="55"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4287102976</ForegroundColor>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>MS Shell Dlg 2,21,-1,5,75,0,0,0,0,0</Font>
+     </Appearance>
+    </Label>
+   </Frame>
   </Frame>
   <Properties>
-   <Size Width="1850" Height="5000"/>
+   <Size Width="1850" Height="4400"/>
    <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
   </Properties>
  </VirtualConsole>
