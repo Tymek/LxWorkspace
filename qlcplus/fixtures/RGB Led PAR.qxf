@@ -22,7 +22,7 @@
   <Capability Min="0" Max="255"></Capability>
  </Channel>
  <Channel Name="Function speed">
-  <Group Byte="0">Nothing</Group>
+  <Group Byte="0">Speed</Group>
   <Capability Min="0" Max="255"></Capability>
  </Channel>
  <Channel Name="Red">
