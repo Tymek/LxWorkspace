@@ -306,8 +306,7 @@
    <Universe>0</Universe>
    <Address>205</Address>
    <Channels>11</Channels>
-   <Modifier Channel="8" Name="Speed ledspot"/>
-   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <ForcedLTP>7</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Mini</Manufacturer>
@@ -318,8 +317,7 @@
    <Universe>0</Universe>
    <Address>216</Address>
    <Channels>11</Channels>
-   <Modifier Channel="8" Name="Speed ledspot"/>
-   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <ForcedLTP>7</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
@@ -363,8 +361,7 @@
    <Universe>0</Universe>
    <Address>161</Address>
    <Channels>11</Channels>
-   <Modifier Channel="8" Name="Speed ledspot"/>
-   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <ForcedLTP>7</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Mini</Manufacturer>
@@ -375,8 +372,7 @@
    <Universe>0</Universe>
    <Address>172</Address>
    <Channels>11</Channels>
-   <Modifier Channel="8" Name="Speed ledspot"/>
-   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <ForcedLTP>7</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Mini</Manufacturer>
@@ -387,8 +383,7 @@
    <Universe>0</Universe>
    <Address>183</Address>
    <Channels>11</Channels>
-   <Modifier Channel="8" Name="Speed ledspot"/>
-   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <ForcedLTP>7</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Mini</Manufacturer>
@@ -399,8 +394,7 @@
    <Universe>0</Universe>
    <Address>194</Address>
    <Channels>11</Channels>
-   <Modifier Channel="8" Name="Speed ledspot"/>
-   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <ForcedLTP>7</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Mini</Manufacturer>
@@ -411,8 +405,7 @@
    <Universe>0</Universe>
    <Address>227</Address>
    <Channels>11</Channels>
-   <Modifier Channel="8" Name="Speed ledspot"/>
-   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <ForcedLTP>7</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Mini</Manufacturer>
@@ -423,8 +416,7 @@
    <Universe>0</Universe>
    <Address>238</Address>
    <Channels>11</Channels>
-   <Modifier Channel="8" Name="Speed ledspot"/>
-   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <ForcedLTP>7</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
@@ -5845,32 +5837,6 @@
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">338</Step>
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">339</Step>
   </Function>
-  <Function ID="341" Type="EFX" Name="New EFX 341">
-   <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm>Circle</Algorithm>
-   <Width>127</Width>
-   <Height>127</Height>
-   <Rotation>0</Rotation>
-   <StartOffset>0</StartOffset>
-   <IsRelative>0</IsRelative>
-   <Axis Name="X">
-    <Offset>127</Offset>
-    <Frequency>2</Frequency>
-    <Phase>90</Phase>
-   </Axis>
-   <Axis Name="Y">
-    <Offset>127</Offset>
-    <Frequency>3</Frequency>
-    <Phase>0</Phase>
-   </Axis>
-  </Function>
-  <Function ID="342" Type="Scene" Name="New Scene 342">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="51">0,212,1,191,2,30,3,0,7,255</FixtureVal>
-  </Function>
   <Monitor DisplayMode="1" ShowLabels="1">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -6215,7 +6181,7 @@
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Multipage PagesNum="2" CurrentPage="1"/>
+     <Multipage PagesNum="2" CurrentPage="0"/>
      <Next>
       <Input Universe="2" Channel="100"/>
      </Next>
@@ -8318,7 +8284,7 @@
      <Input Universe="1" Channel="53"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Amber" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="71">1</Channel>
       <Channel Fixture="72">1</Channel>
       <Channel Fixture="73">1</Channel>
@@ -8614,7 +8580,7 @@
      <Input Universe="1" Channel="52"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="White" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="71">2</Channel>
       <Channel Fixture="72">2</Channel>
       <Channel Fixture="73">2</Channel>
@@ -8651,7 +8617,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="52">7</Channel>
      </Level>
      <Playback>
@@ -11308,7 +11274,7 @@
      <Reset>
       <Input Universe="1" Channel="192"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="250">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="39">0</Channel>
      </Level>
      <Playback>
@@ -11405,7 +11371,7 @@
      <Reset>
       <Input Universe="1" Channel="192"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="250">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="40">0</Channel>
      </Level>
      <Playback>
@@ -11425,7 +11391,7 @@
      <Reset>
       <Input Universe="1" Channel="192"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="250">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="41">0</Channel>
      </Level>
      <Playback>
@@ -11451,6 +11417,32 @@
      </Playback>
     </Slider>
    </Frame>
+   <Button Caption="                          x   New EFX 341" ID="41" Icon="">
+    <WindowState Visible="False" X="1095" Y="2000" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4294967295"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="                           x               New Scene 342" ID="88" Icon="">
+    <WindowState Visible="False" X="1160" Y="2015" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4294967295"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
   </Frame>
   <Properties>
    <Size Width="1850" Height="3000"/>
