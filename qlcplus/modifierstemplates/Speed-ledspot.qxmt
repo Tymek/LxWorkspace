@@ -4,9 +4,9 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.1</Version>
-  <Author>filip olszewski</Author>
+  <Author>Filip Olszewski</Author>
  </Creator>
- <Name>Speed ledspot</Name>
+ <Name>Speed LedSpot</Name>
  <Handler Original="0" Modified="0"/>
  <Handler Original="7" Modified="130"/>
  <Handler Original="15" Modified="200"/>

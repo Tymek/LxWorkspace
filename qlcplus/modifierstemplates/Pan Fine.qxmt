@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ChannelModifier>
+<ChannelModifier xmlns="http://www.qlcplus.org/ChannelModifier">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.2</Version>
+  <Author>Tymek</Author>
+ </Creator>
+ <Name>Pan Fine</Name>
+ <Handler Original="0" Modified="16"/>
+ <Handler Original="16" Modified="16"/>
+ <Handler Original="239" Modified="239"/>
+ <Handler Original="255" Modified="255"/>
+</ChannelModifier>

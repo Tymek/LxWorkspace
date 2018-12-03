@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.0</Version>
+  <Author>Tymek</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="OUTPUT" ID="0">
+    <Output Plugin="DMX USB" Line="0">
+     <PluginParameters UniverseChannels="435"/>
+    </Output>
+   </Universe>
+   <Universe Name="Console" ID="1">
+    <Input Plugin="MIDI" Line="0"/>
+    <Feedback Plugin="MIDI" Line="1"/>
+   </Universe>
+   <Universe Name="CTRL Loopback" ID="2">
+    <Input Plugin="Loopback" Line="0"/>
+    <Output Plugin="Loopback" Line="0">
+     <PluginParameters UniverseChannels="142"/>
+    </Output>
+   </Universe>
+   <Universe Name="Presets" ID="3">
+    <Input Plugin="Loopback" Line="1"/>
+    <Output Plugin="Loopback" Line="1">
+     <PluginParameters UniverseChannels="50"/>
+    </Output>
+   </Universe>
+   <Universe Name="Virtual fixtures" ID="4"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>WA LED PAR</Model>
+   <Mode>6 Channels Mode</Mode>
+   <ID>0</ID>
+   <Name>WA LED PAR #1</Name>
+   <Universe>0</Universe>
+   <Address>409</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>WA LED PAR</Model>
+   <Mode>6 Channels Mode</Mode>
+   <ID>1</ID>
+   <Name>WA LED PAR #2</Name>
+   <Universe>0</Universe>
+   <Address>419</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>WA LED PAR</Model>
+   <Mode>6 Channels Mode</Mode>
+   <ID>2</ID>
+   <Name>WA LED PAR #3</Name>
+   <Universe>0</Universe>
+   <Address>429</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="Włącz na max">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="Ciepłe">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255</FixtureVal>
+   <FixtureVal ID="1">1,255</FixtureVal>
+   <FixtureVal ID="2">1,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="Zimne">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,255</FixtureVal>
+   <FixtureVal ID="1">2,255</FixtureVal>
+   <FixtureVal ID="2">2,255</FixtureVal>
+  </Function>
+  <Function ID="4" Type="EFX" Name="New EFX 4">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>180</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="0">
+   <Font>Consolas,11,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="5" Units="0"/>
+   <FxItem ID="2" XPos="1192.86" YPos="139.947"/>
+   <FxItem ID="0" XPos="0" YPos="0"/>
+   <FxItem ID="1" XPos="664.021" YPos="103.704"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Slider Caption="Slider 0" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="135" Y="65" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="1" Channel="48"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>0</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Slider 1" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="260" Y="55" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="1" Channel="49"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>3</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Slider 2" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="445" Y="140" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="1" Channel="50"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>1</Function>
+    </Playback>
+   </Slider>
+   <Button Caption="New EFX 4" ID="3" Icon="">
+    <WindowState Visible="True" X="625" Y="140" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Width="1850" Height="4600"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
