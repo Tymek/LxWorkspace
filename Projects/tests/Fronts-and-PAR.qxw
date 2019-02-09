@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.0</Version>
+  <Author>Tymek</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="OUTPUT" ID="0">
+    <Output Plugin="DMX USB" Line="0">
+     <PluginParameters UniverseChannels="435"/>
+    </Output>
+   </Universe>
+   <Universe Name="Console" ID="1">
+    <Input Plugin="MIDI" Line="0"/>
+    <Feedback Plugin="MIDI" Line="1"/>
+   </Universe>
+   <Universe Name="CTRL Loopback" ID="2">
+    <Input Plugin="Loopback" Line="0"/>
+    <Output Plugin="Loopback" Line="0">
+     <PluginParameters UniverseChannels="142"/>
+    </Output>
+   </Universe>
+   <Universe Name="Presets" ID="3">
+    <Input Plugin="Loopback" Line="1"/>
+    <Output Plugin="Loopback" Line="1">
+     <PluginParameters UniverseChannels="50"/>
+    </Output>
+   </Universe>
+   <Universe Name="Virtual fixtures" ID="4"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>WA LED PAR</Model>
+   <Mode>6 Channels Mode</Mode>
+   <ID>0</ID>
+   <Name>WA LED PAR #1</Name>
+   <Universe>0</Universe>
+   <Address>409</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>WA LED PAR</Model>
+   <Mode>6 Channels Mode</Mode>
+   <ID>1</ID>
+   <Name>WA LED PAR #2</Name>
+   <Universe>0</Universe>
+   <Address>419</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>WA LED PAR</Model>
+   <Mode>6 Channels Mode</Mode>
+   <ID>2</ID>
+   <Name>WA LED PAR #3</Name>
+   <Universe>0</Universe>
+   <Address>429</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGB Led PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>10</ID>
+   <Name>RGB Led PAR #1</Name>
+   <Universe>0</Universe>
+   <Address>309</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGB Led PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>11</ID>
+   <Name>RGB Led PAR #2</Name>
+   <Universe>0</Universe>
+   <Address>319</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGB Led PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>12</ID>
+   <Name>RGB Led PAR #3</Name>
+   <Universe>0</Universe>
+   <Address>329</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGB Led PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>13</ID>
+   <Name>RGB Led PAR #4</Name>
+   <Universe>0</Universe>
+   <Address>339</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGB Led PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>14</ID>
+   <Name>RGB Led PAR #5</Name>
+   <Universe>0</Universe>
+   <Address>349</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGB Led PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>15</ID>
+   <Name>RGB Led PAR #6</Name>
+   <Universe>0</Universe>
+   <Address>359</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGB Led PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>16</ID>
+   <Name>RGB Led PAR #7</Name>
+   <Universe>0</Universe>
+   <Address>369</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGB Led PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>17</ID>
+   <Name>RGB Led PAR #8</Name>
+   <Universe>0</Universe>
+   <Address>379</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="Włącz na max">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="Ciepłe">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255</FixtureVal>
+   <FixtureVal ID="1">1,255</FixtureVal>
+   <FixtureVal ID="2">1,255</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="New Scene 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255,7,255</FixtureVal>
+   <FixtureVal ID="11">0,255,7,255</FixtureVal>
+   <FixtureVal ID="12">0,255,7,255</FixtureVal>
+   <FixtureVal ID="13">0,255,7,255</FixtureVal>
+   <FixtureVal ID="14">0,255,7,255</FixtureVal>
+   <FixtureVal ID="15">0,255,7,255</FixtureVal>
+   <FixtureVal ID="16">0,255,7,255</FixtureVal>
+   <FixtureVal ID="17">0,255,7,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="Zimne">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,255</FixtureVal>
+   <FixtureVal ID="1">2,255</FixtureVal>
+   <FixtureVal ID="2">2,255</FixtureVal>
+  </Function>
+  <Function ID="4" Type="EFX" Name="New EFX 4">
+   <Fixture>
+    <ID>16</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>10</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>30</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>60</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>12</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>13</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>120</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>14</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>150</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>15</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>180</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>17</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>210</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="1415"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="5" Type="Scene" Name="Czerwony">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">4,255</FixtureVal>
+   <FixtureVal ID="11">4,255</FixtureVal>
+   <FixtureVal ID="12">4,255</FixtureVal>
+   <FixtureVal ID="13">4,255</FixtureVal>
+   <FixtureVal ID="14">4,255</FixtureVal>
+   <FixtureVal ID="15">4,255</FixtureVal>
+   <FixtureVal ID="16">4,255</FixtureVal>
+   <FixtureVal ID="17">4,255</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="Niebieski">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">6,255</FixtureVal>
+   <FixtureVal ID="11">6,255</FixtureVal>
+   <FixtureVal ID="12">6,255</FixtureVal>
+   <FixtureVal ID="13">6,255</FixtureVal>
+   <FixtureVal ID="14">6,255</FixtureVal>
+   <FixtureVal ID="15">6,255</FixtureVal>
+   <FixtureVal ID="16">6,255</FixtureVal>
+   <FixtureVal ID="17">6,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Chaser" Name="New Chaser 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="1" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+  </Function>
+  <Function ID="8" Type="Chaser" Name="New Chaser 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="1000" FadeOut="0">2</Step>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="0">
+   <Font>Consolas,11,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="5" Units="0"/>
+   <FxItem ID="1" XPos="664.021" YPos="103.704"/>
+   <FxItem ID="0" XPos="0" YPos="0"/>
+   <FxItem ID="2" XPos="1192.86" YPos="139.947"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Slider Caption="Slider 0" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="135" Y="65" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="1" Channel="48"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>0</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Slider 1" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="260" Y="90" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="1" Channel="49"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>3</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Slider 2" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="385" Y="50" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="1" Channel="50"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>1</Function>
+    </Playback>
+   </Slider>
+   <Button Caption="New EFX 4" ID="3" Icon="">
+    <WindowState Visible="True" X="625" Y="140" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Slider Caption="Slider 4" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="530" Y="430" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="10">4</Channel>
+     <Channel Fixture="10">5</Channel>
+     <Channel Fixture="10">6</Channel>
+    </Level>
+    <Playback>
+     <Function>2</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Slider 5" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="730" Y="430" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="1" Channel="48"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="10">0</Channel>
+     <Channel Fixture="11">0</Channel>
+     <Channel Fixture="12">0</Channel>
+     <Channel Fixture="13">0</Channel>
+     <Channel Fixture="14">0</Channel>
+     <Channel Fixture="15">0</Channel>
+     <Channel Fixture="16">0</Channel>
+     <Channel Fixture="17">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <SoloFrame Caption="" ID="8">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="815" Y="430" Width="200" Height="200"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Niebieski" ID="7" Icon="">
+     <WindowState Visible="True" X="110" Y="65" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4281085168</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="6"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="1" Channel="185"/>
+    </Button>
+    <Button Caption="Czerwony" ID="6" Icon="">
+     <WindowState Visible="True" X="45" Y="70" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4293925402</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="5"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="1" Channel="184"/>
+    </Button>
+   </SoloFrame>
+   <Button Caption="New EFX 4" ID="9" Icon="">
+    <WindowState Visible="True" X="670" Y="480" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <SpeedDial Caption="Duration" ID="10">
+    <WindowState Visible="True" X="1195" Y="415" Width="200" Height="175"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>65648</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Time>1415</Time>
+    <Function FadeIn="0" FadeOut="0" Duration="6">4</Function>
+   </SpeedDial>
+   <CueList Caption="Cue list" ID="11">
+    <WindowState Visible="True" X="930" Y="90" Width="300" Height="220"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Chaser>7</Chaser>
+    <NextPrevBehavior>0</NextPrevBehavior>
+    <Next/>
+    <Previous/>
+    <Playback/>
+    <Stop/>
+    <SlidersMode>Crossfade</SlidersMode>
+   </CueList>
+  </Frame>
+  <Properties>
+   <Size Width="1850" Height="4600"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
