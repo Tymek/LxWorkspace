@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.2</Version>
@@ -8,20 +8,24 @@
  </Creator>
  <Engine>
   <InputOutputMap>
-   <Universe Name="Universe 1" ID="0">
+   <Universe Name="STAGE" ID="0" Passthrough="True">
+    <Input Plugin="Loopback" Line="1"/>
     <Output Plugin="DMX USB" Line="0"/>
    </Universe>
-   <Universe Name="Universe 2" ID="1">
+   <Universe Name="PAD" ID="1">
     <Input Plugin="MIDI" Line="0"/>
     <Feedback Plugin="MIDI" Line="1"/>
    </Universe>
-   <Universe Name="Universe 3" ID="2">
+   <Universe Name="CONTROL" ID="2">
     <Input Plugin="Loopback" Line="0"/>
-    <Output Plugin="Loopback" Line="0"/>
+    <Output Plugin="Loopback" Line="0">
+     <PluginParameters UniverseChannels="2"/>
+    </Output>
    </Universe>
-   <Universe Name="Universe 4" ID="3">
-    <Input Plugin="Loopback" Line="1"/>
-    <Output Plugin="Loopback" Line="1"/>
+   <Universe Name="VIRTUAL" ID="3">
+    <Output Plugin="Loopback" Line="1">
+     <PluginParameters UniverseChannels="50"/>
+    </Output>
    </Universe>
   </InputOutputMap>
   <Fixture>
@@ -224,6 +228,12 @@
    <Address>429</Address>
    <Channels>6</Channels>
   </Fixture>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Consolas,11,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
  </Engine>
  <VirtualConsole>
   <Frame Caption="">
