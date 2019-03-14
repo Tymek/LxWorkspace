@@ -3,11 +3,11 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.11.1</Version>
-  <Author>Filip Olszewski</Author>
+  <Version>4.12.1</Version>
+  <Author>Filip Olszewski, Tymek</Author>
  </Creator>
  <Manufacturer>NoName</Manufacturer>
- <Model>RGB Led PAR</Model>
+ <Model>RGBW LED PAR</Model>
  <Type>Color Changer</Type>
  <Channel Name="Total Dimmer">
   <Group Byte="0">Intensity</Group>
@@ -72,4 +72,11 @@
    <Channel>7</Channel>
   </Head>
  </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0.7" Width="240" Height="240" Depth="100"/>
+  <Lens Name="Other" DegreesMin="25" DegreesMax="25"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="54" DmxConnector="5-pin"/>
+ </Physical>
 </FixtureDefinition>
