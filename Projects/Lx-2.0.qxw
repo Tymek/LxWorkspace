@@ -120,7 +120,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
-   <Model>RGB Led PAR</Model>
+   <Model>RGBW LED PAR</Model>
    <Mode>8ch</Mode>
    <ID>9</ID>
    <Name>PAR #2</Name>
@@ -130,7 +130,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
-   <Model>RGB Led PAR</Model>
+   <Model>RGBW LED PAR</Model>
    <Mode>8ch</Mode>
    <ID>10</ID>
    <Name>PAR #3</Name>
@@ -140,7 +140,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
-   <Model>RGB Led PAR</Model>
+   <Model>RGBW LED PAR</Model>
    <Mode>8ch</Mode>
    <ID>11</ID>
    <Name>PAR #4</Name>
@@ -150,7 +150,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
-   <Model>RGB Led PAR</Model>
+   <Model>RGBW LED PAR</Model>
    <Mode>8ch</Mode>
    <ID>12</ID>
    <Name>PAR #5</Name>
@@ -160,7 +160,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
-   <Model>RGB Led PAR</Model>
+   <Model>RGBW LED PAR</Model>
    <Mode>8ch</Mode>
    <ID>13</ID>
    <Name>PAR #6</Name>
@@ -170,7 +170,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
-   <Model>RGB Led PAR</Model>
+   <Model>RGBW LED PAR</Model>
    <Mode>8ch</Mode>
    <ID>14</ID>
    <Name>PAR #7</Name>
@@ -180,7 +180,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
-   <Model>RGB Led PAR</Model>
+   <Model>RGBW LED PAR</Model>
    <Mode>8ch</Mode>
    <ID>15</ID>
    <Name>PAR #1</Name>
@@ -190,7 +190,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
-   <Model>RGB Led PAR</Model>
+   <Model>RGBW LED PAR</Model>
    <Mode>8ch</Mode>
    <ID>16</ID>
    <Name>PAR #8</Name>
