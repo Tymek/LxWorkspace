@@ -3,17 +3,20 @@
 <Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.11.0</Version>
+  <Version>4.11.2</Version>
   <Author>Tymek</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
-   <Universe Name="OUT" ID="0">
-    <Output Plugin="DMX USB"/>
+   <Universe Name="OUT" ID="0" Passthrough="True">
+    <Input Plugin="Loopback" Line="3"/>
+    <Output Plugin="DMX USB" Line="0">
+     <PluginParameters UniverseChannels="435"/>
+    </Output>
    </Universe>
    <Universe Name="Console" ID="1">
-    <Input Plugin="MIDI"/>
-    <Feedback Plugin="MIDI"/>
+    <Input Plugin="MIDI" Line="0"/>
+    <Feedback Plugin="MIDI" Line="1"/>
    </Universe>
    <Universe Name="CTRL Loopback" ID="2">
     <Input Plugin="Loopback" Line="0"/>
@@ -28,7 +31,8 @@
     </Output>
    </Universe>
    <Universe Name="Virtual fixtures" ID="4">
-    <Output Plugin="Loopback" Line="2">
+    <Input Plugin="Loopback" Line="2"/>
+    <Output Plugin="Loopback" Line="3">
      <PluginParameters UniverseChannels="420"/>
     </Output>
    </Universe>
@@ -55,8 +59,8 @@
    <Address>161</Address>
    <Channels>11</Channels>
    <ExcludeFade>10</ExcludeFade>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -68,8 +72,8 @@
    <Address>172</Address>
    <Channels>11</Channels>
    <ExcludeFade>10</ExcludeFade>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -81,8 +85,8 @@
    <Address>183</Address>
    <Channels>11</Channels>
    <ExcludeFade>10</ExcludeFade>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -94,8 +98,8 @@
    <Address>194</Address>
    <Channels>11</Channels>
    <ExcludeFade>10</ExcludeFade>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -107,8 +111,8 @@
    <Address>205</Address>
    <Channels>11</Channels>
    <ExcludeFade>10</ExcludeFade>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -120,8 +124,8 @@
    <Address>216</Address>
    <Channels>11</Channels>
    <ExcludeFade>10</ExcludeFade>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -133,8 +137,8 @@
    <Address>227</Address>
    <Channels>11</Channels>
    <ExcludeFade>10</ExcludeFade>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -146,8 +150,8 @@
    <Address>238</Address>
    <Channels>11</Channels>
    <ExcludeFade>10</ExcludeFade>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -161,9 +165,9 @@
    <ExcludeFade>2</ExcludeFade>
    <ForcedLTP>4,5,6,7</ForcedLTP>
    <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -177,9 +181,9 @@
    <ExcludeFade>2</ExcludeFade>
    <ForcedLTP>4,5,6,7</ForcedLTP>
    <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -193,9 +197,9 @@
    <ExcludeFade>2</ExcludeFade>
    <ForcedLTP>4,5,6,7</ForcedLTP>
    <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -209,9 +213,9 @@
    <ExcludeFade>2</ExcludeFade>
    <ForcedLTP>4,5,6,7</ForcedLTP>
    <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -225,9 +229,9 @@
    <ExcludeFade>2</ExcludeFade>
    <ForcedLTP>4,5,6,7</ForcedLTP>
    <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -241,9 +245,9 @@
    <ExcludeFade>2</ExcludeFade>
    <ForcedLTP>4,5,6,7</ForcedLTP>
    <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -257,9 +261,9 @@
    <ExcludeFade>2</ExcludeFade>
    <ForcedLTP>4,5,6,7</ForcedLTP>
    <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -273,9 +277,9 @@
    <ExcludeFade>2</ExcludeFade>
    <ForcedLTP>4,5,6,7</ForcedLTP>
    <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -834,7 +838,7 @@
    <FixtureVal ID="8">4,14</FixtureVal>
   </Function>
   <Function ID="11" Type="Chaser" Name="4 Front - Color" Path=" Color">
-   <Speed FadeIn="4720" FadeOut="4720" Duration="4294967294"/>
+   <Speed FadeIn="720" FadeOut="720" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -884,7 +888,7 @@
    <FixtureVal ID="19">1,0,2,0</FixtureVal>
   </Function>
   <Function ID="14" Type="Chaser" Name="3 PAR Secondary - Color" Path=" Color">
-   <Speed FadeIn="1180" FadeOut="1180" Duration="4294967294"/>
+   <Speed FadeIn="180" FadeOut="180" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1274,7 +1278,7 @@
    <FixtureVal ID="16">4,255,5,130,6,0,7,255</FixtureVal>
   </Function>
   <Function ID="44" Type="Chaser" Name="2 PAR Primary - Color" Path=" Color">
-   <Speed FadeIn="1180" FadeOut="1180" Duration="4294967294"/>
+   <Speed FadeIn="180" FadeOut="180" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1298,7 +1302,7 @@
    <Step Number="17" FadeIn="250" Hold="4294967294" FadeOut="250">375</Step>
    <Step Number="18" FadeIn="250" Hold="4294967294" FadeOut="250">381</Step>
    <Step Number="19" FadeIn="2160" Hold="4294967294" FadeOut="2160">393</Step>
-   <Step Number="20" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
+   <Step Number="20" FadeIn="1180" Hold="4294967294" FadeOut="1180">405</Step>
    <Step Number="21" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
    <Step Number="22" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
    <Step Number="23" FadeIn="1000" Hold="4294967294" FadeOut="1000">7</Step>
@@ -1718,7 +1722,7 @@
    <FixtureGroup>0</FixtureGroup>
   </Function>
   <Function ID="114" Type="Chaser" Name="Timer - Fog" Path=" Fog">
-   <Speed FadeIn="0" FadeOut="0" Duration="60000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1776,7 +1780,7 @@
    <FixtureVal ID="33">3,197</FixtureVal>
   </Function>
   <Function ID="123" Type="Chaser" Name="Primary Sequences - Dimmer" Path=" Dimmer">
-   <Speed FadeIn="1180" FadeOut="1180" Duration="4294967294"/>
+   <Speed FadeIn="180" FadeOut="180" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="PerStep"/>
@@ -1855,7 +1859,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -1921,7 +1925,7 @@
    <Step Number="31" FadeIn="500" Hold="4294967294" FadeOut="500">368</Step>
   </Function>
   <Function ID="127" Type="RGBMatrix" Name=" On" Path=" @Scene">
-   <Speed FadeIn="0" FadeOut="0" Duration="910"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="106"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Plain"/>
@@ -1937,10 +1941,10 @@
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>0</FixtureGroup>
-   <Property Name="taillength" Value="75"/>
-   <Property Name="orientation" Value="Vertical"/>
    <Property Name="direction" Value="Left"/>
    <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="75"/>
+   <Property Name="orientation" Value="Vertical"/>
   </Function>
   <Function ID="129" Type="RGBMatrix" Name="Wave Horizontal Right - @Scene" Path=" @Scene">
    <Speed FadeIn="0" FadeOut="0" Duration="200"/>
@@ -1950,8 +1954,8 @@
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>0</FixtureGroup>
-   <Property Name="taillength" Value="75"/>
    <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="75"/>
   </Function>
   <Function ID="130" Type="RGBMatrix" Name="Wave Horizontal Left - @Scene" Path=" @Scene">
    <Speed FadeIn="0" FadeOut="0" Duration="200"/>
@@ -1961,9 +1965,9 @@
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>0</FixtureGroup>
-   <Property Name="taillength" Value="75"/>
    <Property Name="direction" Value="Left"/>
    <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="75"/>
   </Function>
   <Function ID="131" Type="RGBMatrix" Name="Wave Vertical Down - @Scene" Path=" @Scene">
    <Speed FadeIn="0" FadeOut="0" Duration="200"/>
@@ -1973,10 +1977,10 @@
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>0</FixtureGroup>
-   <Property Name="taillength" Value="100"/>
-   <Property Name="orientation" Value="Vertical"/>
    <Property Name="direction" Value="Right"/>
    <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="100"/>
+   <Property Name="orientation" Value="Vertical"/>
   </Function>
   <Function ID="132" Type="Scene" Name="Warm - Font - Color" Path=" Color/ Front">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -2052,7 +2056,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2130,7 +2134,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2208,7 +2212,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2258,7 +2262,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2308,7 +2312,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2425,8 +2429,8 @@
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>0</FixtureGroup>
    <Property Name="presetCollision" Value="Yes"/>
-   <Property Name="presetSize" Value="8"/>
    <Property Name="presetNumber" Value="1"/>
+   <Property Name="presetSize" Value="8"/>
   </Function>
   <Function ID="151" Type="RGBMatrix" Name="Fill Unfill From Center - @Scene" Path=" @Scene">
    <Speed FadeIn="0" FadeOut="0" Duration="160"/>
@@ -2446,10 +2450,10 @@
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>0</FixtureGroup>
-   <Property Name="taillength" Value="50"/>
-   <Property Name="orientation" Value="Horizontal"/>
    <Property Name="direction" Value="In"/>
    <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="50"/>
+   <Property Name="orientation" Value="Horizontal"/>
   </Function>
   <Function ID="153" Type="RGBMatrix" Name="Wave Vertical In - @Scene" Path=" @Scene">
    <Speed FadeIn="0" FadeOut="0" Duration="200"/>
@@ -2459,10 +2463,10 @@
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>0</FixtureGroup>
-   <Property Name="taillength" Value="50"/>
-   <Property Name="orientation" Value="Vertical"/>
    <Property Name="direction" Value="In"/>
    <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="50"/>
+   <Property Name="orientation" Value="Vertical"/>
   </Function>
   <Function ID="154" Type="RGBMatrix" Name="Wave Vertical Out - @Scene" Path=" @Scene">
    <Speed FadeIn="0" FadeOut="0" Duration="200"/>
@@ -2472,10 +2476,10 @@
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>0</FixtureGroup>
-   <Property Name="taillength" Value="50"/>
-   <Property Name="orientation" Value="Vertical"/>
    <Property Name="direction" Value="Out"/>
    <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="50"/>
+   <Property Name="orientation" Value="Vertical"/>
   </Function>
   <Function ID="155" Type="RGBMatrix" Name="Wave Horizontal Out - @Scene" Path=" @Scene">
    <Speed FadeIn="0" FadeOut="0" Duration="200"/>
@@ -2485,9 +2489,9 @@
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>0</FixtureGroup>
-   <Property Name="taillength" Value="50"/>
    <Property Name="direction" Value="Out"/>
    <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="50"/>
   </Function>
   <Function ID="156" Type="RGBMatrix" Name="Random noise - @Scene" Path=" @Scene">
    <Speed FadeIn="0" FadeOut="0" Duration="200"/>
@@ -2604,7 +2608,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2760,7 +2764,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2916,7 +2920,7 @@
     <StartOffset>145</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3260"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1852"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2994,7 +2998,7 @@
     <StartOffset>145</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3260"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1852"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3072,7 +3076,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3260"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1852"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3150,7 +3154,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3260"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1852"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3228,7 +3232,7 @@
     <StartOffset>210</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3260"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1852"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3306,7 +3310,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3260"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1852"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3384,7 +3388,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3260"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1852"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -4127,7 +4131,7 @@
     <StartOffset>100</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -4205,7 +4209,7 @@
     <StartOffset>180</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -4272,7 +4276,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -4322,7 +4326,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -4390,7 +4394,7 @@
     <StartOffset>220</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -4497,7 +4501,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -4581,7 +4585,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Diamond</Algorithm>
@@ -4602,7 +4606,7 @@
    </Axis>
   </Function>
   <Function ID="282" Type="RGBMatrix" Name="Random row" BlendMode="Additive">
-   <Speed FadeIn="0" FadeOut="0" Duration="910"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="106"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Random Row</Algorithm>
@@ -4611,7 +4615,7 @@
    <FixtureGroup>5</FixtureGroup>
   </Function>
   <Function ID="283" Type="RGBMatrix" Name="RPPR" BlendMode="Additive">
-   <Speed FadeIn="0" FadeOut="0" Duration="910"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="106"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Stripes</Algorithm>
@@ -4620,21 +4624,21 @@
    <FixtureGroup>5</FixtureGroup>
   </Function>
   <Function ID="284" Type="RGBMatrix" Name="Plasma">
-   <Speed FadeIn="0" FadeOut="0" Duration="910"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="106"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Plasma (Colors)</Algorithm>
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>5</FixtureGroup>
+   <Property Name="color3Index" Value="Coral"/>
+   <Property Name="color4Index" Value="Red"/>
+   <Property Name="stepsize" Value="25"/>
    <Property Name="ramp" Value="15"/>
    <Property Name="color5Index" Value="OFF"/>
    <Property Name="presetSize" Value="5"/>
-   <Property Name="color3Index" Value="Coral"/>
-   <Property Name="color2Index" Value="Orange"/>
-   <Property Name="stepsize" Value="25"/>
    <Property Name="color1Index" Value="Red"/>
-   <Property Name="color4Index" Value="Red"/>
+   <Property Name="color2Index" Value="Orange"/>
   </Function>
   <Function ID="285" Type="Scene" Name="00 OFF - Corner - PAR - Color" Path=" Color/ PAR/ Corner">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -4727,7 +4731,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Square</Algorithm>
@@ -4863,7 +4867,7 @@
     <StartOffset>180</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -4941,7 +4945,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -4962,7 +4966,7 @@
    </Axis>
   </Function>
   <Function ID="299" Type="RGBMatrix" Name="TEST Matrix" BlendMode="Additive">
-   <Speed FadeIn="0" FadeOut="0" Duration="910"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="106"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Fill Unfill From Center</Algorithm>
@@ -4971,7 +4975,7 @@
    <FixtureGroup>3</FixtureGroup>
   </Function>
   <Function ID="300" Type="RGBMatrix" Name="Sparkle" BlendMode="Additive">
-   <Speed FadeIn="0" FadeOut="0" Duration="910"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="106"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Stripes</Algorithm>
@@ -5218,7 +5222,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -5268,7 +5272,7 @@
     <StartOffset>135</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -5314,18 +5318,18 @@
    <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">361</Step>
   </Function>
   <Function ID="328" Type="RGBMatrix" Name="Wave UP" BlendMode="Additive">
-   <Speed FadeIn="0" FadeOut="0" Duration="910"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="106"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Waves</Algorithm>
    <DimmerControl>1</DimmerControl>
    <MonoColor>4278190080</MonoColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="taillength" Value="50"/>
    <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="50"/>
   </Function>
   <Function ID="329" Type="RGBMatrix" Name="Rainfall" BlendMode="Additive">
-   <Speed FadeIn="0" FadeOut="0" Duration="3640"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="424"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Vertical fall</Algorithm>
@@ -5353,7 +5357,7 @@
    <FixtureVal ID="8">0,76,1,0,2,226,3,255</FixtureVal>
   </Function>
   <Function ID="333" Type="RGBMatrix" Name="RPPR highlight" BlendMode="Additive">
-   <Speed FadeIn="0" FadeOut="0" Duration="910"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="106"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Stripes</Algorithm>
@@ -5362,7 +5366,7 @@
    <FixtureGroup>3</FixtureGroup>
   </Function>
   <Function ID="334" Type="RGBMatrix" Name="Random area">
-   <Speed FadeIn="0" FadeOut="0" Duration="910"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="106"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Balls</Algorithm>
@@ -5557,7 +5561,7 @@
     <StartOffset>45</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="30000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="8000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -5646,7 +5650,7 @@
     <StartOffset>300</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="13040"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="7408"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -5809,7 +5813,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -5902,7 +5906,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Square</Algorithm>
@@ -6100,7 +6104,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="15000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -6391,7 +6395,7 @@
    <Step Number="1">385</Step>
   </Function>
   <Function ID="387" Type="RGBMatrix" Name="Vertical fall Matrix" BlendMode="Additive">
-   <Speed FadeIn="0" FadeOut="0" Duration="910"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="106"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Vertical fall</Algorithm>
@@ -6400,7 +6404,7 @@
    <FixtureGroup>3</FixtureGroup>
   </Function>
   <Function ID="388" Type="RGBMatrix" Name="Vertical fall Matrix (Copy)" BlendMode="Additive">
-   <Speed FadeIn="0" FadeOut="0" Duration="910"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="106"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Balls</Algorithm>
@@ -6657,6 +6661,95 @@
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
+  </Function>
+  <Function ID="404" Type="EFX" Name="Par - O LA LA" Path=" Dimmer">
+   <Fixture>
+    <ID>43</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>37</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>38</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>39</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>40</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>41</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>42</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>44</ID>
+    <Head>0</Head>
+    <Mode>1</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="250"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <Algorithm>Line2</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="405" Type="Scene" Name="O LA LA - All PAR color" Path=" Color/ PAR">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,255,5,0,6,228,7,148</FixtureVal>
+   <FixtureVal ID="10">4,255,5,0,6,186,7,0</FixtureVal>
+   <FixtureVal ID="11">4,215,5,104,6,175,7,116</FixtureVal>
+   <FixtureVal ID="12">4,166,5,76,6,201,7,54</FixtureVal>
+   <FixtureVal ID="13">4,247,5,0,6,139,7,110</FixtureVal>
+   <FixtureVal ID="14">4,255,5,0,6,173,7,29</FixtureVal>
+   <FixtureVal ID="15">4,241,5,0,6,78,7,190</FixtureVal>
+   <FixtureVal ID="16">4,22,5,0,6,207,7,33</FixtureVal>
   </Function>
   <Function ID="20000" Type="Scene" Name="Gobo 1 (reset) - Spot" Path=" Gobo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -7878,27 +7971,27 @@
    <Font>Consolas,11,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
-   <Grid Width="5" Height="3" Units="0"/>
-   <FxItem ID="15" XPos="700" YPos="1500"/>
-   <FxItem ID="14" XPos="4000" YPos="1000"/>
-   <FxItem ID="13" XPos="4000" YPos="500"/>
-   <FxItem ID="12" XPos="2700" YPos="500"/>
-   <FxItem ID="19" XPos="2900" YPos="0"/>
-   <FxItem ID="18" XPos="2350" YPos="0"/>
-   <FxItem ID="17" XPos="1800" YPos="0"/>
-   <FxItem ID="16" XPos="4000" YPos="1500"/>
-   <FxItem ID="3" XPos="1100" YPos="2700"/>
-   <FxItem ID="2" XPos="2900" YPos="2300"/>
-   <FxItem ID="1" XPos="1800" YPos="2300"/>
+   <Grid Width="5" Height="3" Depth="3" Units="0"/>
    <FxItem ID="0" XPos="2400" YPos="2700"/>
-   <FxItem ID="7" XPos="0" YPos="500"/>
-   <FxItem ID="6" XPos="3500" YPos="500"/>
-   <FxItem ID="5" XPos="1200" YPos="500"/>
+   <FxItem ID="1" XPos="1800" YPos="2300"/>
+   <FxItem ID="2" XPos="2900" YPos="2300"/>
+   <FxItem ID="3" XPos="1100" YPos="2700"/>
    <FxItem ID="4" XPos="4500" YPos="2700"/>
-   <FxItem ID="11" XPos="2000" YPos="500"/>
-   <FxItem ID="10" XPos="700" YPos="500"/>
-   <FxItem ID="9" XPos="712" YPos="1000"/>
+   <FxItem ID="5" XPos="1200" YPos="500"/>
+   <FxItem ID="6" XPos="3500" YPos="500"/>
+   <FxItem ID="7" XPos="0" YPos="500"/>
    <FxItem ID="8" XPos="4700" YPos="500"/>
+   <FxItem ID="9" XPos="712" YPos="1000"/>
+   <FxItem ID="10" XPos="700" YPos="500"/>
+   <FxItem ID="11" XPos="2000" YPos="500"/>
+   <FxItem ID="12" XPos="2700" YPos="500"/>
+   <FxItem ID="13" XPos="4000" YPos="500"/>
+   <FxItem ID="14" XPos="4000" YPos="1000"/>
+   <FxItem ID="15" XPos="700" YPos="1500"/>
+   <FxItem ID="16" XPos="4000" YPos="1500"/>
+   <FxItem ID="17" XPos="1800" YPos="0"/>
+   <FxItem ID="18" XPos="2350" YPos="0"/>
+   <FxItem ID="19" XPos="2900" YPos="0"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
@@ -9027,7 +9120,7 @@
      <ShowEnableButton>False</ShowEnableButton>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Multipage PagesNum="3" CurrentPage="1"/>
+     <Multipage PagesNum="3" CurrentPage="0"/>
      <Next>
       <Input Universe="1" Channel="195" UpperValue="5"/>
      </Next>
@@ -9039,7 +9132,7 @@
      <Shortcut Page="2" Name="Page: 3"/>
      <PagesLoop>False</PagesLoop>
      <CueList Caption="" ID="35" Page="1">
-      <WindowState Visible="True" X="5" Y="40" Width="410" Height="250"/>
+      <WindowState Visible="False" X="5" Y="40" Width="410" Height="250"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -9102,7 +9195,7 @@
       <SlidersMode>Steps</SlidersMode>
      </CueList>
      <CueList Caption="Cue list" ID="37">
-      <WindowState Visible="False" X="0" Y="40" Width="420" Height="255"/>
+      <WindowState Visible="True" X="0" Y="40" Width="420" Height="255"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -9127,7 +9220,7 @@
       <SlidersMode>Crossfade</SlidersMode>
      </CueList>
      <CueList Caption="Cue list" ID="324" Page="1">
-      <WindowState Visible="True" X="0" Y="40" Width="420" Height="255"/>
+      <WindowState Visible="False" X="0" Y="40" Width="420" Height="255"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -10014,7 +10107,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="1" Channel="214" LowerValue="1" UpperValue="2"/>
      </Button>
-     <Button Caption="" ID="209" Icon="">
+     <Button Caption="O LA LA" ID="209" Icon="">
       <WindowState Visible="True" X="5" Y="205" Width="70" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -10023,7 +10116,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="404"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="1" Channel="215" LowerValue="1" UpperValue="2"/>
@@ -10193,7 +10286,7 @@
      </Appearance>
      <Visibility>65648</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>60000</Time>
+     <Time>20000</Time>
      <Function FadeIn="0" FadeOut="0" Duration="5">114</Function>
      <Preset ID="17">
       <Name>20s</Name>
@@ -12434,7 +12527,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="82">
+      <Level LowLimit="0" HighLimit="255" Value="85">
        <Channel Fixture="3">0</Channel>
       </Level>
       <Playback>
@@ -12454,7 +12547,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="82">
+      <Level LowLimit="0" HighLimit="255" Value="85">
        <Channel Fixture="4">0</Channel>
       </Level>
       <Playback>
@@ -12494,7 +12587,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="88">
+      <Level LowLimit="0" HighLimit="255" Value="83">
        <Channel Fixture="7">0</Channel>
       </Level>
       <Playback>
@@ -12514,7 +12607,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="84">
+      <Level LowLimit="0" HighLimit="255" Value="86">
        <Channel Fixture="6">0</Channel>
       </Level>
       <Playback>
@@ -12534,7 +12627,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="85">
+      <Level LowLimit="0" HighLimit="255" Value="86">
        <Channel Fixture="5">0</Channel>
       </Level>
       <Playback>
@@ -12554,7 +12647,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="68">
+      <Level LowLimit="0" HighLimit="255" Value="120">
        <Channel Fixture="1">1</Channel>
       </Level>
       <Playback>
@@ -12574,7 +12667,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="172">
+      <Level LowLimit="0" HighLimit="255" Value="120">
        <Channel Fixture="2">1</Channel>
       </Level>
       <Playback>
@@ -12594,7 +12687,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="106">
+      <Level LowLimit="0" HighLimit="255" Value="120">
        <Channel Fixture="3">1</Channel>
       </Level>
       <Playback>
@@ -12614,7 +12707,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="54">
+      <Level LowLimit="0" HighLimit="255" Value="120">
        <Channel Fixture="4">1</Channel>
       </Level>
       <Playback>
@@ -12634,7 +12727,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="248">
+      <Level LowLimit="0" HighLimit="255" Value="228">
        <Channel Fixture="8">1</Channel>
       </Level>
       <Playback>
@@ -12654,7 +12747,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="29">
+      <Level LowLimit="0" HighLimit="255" Value="215">
        <Channel Fixture="7">1</Channel>
       </Level>
       <Playback>
@@ -12674,7 +12767,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="167">
+      <Level LowLimit="0" HighLimit="255" Value="20">
        <Channel Fixture="6">1</Channel>
       </Level>
       <Playback>
@@ -12694,7 +12787,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="92">
+      <Level LowLimit="0" HighLimit="255" Value="20">
        <Channel Fixture="5">1</Channel>
       </Level>
       <Playback>
@@ -12734,7 +12827,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="236">
        <Channel Fixture="1">2</Channel>
       </Level>
       <Playback>
@@ -12754,7 +12847,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="236">
        <Channel Fixture="2">2</Channel>
       </Level>
       <Playback>
@@ -12774,7 +12867,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="236">
        <Channel Fixture="3">2</Channel>
       </Level>
       <Playback>
@@ -12794,7 +12887,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="236">
        <Channel Fixture="4">2</Channel>
       </Level>
       <Playback>
@@ -12814,7 +12907,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="236">
        <Channel Fixture="8">2</Channel>
       </Level>
       <Playback>
@@ -12834,7 +12927,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="236">
        <Channel Fixture="7">2</Channel>
       </Level>
       <Playback>
@@ -12854,7 +12947,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="236">
        <Channel Fixture="6">2</Channel>
       </Level>
       <Playback>
@@ -12874,7 +12967,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="236">
        <Channel Fixture="5">2</Channel>
       </Level>
       <Playback>
@@ -12894,7 +12987,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="254">
+      <Level LowLimit="0" HighLimit="255" Value="184">
        <Channel Fixture="1">3</Channel>
       </Level>
       <Playback>
@@ -12914,7 +13007,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="254">
+      <Level LowLimit="0" HighLimit="255" Value="184">
        <Channel Fixture="2">3</Channel>
       </Level>
       <Playback>
@@ -12934,7 +13027,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="254">
+      <Level LowLimit="0" HighLimit="255" Value="184">
        <Channel Fixture="3">3</Channel>
       </Level>
       <Playback>
@@ -12954,7 +13047,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="254">
+      <Level LowLimit="0" HighLimit="255" Value="184">
        <Channel Fixture="4">3</Channel>
       </Level>
       <Playback>
@@ -12974,7 +13067,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="184">
        <Channel Fixture="8">3</Channel>
       </Level>
       <Playback>
@@ -12994,7 +13087,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="254">
+      <Level LowLimit="0" HighLimit="255" Value="184">
        <Channel Fixture="7">3</Channel>
       </Level>
       <Playback>
@@ -13014,7 +13107,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="254">
+      <Level LowLimit="0" HighLimit="255" Value="210">
        <Channel Fixture="6">3</Channel>
       </Level>
       <Playback>
@@ -13034,7 +13127,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="210">
        <Channel Fixture="5">3</Channel>
       </Level>
       <Playback>
@@ -13070,7 +13163,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">4</Channel>
       </Level>
       <Playback>
@@ -13090,7 +13183,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="1">4</Channel>
       </Level>
       <Playback>
@@ -13110,7 +13203,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="2">4</Channel>
       </Level>
       <Playback>
@@ -13130,7 +13223,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="4">4</Channel>
       </Level>
       <Playback>
@@ -13150,7 +13243,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="7">4</Channel>
       </Level>
       <Playback>
@@ -13170,7 +13263,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="5">4</Channel>
       </Level>
       <Playback>
@@ -13190,7 +13283,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="6">4</Channel>
       </Level>
       <Playback>
@@ -13210,7 +13303,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="8">4</Channel>
       </Level>
       <Playback>
@@ -13230,7 +13323,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="1">4</Channel>
        <Channel Fixture="2">4</Channel>
        <Channel Fixture="3">4</Channel>
@@ -13882,7 +13975,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">4</Channel>
       </Level>
       <Playback>
@@ -13902,7 +13995,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="1">4</Channel>
       </Level>
       <Playback>
@@ -13922,7 +14015,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="2">4</Channel>
       </Level>
       <Playback>
@@ -13942,7 +14035,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="4">4</Channel>
       </Level>
       <Playback>
@@ -13962,7 +14055,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="7">4</Channel>
       </Level>
       <Playback>
@@ -13982,7 +14075,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="5">4</Channel>
       </Level>
       <Playback>
@@ -14002,7 +14095,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="6">4</Channel>
       </Level>
       <Playback>
@@ -14022,7 +14115,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="8">4</Channel>
       </Level>
       <Playback>
@@ -14042,7 +14135,7 @@
       <Reset>
        <Input Universe="2" Channel="7"/>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="44">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="1">4</Channel>
        <Channel Fixture="2">4</Channel>
        <Channel Fixture="3">4</Channel>
@@ -14132,7 +14225,7 @@
        <Reset>
         <Input Universe="2" Channel="7"/>
        </Reset>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="110">
         <Channel Fixture="18">0</Channel>
        </Level>
        <Playback>
@@ -14152,7 +14245,7 @@
        <Reset>
         <Input Universe="2" Channel="7"/>
        </Reset>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="110">
         <Channel Fixture="19">0</Channel>
        </Level>
        <Playback>
@@ -14172,7 +14265,7 @@
        <Reset>
         <Input Universe="2" Channel="7"/>
        </Reset>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="110">
         <Channel Fixture="17">0</Channel>
        </Level>
        <Playback>
@@ -14430,7 +14523,7 @@
        <Reset>
         <Input Universe="2" Channel="7"/>
        </Reset>
-       <Level LowLimit="0" HighLimit="255" Value="0">
+       <Level LowLimit="0" HighLimit="255" Value="110">
         <Channel Fixture="17">0</Channel>
        </Level>
        <Playback>
@@ -14959,7 +15052,7 @@
       <MultDivReset>
        <Input Universe="2" Channel="8"/>
       </MultDivReset>
-      <Time>1180</Time>
+      <Time>180</Time>
       <Function FadeIn="6" FadeOut="6" Duration="0">123</Function>
       <Function FadeIn="8" FadeOut="8" Duration="0">11</Function>
       <Function FadeIn="6" FadeOut="6" Duration="0">14</Function>
@@ -15002,7 +15095,7 @@
       </Appearance>
       <Visibility>65636</Visibility>
       <AbsoluteValue Minimum="0" Maximum="10000"/>
-      <Time>815</Time>
+      <Time>463</Time>
       <Function FadeIn="0" FadeOut="0" Duration="6">187</Function>
       <Function FadeIn="0" FadeOut="0" Duration="6">189</Function>
       <Function FadeIn="0" FadeOut="0" Duration="6">188</Function>
@@ -15049,7 +15142,7 @@
       </Appearance>
       <Visibility>65632</Visibility>
       <AbsoluteValue Minimum="0" Maximum="10000"/>
-      <Time>910</Time>
+      <Time>106</Time>
       <Function FadeIn="0" FadeOut="0" Duration="6">328</Function>
       <Function FadeIn="0" FadeOut="0" Duration="6">388</Function>
       <Function FadeIn="0" FadeOut="0" Duration="6">387</Function>
@@ -15100,7 +15193,7 @@
       </Appearance>
       <Visibility>65636</Visibility>
       <AbsoluteValue Minimum="0" Maximum="10000"/>
-      <Time>15000</Time>
+      <Time>4000</Time>
       <Function FadeIn="0" FadeOut="0" Duration="6">366</Function>
       <Function FadeIn="0" FadeOut="0" Duration="7">342</Function>
       <Function FadeIn="0" FadeOut="0" Duration="6">279</Function>
@@ -15230,7 +15323,7 @@
      <Reset>
       <Input Universe="2" Channel="7"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="240">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="35">0</Channel>
      </Level>
      <Playback>
@@ -16141,7 +16234,7 @@
      </Appearance>
      <Input Universe="1" Channel="56"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="248">
       <Channel Fixture="20">8</Channel>
      </Level>
      <Playback>
@@ -16159,7 +16252,7 @@
      </Appearance>
      <Input Universe="1" Channel="51"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="1" HighLimit="255" Value="0">
+     <Level LowLimit="1" HighLimit="255" Value="1">
       <Channel Fixture="20">3</Channel>
      </Level>
      <Playback>
@@ -16177,7 +16270,7 @@
      </Appearance>
      <Input Universe="1" Channel="52"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="1" HighLimit="255" Value="0">
+     <Level LowLimit="1" HighLimit="255" Value="1">
       <Channel Fixture="20">4</Channel>
      </Level>
      <Playback>
@@ -16195,7 +16288,7 @@
      </Appearance>
      <Input Universe="1" Channel="54"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="100">
       <Channel Fixture="9">3</Channel>
       <Channel Fixture="10">3</Channel>
       <Channel Fixture="11">3</Channel>
@@ -16220,7 +16313,7 @@
      </Appearance>
      <Input Universe="1" Channel="53"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="1" HighLimit="255" Value="0">
+     <Level LowLimit="1" HighLimit="255" Value="1">
       <Channel Fixture="5">7</Channel>
       <Channel Fixture="6">7</Channel>
       <Channel Fixture="7">7</Channel>
@@ -16315,7 +16408,7 @@
     </Appearance>
     <Input Universe="1" Channel="50"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="110">
      <Channel Fixture="17">0</Channel>
      <Channel Fixture="18">0</Channel>
      <Channel Fixture="19">0</Channel>
