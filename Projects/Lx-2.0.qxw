@@ -4,13 +4,12 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.2</Version>
-  <Author>Tymek</Author>
+  <Author>x</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <Universe Name="STAGE" ID="0" Passthrough="True">
-    <Input Plugin="Loopback" Line="1"/>
-    <Output Plugin="DMX USB" Line="0"/>
+    <Input Plugin="Loopback" Line="2"/>
    </Universe>
    <Universe Name="PAD" ID="1">
     <Input Plugin="MIDI" Line="0"/>
@@ -19,24 +18,27 @@
    <Universe Name="CONTROL" ID="2">
     <Input Plugin="Loopback" Line="0"/>
     <Output Plugin="Loopback" Line="0">
-     <PluginParameters UniverseChannels="2"/>
+     <PluginParameters UniverseChannels="7"/>
     </Output>
    </Universe>
    <Universe Name="VIRTUAL" ID="3">
-    <Output Plugin="Loopback" Line="1">
+    <Input Plugin="Loopback" Line="1"/>
+    <Output Plugin="Loopback" Line="2">
      <PluginParameters UniverseChannels="50"/>
     </Output>
    </Universe>
   </InputOutputMap>
   <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic Smoke</Model>
-   <Mode>Amount</Mode>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>Fog machine</Model>
+   <Mode>On/Off</Mode>
    <ID>0</ID>
    <Name>Fog</Name>
    <Universe>0</Universe>
    <Address>132</Address>
    <Channels>1</Channels>
+   <ForcedHTP>0</ForcedHTP>
+   <Modifier Channel="0" Name="Threshold"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -47,6 +49,9 @@
    <Universe>0</Universe>
    <Address>161</Address>
    <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -57,6 +62,9 @@
    <Universe>0</Universe>
    <Address>172</Address>
    <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -67,6 +75,9 @@
    <Universe>0</Universe>
    <Address>183</Address>
    <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -77,6 +88,9 @@
    <Universe>0</Universe>
    <Address>194</Address>
    <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -87,6 +101,9 @@
    <Universe>0</Universe>
    <Address>205</Address>
    <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -97,6 +114,9 @@
    <Universe>0</Universe>
    <Address>216</Address>
    <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -107,6 +127,9 @@
    <Universe>0</Universe>
    <Address>227</Address>
    <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -117,6 +140,9 @@
    <Universe>0</Universe>
    <Address>238</Address>
    <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -127,6 +153,11 @@
    <Universe>0</Universe>
    <Address>309</Address>
    <Channels>8</Channels>
+   <ForcedLTP>4,5,6,7</ForcedLTP>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -137,6 +168,10 @@
    <Universe>0</Universe>
    <Address>319</Address>
    <Channels>8</Channels>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -147,6 +182,10 @@
    <Universe>0</Universe>
    <Address>329</Address>
    <Channels>8</Channels>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -157,6 +196,10 @@
    <Universe>0</Universe>
    <Address>339</Address>
    <Channels>8</Channels>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -167,6 +210,10 @@
    <Universe>0</Universe>
    <Address>349</Address>
    <Channels>8</Channels>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -177,6 +224,10 @@
    <Universe>0</Universe>
    <Address>359</Address>
    <Channels>8</Channels>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -187,6 +238,10 @@
    <Universe>0</Universe>
    <Address>369</Address>
    <Channels>8</Channels>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -197,6 +252,10 @@
    <Universe>0</Universe>
    <Address>379</Address>
    <Channels>8</Channels>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -228,6 +287,140 @@
    <Address>429</Address>
    <Channels>6</Channels>
   </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>2</Mode>
+   <ID>20</ID>
+   <Name>INIT/HALT</Name>
+   <Universe>2</Universe>
+   <Address>0</Address>
+   <Channels>2</Channels>
+   <ForcedHTP>0,1</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>2</Mode>
+   <ID>21</ID>
+   <Name>LIVE/PREPARE</Name>
+   <Universe>2</Universe>
+   <Address>2</Address>
+   <Channels>2</Channels>
+   <ForcedHTP>0,1</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>1</Mode>
+   <ID>22</ID>
+   <Name>STATE</Name>
+   <Universe>2</Universe>
+   <Address>4</Address>
+   <Channels>1</Channels>
+   <ForcedHTP>0</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>2</Mode>
+   <ID>23</ID>
+   <Name>GO page lock</Name>
+   <Universe>2</Universe>
+   <Address>5</Address>
+   <Channels>2</Channels>
+   <ForcedHTP>0,1</ForcedHTP>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="1. Initilize" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="2. Halt" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">0,0,1,255</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="3. Toggle Live" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="4. Prepare" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">0,0,1,255</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="5. State HIGH" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="22">0,255</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="6. Show GO page" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="23">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="7. Hide GO page" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="23">0,0,1,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Chaser" Name="State" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+  </Function>
+  <Function ID="8" Type="Chaser" Name="State - High" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="25"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="3" FadeIn="0" Hold="25" FadeOut="0">4</Step>
+  </Function>
+  <Function ID="9" Type="Chaser" Name="State - Low" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="25"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+  </Function>
+  <Function ID="10" Type="Collection" Name="5. State HIGH &amp; 7. Hide GO">
+   <Step Number="0">4</Step>
+   <Step Number="1">6</Step>
+  </Function>
+  <Function ID="11" Type="Collection" Name="5. State HIGH &amp; 3. Toggle Live">
+   <Step Number="0">4</Step>
+   <Step Number="1">2</Step>
+  </Function>
+  <Function ID="12" Type="Scene" Name="0. … NOOP" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="13" Type="Chaser" Name="Live" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="100" FadeOut="0">4</Step>
+   <Step Number="1" FadeIn="0" Hold="4294967294" FadeOut="0">4</Step>
+  </Function>
+  <Function ID="14" Type="Chaser" Name="Go" Path="Utils">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="100" FadeOut="0">4</Step>
+  </Function>
+  <Function ID="15" Type="Chaser" Name="NOOP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+  </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Consolas,11,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -240,13 +433,149 @@
    <Appearance>
     <FrameStyle>None</FrameStyle>
     <ForegroundColor>Default</ForegroundColor>
-    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundColor>4281874488</BackgroundColor>
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
+   <Clock Type="Clock" Caption="" ID="3">
+    <WindowState Visible="False" X="20" Y="15" Width="150" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4279769112</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>MS Shell Dlg 2,-1,28,5,75,0,0,0,0,0</Font>
+    </Appearance>
+   </Clock>
+   <CueList Caption="Cue list" ID="0">
+    <WindowState Visible="False" X="20" Y="80" Width="190" Height="180"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Chaser>7</Chaser>
+    <NextPrevBehavior>0</NextPrevBehavior>
+    <Next>
+     <Input Universe="2" Channel="0"/>
+    </Next>
+    <Previous/>
+    <Playback/>
+    <Stop>
+     <Input Universe="2" Channel="1"/>
+    </Stop>
+    <SlidersMode>Steps</SlidersMode>
+    <CrossLeft>
+     <Input Universe="2" Channel="4"/>
+    </CrossLeft>
+   </CueList>
+   <Button Caption="Live" ID="1" Icon="">
+    <WindowState Visible="False" X="260" Y="45" Width="95" Height="60"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4293918724</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="13"/>
+    <Action>Toggle</Action>
+    <Key>L</Key>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Init" ID="4" Icon="">
+    <WindowState Visible="False" X="110" Y="315" Width="95" Height="60"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="0"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="2" Channel="0"/>
+   </Button>
+   <CueList Caption="Cue list" ID="5">
+    <WindowState Visible="False" X="875" Y="90" Width="285" Height="285"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Chaser>15</Chaser>
+    <NextPrevBehavior>0</NextPrevBehavior>
+    <Next/>
+    <Previous/>
+    <Playback>
+     <Input Universe="2" Channel="2"/>
+    </Playback>
+    <Stop>
+     <Input Universe="2" Channel="3"/>
+    </Stop>
+    <SlidersMode>Crossfade</SlidersMode>
+   </CueList>
+   <SoloFrame Caption="" ID="6">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="235" Y="125" Width="230" Height="140"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>False</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Multipage PagesNum="2" CurrentPage="0"/>
+    <Shortcut Page="0" Name="Page: 1">
+     <Input Universe="2" Channel="5"/>
+    </Shortcut>
+    <Shortcut Page="1" Name="Page: 2">
+     <Input Universe="2" Channel="6"/>
+    </Shortcut>
+    <PagesLoop>False</PagesLoop>
+    <Button Caption="Go" ID="2" Icon="">
+     <WindowState Visible="False" X="55" Y="65" Width="95" Height="60"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4278190335</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="14"/>
+     <Action>Toggle</Action>
+     <Key>Space</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <Button Caption="Stop" ID="7" Icon="">
+    <WindowState Visible="False" X="225" Y="315" Width="95" Height="60"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="1"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="True">100</Intensity>
+    <Input Universe="2" Channel="1"/>
+   </Button>
   </Frame>
   <Properties>
-   <Size Width="1920" Height="1080"/>
+   <Size Width="1280" Height="1280"/>
    <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
   </Properties>
  </VirtualConsole>
