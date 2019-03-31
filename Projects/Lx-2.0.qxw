@@ -18,7 +18,7 @@
    <Universe Name="CONTROL" ID="2">
     <Input Plugin="Loopback" Line="0"/>
     <Output Plugin="Loopback" Line="0">
-     <PluginParameters UniverseChannels="7"/>
+     <PluginParameters UniverseChannels="144"/>
     </Output>
    </Universe>
    <Universe Name="VIRTUAL" ID="3">
@@ -50,8 +50,8 @@
    <Address>161</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -63,8 +63,8 @@
    <Address>172</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -76,8 +76,8 @@
    <Address>183</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -89,8 +89,8 @@
    <Address>194</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -102,8 +102,8 @@
    <Address>205</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -115,8 +115,8 @@
    <Address>216</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -128,8 +128,8 @@
    <Address>227</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -141,8 +141,8 @@
    <Address>238</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -155,9 +155,9 @@
    <Channels>8</Channels>
    <ForcedLTP>4,5,6,7</ForcedLTP>
    <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -169,9 +169,9 @@
    <Address>319</Address>
    <Channels>8</Channels>
    <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -183,9 +183,9 @@
    <Address>329</Address>
    <Channels>8</Channels>
    <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -197,9 +197,9 @@
    <Address>339</Address>
    <Channels>8</Channels>
    <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -211,9 +211,9 @@
    <Address>349</Address>
    <Channels>8</Channels>
    <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -225,9 +225,9 @@
    <Address>359</Address>
    <Channels>8</Channels>
    <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -239,9 +239,9 @@
    <Address>369</Address>
    <Channels>8</Channels>
    <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -253,9 +253,9 @@
    <Address>379</Address>
    <Channels>8</Channels>
    <Modifier Channel="6" Name="Exponential Shallow"/>
-   <Modifier Channel="0" Name="Exponential Shallow"/>
-   <Modifier Channel="5" Name="Preheat 5 Percent"/>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -330,6 +330,46 @@
    <Address>5</Address>
    <Channels>2</Channels>
    <ForcedHTP>0,1</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>4</Mode>
+   <ID>24</ID>
+   <Name>Colors</Name>
+   <Universe>2</Universe>
+   <Address>120</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>2</Mode>
+   <ID>25</ID>
+   <Name>Dimmers</Name>
+   <Universe>2</Universe>
+   <Address>100</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>1</Mode>
+   <ID>26</ID>
+   <Name>Gobo</Name>
+   <Universe>2</Universe>
+   <Address>130</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>2</Mode>
+   <ID>27</ID>
+   <Name>Position</Name>
+   <Universe>2</Universe>
+   <Address>140</Address>
+   <Channels>2</Channels>
   </Fixture>
   <Function ID="0" Type="Scene" Name="1. Initilize" Path="Utils">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -500,7 +540,7 @@
     <Input Universe="2" Channel="0"/>
    </Button>
    <CueList Caption="Cue list" ID="5">
-    <WindowState Visible="False" X="875" Y="90" Width="285" Height="285"/>
+    <WindowState Visible="False" X="730" Y="185" Width="285" Height="285"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
