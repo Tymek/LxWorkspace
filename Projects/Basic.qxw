@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.2</Version>
+  <Author>x</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="STAGE" ID="0" Passthrough="True">
+    <Input Plugin="Loopback" Line="2"/>
+    <Output Plugin="DMX USB" Line="0">
+     <PluginParameters UniverseChannels="435"/>
+    </Output>
+   </Universe>
+   <Universe Name="PAD" ID="1">
+    <Input Plugin="MIDI" Line="0"/>
+    <Feedback Plugin="MIDI" Line="1"/>
+   </Universe>
+   <Universe Name="CONTROL" ID="2">
+    <Input Plugin="Loopback" Line="0"/>
+    <Output Plugin="Loopback" Line="0">
+     <PluginParameters UniverseChannels="145"/>
+    </Output>
+   </Universe>
+   <Universe Name="VIRTUAL" ID="3">
+    <Input Plugin="Loopback" Line="1"/>
+    <Output Plugin="Loopback" Line="2">
+     <PluginParameters UniverseChannels="50"/>
+    </Output>
+   </Universe>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>Fog machine</Model>
+   <Mode>On/Off</Mode>
+   <ID>0</ID>
+   <Name>Fog</Name>
+   <Universe>0</Universe>
+   <Address>132</Address>
+   <Channels>1</Channels>
+   <ForcedHTP>0</ForcedHTP>
+   <Modifier Channel="0" Name="Threshold"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>LedSpot Moving Head</Model>
+   <Mode>11 Channel</Mode>
+   <ID>1</ID>
+   <Name>Spot #2</Name>
+   <Universe>0</Universe>
+   <Address>161</Address>
+   <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>LedSpot Moving Head</Model>
+   <Mode>11 Channel</Mode>
+   <ID>2</ID>
+   <Name>Spot #3</Name>
+   <Universe>0</Universe>
+   <Address>172</Address>
+   <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>LedSpot Moving Head</Model>
+   <Mode>11 Channel</Mode>
+   <ID>3</ID>
+   <Name>Spot #1</Name>
+   <Universe>0</Universe>
+   <Address>183</Address>
+   <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>LedSpot Moving Head</Model>
+   <Mode>11 Channel</Mode>
+   <ID>4</ID>
+   <Name>Spot #4</Name>
+   <Universe>0</Universe>
+   <Address>194</Address>
+   <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>LedSpot Moving Head</Model>
+   <Mode>11 Channel</Mode>
+   <ID>5</ID>
+   <Name>Spot #6</Name>
+   <Universe>0</Universe>
+   <Address>205</Address>
+   <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>LedSpot Moving Head</Model>
+   <Mode>11 Channel</Mode>
+   <ID>6</ID>
+   <Name>Spot #7</Name>
+   <Universe>0</Universe>
+   <Address>216</Address>
+   <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="8" Name="Exponential Medium Invert"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>LedSpot Moving Head</Model>
+   <Mode>11 Channel</Mode>
+   <ID>7</ID>
+   <Name>Spot #5</Name>
+   <Universe>0</Universe>
+   <Address>227</Address>
+   <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>LedSpot Moving Head</Model>
+   <Mode>11 Channel</Mode>
+   <ID>8</ID>
+   <Name>Spot #8</Name>
+   <Universe>0</Universe>
+   <Address>238</Address>
+   <Channels>11</Channels>
+   <ForcedHTP>8</ForcedHTP>
+   <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGBW LED PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>9</ID>
+   <Name>PAR #2</Name>
+   <Universe>0</Universe>
+   <Address>309</Address>
+   <Channels>8</Channels>
+   <ForcedLTP>4,5,6,7</ForcedLTP>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGBW LED PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>10</ID>
+   <Name>PAR #3</Name>
+   <Universe>0</Universe>
+   <Address>319</Address>
+   <Channels>8</Channels>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGBW LED PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>11</ID>
+   <Name>PAR #4</Name>
+   <Universe>0</Universe>
+   <Address>329</Address>
+   <Channels>8</Channels>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGBW LED PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>12</ID>
+   <Name>PAR #5</Name>
+   <Universe>0</Universe>
+   <Address>339</Address>
+   <Channels>8</Channels>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGBW LED PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>13</ID>
+   <Name>PAR #6</Name>
+   <Universe>0</Universe>
+   <Address>349</Address>
+   <Channels>8</Channels>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGBW LED PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>14</ID>
+   <Name>PAR #7</Name>
+   <Universe>0</Universe>
+   <Address>359</Address>
+   <Channels>8</Channels>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGBW LED PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>15</ID>
+   <Name>PAR #1</Name>
+   <Universe>0</Universe>
+   <Address>369</Address>
+   <Channels>8</Channels>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>RGBW LED PAR</Model>
+   <Mode>8ch</Mode>
+   <ID>16</ID>
+   <Name>PAR #8</Name>
+   <Universe>0</Universe>
+   <Address>379</Address>
+   <Channels>8</Channels>
+   <Modifier Channel="4" Name="Logarithmic Shallow"/>
+   <Modifier Channel="5" Name="Preheat 5 Percent"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
+   <Modifier Channel="0" Name="Exponential Shallow"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>WA LED PAR</Model>
+   <Mode>6 Channels Mode</Mode>
+   <ID>17</ID>
+   <Name>Front #1</Name>
+   <Universe>0</Universe>
+   <Address>409</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>WA LED PAR</Model>
+   <Mode>6 Channels Mode</Mode>
+   <ID>18</ID>
+   <Name>Front #2</Name>
+   <Universe>0</Universe>
+   <Address>419</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NoName</Manufacturer>
+   <Model>WA LED PAR</Model>
+   <Mode>6 Channels Mode</Mode>
+   <ID>19</ID>
+   <Name>Front #3</Name>
+   <Universe>0</Universe>
+   <Address>429</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>2</Mode>
+   <ID>20</ID>
+   <Name>INIT/HALT</Name>
+   <Universe>2</Universe>
+   <Address>0</Address>
+   <Channels>2</Channels>
+   <ForcedHTP>0,1</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>2</Mode>
+   <ID>21</ID>
+   <Name>LIVE/PREPARE</Name>
+   <Universe>2</Universe>
+   <Address>2</Address>
+   <Channels>2</Channels>
+   <ForcedHTP>0,1</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>1</Mode>
+   <ID>22</ID>
+   <Name>STATE</Name>
+   <Universe>2</Universe>
+   <Address>4</Address>
+   <Channels>1</Channels>
+   <ForcedHTP>0</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>2</Mode>
+   <ID>23</ID>
+   <Name>GO page lock</Name>
+   <Universe>2</Universe>
+   <Address>5</Address>
+   <Channels>2</Channels>
+   <ForcedHTP>0,1</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>4</Mode>
+   <ID>24</ID>
+   <Name>Colors</Name>
+   <Universe>2</Universe>
+   <Address>120</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>2</Mode>
+   <ID>25</ID>
+   <Name>Dimmers</Name>
+   <Universe>2</Universe>
+   <Address>100</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>1</Mode>
+   <ID>26</ID>
+   <Name>Gobo</Name>
+   <Universe>2</Universe>
+   <Address>130</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>2</Mode>
+   <ID>27</ID>
+   <Name>Position</Name>
+   <Universe>2</Universe>
+   <Address>140</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>1</Mode>
+   <ID>28</ID>
+   <Name>Movement</Name>
+   <Universe>2</Universe>
+   <Address>144</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Virtual</Manufacturer>
+   <Model>Loopback</Model>
+   <Mode>1</Mode>
+   <ID>29</ID>
+   <Name>Fog</Name>
+   <Universe>2</Universe>
+   <Address>132</Address>
+   <Channels>1</Channels>
+   <Modifier Channel="0" Name="Logarithmic Medium Invert"/>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="Front - jasność">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="17">0,255</FixtureVal>
+   <FixtureVal ID="18">0,255</FixtureVal>
+   <FixtureVal ID="19">0,255</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Collection" Name="5. State HIGH &amp; 7. Hide GO" Path="Utils"/>
+  <Function ID="11" Type="Collection" Name="5. State HIGH &amp; 3. Toggle Live" Path="Utils"/>
+  <Function ID="15" Type="Chaser" Name="…">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+  </Function>
+  <Function ID="40" Type="Chaser" Name="Emmit fog">
+   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Consolas,11,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>4281874488</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <XYPad Caption="Spot positions" ID="27" InvertedAppearance="0">
+    <WindowState Visible="True" X="25" Y="750" Width="940" Height="485"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Fixture ID="3" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="1" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="2" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="4" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="7" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="5" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="6" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Fixture ID="8" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Pan Position="0"/>
+    <Tilt Position="0"/>
+    <Preset ID="16">
+     <Type>FixtureGroup</Type>
+     <Name>1</Name>
+     <Fixture ID="3" Head="0"/>
+    </Preset>
+    <Preset ID="17">
+     <Type>FixtureGroup</Type>
+     <Name>2</Name>
+     <Fixture ID="1" Head="0"/>
+    </Preset>
+    <Preset ID="18">
+     <Type>FixtureGroup</Type>
+     <Name>3</Name>
+     <Fixture ID="2" Head="0"/>
+    </Preset>
+    <Preset ID="19">
+     <Type>FixtureGroup</Type>
+     <Name>4</Name>
+     <Fixture ID="4" Head="0"/>
+    </Preset>
+    <Preset ID="20">
+     <Type>FixtureGroup</Type>
+     <Name>5</Name>
+     <Fixture ID="7" Head="0"/>
+    </Preset>
+    <Preset ID="21">
+     <Type>FixtureGroup</Type>
+     <Name>6</Name>
+     <Fixture ID="5" Head="0"/>
+    </Preset>
+    <Preset ID="22">
+     <Type>FixtureGroup</Type>
+     <Name>7</Name>
+     <Fixture ID="6" Head="0"/>
+    </Preset>
+    <Preset ID="23">
+     <Type>FixtureGroup</Type>
+     <Name>8</Name>
+     <Fixture ID="8" Head="0"/>
+    </Preset>
+    <Preset ID="24">
+     <Type>FixtureGroup</Type>
+     <Name>bottom</Name>
+     <Fixture ID="3" Head="0"/>
+     <Fixture ID="1" Head="0"/>
+     <Fixture ID="2" Head="0"/>
+     <Fixture ID="4" Head="0"/>
+    </Preset>
+    <Preset ID="25">
+     <Type>FixtureGroup</Type>
+     <Name>top</Name>
+     <Fixture ID="7" Head="0"/>
+     <Fixture ID="5" Head="0"/>
+     <Fixture ID="6" Head="0"/>
+     <Fixture ID="8" Head="0"/>
+    </Preset>
+   </XYPad>
+   <Frame Caption="" ID="20">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="345" Y="15" Width="680" Height="370"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Spot kolor" ID="14" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="520" Y="30" Width="105" Height="150"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4278255360</ForegroundColor>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="4">
+      <Channel Fixture="1">4</Channel>
+      <Channel Fixture="2">4</Channel>
+      <Channel Fixture="3">4</Channel>
+      <Channel Fixture="4">4</Channel>
+      <Channel Fixture="5">4</Channel>
+      <Channel Fixture="6">4</Channel>
+      <Channel Fixture="7">4</Channel>
+      <Channel Fixture="8">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="GOBO" ID="15" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="520" Y="180" Width="105" Height="150"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4278255360</ForegroundColor>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="3">
+      <Channel Fixture="1">5</Channel>
+      <Channel Fixture="2">5</Channel>
+      <Channel Fixture="3">5</Channel>
+      <Channel Fixture="4">5</Channel>
+      <Channel Fixture="5">5</Channel>
+      <Channel Fixture="6">5</Channel>
+      <Channel Fixture="7">5</Channel>
+      <Channel Fixture="8">5</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="Dym" ID="18" Icon="">
+     <WindowState Visible="True" X="205" Y="240" Width="60" Height="75"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4278255360</ForegroundColor>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="40"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Slider Caption="PAR kolor" ID="19" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="190" Y="35" Width="90" Height="180"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="128">
+      <Channel Fixture="9">4</Channel>
+      <Channel Fixture="9">5</Channel>
+      <Channel Fixture="9">6</Channel>
+      <Channel Fixture="9">7</Channel>
+      <Channel Fixture="10">4</Channel>
+      <Channel Fixture="10">5</Channel>
+      <Channel Fixture="10">6</Channel>
+      <Channel Fixture="10">7</Channel>
+      <Channel Fixture="11">4</Channel>
+      <Channel Fixture="11">5</Channel>
+      <Channel Fixture="11">6</Channel>
+      <Channel Fixture="11">7</Channel>
+      <Channel Fixture="12">4</Channel>
+      <Channel Fixture="12">5</Channel>
+      <Channel Fixture="12">6</Channel>
+      <Channel Fixture="12">7</Channel>
+      <Channel Fixture="13">4</Channel>
+      <Channel Fixture="13">5</Channel>
+      <Channel Fixture="13">6</Channel>
+      <Channel Fixture="13">7</Channel>
+      <Channel Fixture="14">4</Channel>
+      <Channel Fixture="14">5</Channel>
+      <Channel Fixture="14">6</Channel>
+      <Channel Fixture="14">7</Channel>
+      <Channel Fixture="15">4</Channel>
+      <Channel Fixture="15">5</Channel>
+      <Channel Fixture="15">6</Channel>
+      <Channel Fixture="15">7</Channel>
+      <Channel Fixture="16">4</Channel>
+      <Channel Fixture="16">5</Channel>
+      <Channel Fixture="16">6</Channel>
+      <Channel Fixture="16">7</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="PAR" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="70" Y="35" Width="120" Height="300"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4278255360</ForegroundColor>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="9">0</Channel>
+      <Channel Fixture="10">0</Channel>
+      <Channel Fixture="11">0</Channel>
+      <Channel Fixture="12">0</Channel>
+      <Channel Fixture="13">0</Channel>
+      <Channel Fixture="14">0</Channel>
+      <Channel Fixture="15">0</Channel>
+      <Channel Fixture="16">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Spot" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="400" Y="30" Width="120" Height="300"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4278255360</ForegroundColor>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="1">7</Channel>
+      <Channel Fixture="2">7</Channel>
+      <Channel Fixture="3">7</Channel>
+      <Channel Fixture="4">7</Channel>
+      <Channel Fixture="5">7</Channel>
+      <Channel Fixture="6">7</Channel>
+      <Channel Fixture="7">7</Channel>
+      <Channel Fixture="8">7</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame Caption="" ID="24">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="15" Y="15" Width="320" Height="370"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Frame Caption="" ID="29">
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="20" Y="25" Width="200" Height="320"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Slider Caption="Limit" ID="25" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="10" Y="10" Width="60" Height="300"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Submaster</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="180">
+       <Channel Fixture="17">0</Channel>
+       <Channel Fixture="18">0</Channel>
+       <Channel Fixture="19">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="Front" ID="30" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
+      <WindowState Visible="True" X="70" Y="10" Width="120" Height="300"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4278255360</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="1" Channel="48"/>
+      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="158">
+       <Channel Fixture="17">0</Channel>
+       <Channel Fixture="18">0</Channel>
+       <Channel Fixture="19">0</Channel>
+      </Level>
+      <Playback>
+       <Function>0</Function>
+      </Playback>
+     </Slider>
+    </Frame>
+    <Slider Caption="Cold" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="230" Y="35" Width="60" Height="150"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4283590513</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255">
+      <Channel Fixture="17">2</Channel>
+      <Channel Fixture="18">2</Channel>
+      <Channel Fixture="19">2</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Warm" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="230" Y="185" Width="60" Height="150"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4288388199</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255">
+      <Channel Fixture="17">1</Channel>
+      <Channel Fixture="18">1</Channel>
+      <Channel Fixture="19">1</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+  </Frame>
+  <Properties>
+   <Size Width="1280" Height="2560"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>

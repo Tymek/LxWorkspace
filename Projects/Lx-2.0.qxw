@@ -4,7 +4,7 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.2</Version>
-  <Author>Tymek</Author>
+  <Author>x</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
@@ -18,7 +18,7 @@
    <Universe Name="CONTROL" ID="2">
     <Input Plugin="Loopback" Line="0"/>
     <Output Plugin="Loopback" Line="0">
-     <PluginParameters UniverseChannels="150"/>
+     <PluginParameters UniverseChannels="145"/>
     </Output>
    </Universe>
    <Universe Name="VIRTUAL" ID="3">
@@ -155,8 +155,8 @@
    <ForcedLTP>4,5,6,7</ForcedLTP>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
    <Modifier Channel="5" Name="Preheat 5 Percent"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
    <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -169,8 +169,8 @@
    <Channels>8</Channels>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
    <Modifier Channel="5" Name="Preheat 5 Percent"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
    <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -183,8 +183,8 @@
    <Channels>8</Channels>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
    <Modifier Channel="5" Name="Preheat 5 Percent"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
    <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -197,8 +197,8 @@
    <Channels>8</Channels>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
    <Modifier Channel="5" Name="Preheat 5 Percent"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
    <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -211,8 +211,8 @@
    <Channels>8</Channels>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
    <Modifier Channel="5" Name="Preheat 5 Percent"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
    <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -225,8 +225,8 @@
    <Channels>8</Channels>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
    <Modifier Channel="5" Name="Preheat 5 Percent"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
    <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -239,8 +239,8 @@
    <Channels>8</Channels>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
    <Modifier Channel="5" Name="Preheat 5 Percent"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
    <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -253,8 +253,8 @@
    <Channels>8</Channels>
    <Modifier Channel="4" Name="Logarithmic Shallow"/>
    <Modifier Channel="5" Name="Preheat 5 Percent"/>
-   <Modifier Channel="6" Name="Exponential Shallow"/>
    <Modifier Channel="0" Name="Exponential Shallow"/>
+   <Modifier Channel="6" Name="Exponential Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -989,7 +989,7 @@
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">39</Step>
   </Function>
   <Function ID="41" Type="Chaser" Name="Delay cycle - fog" Path=" Fog">
-   <Speed FadeIn="0" FadeOut="0" Duration="7764"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="21843"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -3157,7 +3157,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="695" Y="435" Width="140" Height="295"/>
+    <WindowState Visible="True" X="710" Y="420" Width="140" Height="295"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -3210,55 +3210,9 @@
      </Appearance>
     </Label>
    </Frame>
-   <Frame Caption="" ID="53">
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <WindowState Visible="True" X="25" Y="1710" Width="335" Height="130"/>
-    <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
-    <ShowHeader>False</ShowHeader>
-    <ShowEnableButton>True</ShowEnableButton>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
-    <Label Caption="Kolejność kolorów Spot:" ID="50">
-     <WindowState Visible="True" X="5" Y="5" Width="325" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>4280427042</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-     </Appearance>
-    </Label>
-    <Label Caption="White Red Orange Yellow Green Blue Purple Aqua" ID="52">
-     <WindowState Visible="True" X="5" Y="55" Width="325" Height="35"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>4280427042</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-    </Label>
-    <Label Caption="WROnY Gniazda Budują Pośród Arbuzów" ID="51">
-     <WindowState Visible="True" X="5" Y="90" Width="325" Height="30"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>4280427042</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-    </Label>
-   </Frame>
    <Frame Caption="" ID="32">
     <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
+     <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
      <BackgroundColor>Default</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
@@ -3402,7 +3356,7 @@
     </Clock>
    </Frame>
    <CueList Caption="Cue list" ID="39">
-    <WindowState Visible="True" X="1135" Y="285" Width="140" Height="195"/>
+    <WindowState Visible="True" X="1135" Y="285" Width="140" Height="215"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -3419,7 +3373,7 @@
     <SlidersMode>Crossfade</SlidersMode>
    </CueList>
    <SpeedDial Caption="Duration" ID="33">
-    <WindowState Visible="True" X="1145" Y="335" Width="120" Height="95"/>
+    <WindowState Visible="True" X="1135" Y="345" Width="140" Height="95"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -3428,14 +3382,14 @@
      <Font>Default</Font>
     </Appearance>
     <Visibility>65648</Visibility>
-    <AbsoluteValue Minimum="0" Maximum="99000">
+    <AbsoluteValue Minimum="1500" Maximum="100194">
      <Input Universe="2" Channel="132"/>
     </AbsoluteValue>
-    <Time>15529</Time>
+    <Time>43686</Time>
     <Function FadeIn="0" FadeOut="0" Duration="5">41</Function>
    </SpeedDial>
    <Slider Caption="Fog" ID="17" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="1070" Y="285" Width="60" Height="200"/>
+    <WindowState Visible="True" X="1070" Y="285" Width="60" Height="215"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -3444,7 +3398,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="144">
+    <Level LowLimit="0" HighLimit="255" Value="63">
      <Channel Fixture="29">0</Channel>
     </Level>
     <Playback>
