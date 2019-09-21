@@ -3,7 +3,7 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.11.1</Version>
+  <Version>4.11.2</Version>
   <Author>Tymek</Author>
  </Creator>
  <Manufacturer>Virtual</Manufacturer>
@@ -34,6 +34,27 @@
   <Group Byte="0">Maintenance</Group>
  </Channel>
  <Channel Name="9">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="10">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="11">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="12">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="13">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="14">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="15">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="16">
   <Group Byte="0">Maintenance</Group>
  </Channel>
  <Mode Name="1">
@@ -144,7 +165,7 @@
   <Channel Number="6">7</Channel>
   <Channel Number="7">8</Channel>
  </Mode>
- <Mode Name="9">
+ <Mode Name="16">
   <Physical>
    <Bulb Type="" Lumens="0" ColourTemperature="0"/>
    <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
@@ -161,5 +182,12 @@
   <Channel Number="6">7</Channel>
   <Channel Number="7">8</Channel>
   <Channel Number="8">9</Channel>
+  <Channel Number="9">10</Channel>
+  <Channel Number="10">11</Channel>
+  <Channel Number="11">12</Channel>
+  <Channel Number="12">13</Channel>
+  <Channel Number="13">14</Channel>
+  <Channel Number="14">15</Channel>
+  <Channel Number="15">16</Channel>
  </Mode>
 </FixtureDefinition>

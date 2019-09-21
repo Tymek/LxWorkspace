@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.11.1</Version>
+  <Version>4.11.2</Version>
   <Author>Tymek</Author>
  </Creator>
  <Engine>
@@ -103,6 +103,13 @@
   <Function ID="7" Type="Scene" Name="NOOP">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
+  <Function ID="8" Type="Chaser" Name="Preset">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+  </Function>
   <Function ID="9" Type="Scene" Name="State page 1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">0,255,1,0</FixtureVal>
@@ -146,7 +153,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="100" Y="530" Width="200" Height="150"/>
+    <WindowState Visible="True" X="375" Y="360" Width="200" Height="150"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -154,7 +161,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="State" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="25" Y="10" Width="60" Height="130"/>
+     <WindowState Visible="True" X="25" Y="10" Width="60" Height="130"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -172,7 +179,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Play" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="110" Y="10" Width="60" Height="130"/>
+     <WindowState Visible="True" X="110" Y="10" Width="60" Height="130"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -191,7 +198,7 @@
     </Slider>
    </Frame>
    <CueList Caption="Cue list" ID="4">
-    <WindowState Visible="False" X="135" Y="185" Width="300" Height="220"/>
+    <WindowState Visible="True" X="30" Y="330" Width="300" Height="220"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -211,7 +218,7 @@
     </CrossLeft>
    </CueList>
    <CueList Caption="Cue list" ID="5">
-    <WindowState Visible="False" X="700" Y="200" Width="300" Height="220"/>
+    <WindowState Visible="True" X="615" Y="90" Width="300" Height="220"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -219,7 +226,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Chaser>4294967295</Chaser>
+    <Chaser>8</Chaser>
     <NextPrevBehavior>2</NextPrevBehavior>
     <Next/>
     <Previous/>
@@ -237,7 +244,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="235" Y="10" Width="280" Height="170"/>
+    <WindowState Visible="True" X="140" Y="5" Width="265" Height="155"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -254,11 +261,11 @@
     </Shortcut>
     <PagesLoop>False</PagesLoop>
     <Button Caption="GO" ID="7" Icon="">
-     <WindowState Visible="False" X="75" Y="70" Width="50" Height="50"/>
+     <WindowState Visible="True" X="30" Y="70" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4283666431</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -268,11 +275,11 @@
     </Button>
    </SoloFrame>
    <Button Caption="Live" ID="8" Icon="">
-    <WindowState Visible="False" X="140" Y="80" Width="50" Height="50"/>
+    <WindowState Visible="True" X="65" Y="75" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundColor>4293933356</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
@@ -280,6 +287,56 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
+   <Label Caption="Docelowa lista scen, przełączana automatycznie" ID="2">
+    <WindowState Visible="True" X="615" Y="35" Width="295" Height="55"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Label>
+   <Label Caption="Lista przełączająca" ID="9">
+    <WindowState Visible="True" X="35" Y="275" Width="295" Height="55"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Label>
+   <Label Caption="Podgląd stanu systemu" ID="10">
+    <WindowState Visible="True" X="390" Y="300" Width="165" Height="60"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Label>
+   <Label Caption="1. Włącz listę poniżej" ID="11">
+    <WindowState Visible="True" X="60" Y="145" Width="240" Height="40"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Label>
+   <Label Caption="2. Klikaj Live lub GO" ID="12">
+    <WindowState Visible="True" X="60" Y="185" Width="240" Height="40"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Label>
   </Frame>
   <Properties>
    <Size Width="1850" Height="2775"/>
