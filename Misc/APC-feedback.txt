@@ -1,0 +1,8 @@
+1 - reset
+2-7 - czerwony
+8-9 - czerwony, migający
+10-11 - żółty
+12-13 - żółty, migający
+14 - zielony
+
+boczne - 1 / 2
