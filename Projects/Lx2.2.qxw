@@ -51,8 +51,8 @@
    <Address>161</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -64,8 +64,8 @@
    <Address>172</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -77,8 +77,8 @@
    <Address>183</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -90,8 +90,8 @@
    <Address>194</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -103,8 +103,8 @@
    <Address>205</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -128,8 +128,8 @@
    <Address>227</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -141,8 +141,8 @@
    <Address>238</Address>
    <Channels>11</Channels>
    <ForcedHTP>8</ForcedHTP>
-   <Modifier Channel="8" Name="Logarithmic Medium"/>
    <Modifier Channel="7" Name="Exponential Shallow"/>
+   <Modifier Channel="8" Name="Logarithmic Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>NoName</Manufacturer>
@@ -347,8 +347,8 @@
    <Address>132</Address>
    <Channels>2</Channels>
    <ForcedHTP>1</ForcedHTP>
-   <Modifier Channel="1" Name="Threshold"/>
    <Modifier Channel="0" Name="Logarithmic Medium Invert"/>
+   <Modifier Channel="1" Name="Threshold"/>
   </Fixture>
   <Function ID="0" Type="Scene" Name="1. Initilize" Path=" Utils/ Prepare &amp; Go">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
