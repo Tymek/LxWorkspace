@@ -3,16 +3,14 @@
 <Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.11.1</Version>
-  <Author>KJCH-NABO</Author>
+  <Version>4.11.2</Version>
+  <Author>x</Author>
  </Creator>
  <Engine Autostart="88">
   <InputOutputMap>
    <Universe Name="SCENA" ID="0" Passthrough="True">
     <Input Plugin="ArtNet" Line="1"/>
-    <Output Plugin="DMX USB" Line="0">
-     <PluginParameters UniverseChannels="433"/>
-    </Output>
+    <Output Plugin="DMX USB" Line="0"/>
    </Universe>
    <Universe Name="APCMINI" ID="1">
     <Input Plugin="MIDI" Line="0"/>
@@ -28,9 +26,9 @@
    <Universe Name="universe 4" ID="4" Passthrough="True"/>
   </InputOutputMap>
   <Fixture>
-   <Manufacturer>U'King</Manufacturer>
-   <Model>MINI LED 540 270</Model>
-   <Mode>14ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>14 Channel</Mode>
    <ID>32</ID>
    <Name>MINI LED #1</Name>
    <Universe>0</Universe>
@@ -39,9 +37,9 @@
    <ForcedLTP>6,7,8,9</ForcedLTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>U'King</Manufacturer>
-   <Model>MINI LED 540 270</Model>
-   <Mode>14ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>14 Channel</Mode>
    <ID>33</ID>
    <Name>MINI LED #2</Name>
    <Universe>0</Universe>
@@ -233,8 +231,8 @@
    <ForcedLTP>0,1,2</ForcedLTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>Mini</Manufacturer>
-   <Model>Ledspot 60w</Model>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
    <Mode>11 Channel</Mode>
    <ID>51</ID>
    <Name>Ledspot 60w #5</Name>
@@ -244,8 +242,8 @@
    <Modifier Channel="8" Name="Logarithmic Deep"/>
   </Fixture>
   <Fixture>
-   <Manufacturer>Mini</Manufacturer>
-   <Model>Ledspot 60w</Model>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
    <Mode>11 Channel</Mode>
    <ID>52</ID>
    <Name>Ledspot 60w #6</Name>
@@ -288,8 +286,8 @@
    <ForcedLTP>0</ForcedLTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>Mini</Manufacturer>
-   <Model>Ledspot 60w</Model>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
    <Mode>11 Channel</Mode>
    <ID>56</ID>
    <Name>Ledspot 60w #1</Name>
@@ -299,8 +297,8 @@
    <Modifier Channel="8" Name="Logarithmic Deep"/>
   </Fixture>
   <Fixture>
-   <Manufacturer>Mini</Manufacturer>
-   <Model>Ledspot 60w</Model>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
    <Mode>11 Channel</Mode>
    <ID>57</ID>
    <Name>Ledspot 60w #2</Name>
@@ -310,8 +308,8 @@
    <Modifier Channel="8" Name="Logarithmic Deep"/>
   </Fixture>
   <Fixture>
-   <Manufacturer>Mini</Manufacturer>
-   <Model>Ledspot 60w</Model>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
    <Mode>11 Channel</Mode>
    <ID>58</ID>
    <Name>Ledspot 60w #3</Name>
@@ -320,8 +318,8 @@
    <Channels>11</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Mini</Manufacturer>
-   <Model>Ledspot 60w</Model>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
    <Mode>11 Channel</Mode>
    <ID>59</ID>
    <Name>Ledspot 60w #4</Name>
@@ -330,8 +328,8 @@
    <Channels>11</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Mini</Manufacturer>
-   <Model>Ledspot 60w</Model>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
    <Mode>11 Channel</Mode>
    <ID>60</ID>
    <Name>Ledspot 60w #7</Name>
@@ -340,8 +338,8 @@
    <Channels>11</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Mini</Manufacturer>
-   <Model>Ledspot 60w</Model>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
    <Mode>11 Channel</Mode>
    <ID>61</ID>
    <Name>Ledspot 60w #8</Name>
@@ -361,9 +359,9 @@
    <ForcedLTP>0</ForcedLTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>Led par 18x3W</Model>
-   <Mode>8ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>8 Channel</Mode>
    <ID>63</ID>
    <Name>Led par 18x3W #1</Name>
    <Universe>0</Universe>
@@ -372,9 +370,9 @@
    <ForcedHTP>1</ForcedHTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>Led par 18x3W</Model>
-   <Mode>8ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>8 Channel</Mode>
    <ID>64</ID>
    <Name>Led par 18x3W #2</Name>
    <Universe>0</Universe>
@@ -383,9 +381,9 @@
    <ForcedHTP>1</ForcedHTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>Led par 18x3W</Model>
-   <Mode>8ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>8 Channel</Mode>
    <ID>65</ID>
    <Name>Led par 18x3W #3</Name>
    <Universe>0</Universe>
@@ -394,9 +392,9 @@
    <ForcedHTP>1</ForcedHTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>Led par 18x3W</Model>
-   <Mode>8ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>8 Channel</Mode>
    <ID>66</ID>
    <Name>Led par 18x3W #4</Name>
    <Universe>0</Universe>
@@ -405,9 +403,9 @@
    <ForcedHTP>1</ForcedHTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>Led par 18x3W</Model>
-   <Mode>8ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>8 Channel</Mode>
    <ID>67</ID>
    <Name>Led par 18x3W #5</Name>
    <Universe>0</Universe>
@@ -416,9 +414,9 @@
    <ForcedHTP>1</ForcedHTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>Led par 18x3W</Model>
-   <Mode>8ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>8 Channel</Mode>
    <ID>68</ID>
    <Name>Led par 18x3W #6</Name>
    <Universe>0</Universe>
@@ -427,9 +425,9 @@
    <ForcedHTP>1</ForcedHTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>Led par 18x3W</Model>
-   <Mode>8ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>8 Channel</Mode>
    <ID>69</ID>
    <Name>Led par 18x3W #7</Name>
    <Universe>0</Universe>
@@ -438,9 +436,9 @@
    <ForcedHTP>1</ForcedHTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>Led par 18x3W</Model>
-   <Mode>8ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>8 Channel</Mode>
    <ID>70</ID>
    <Name>Led par 18x3W #8</Name>
    <Universe>0</Universe>
@@ -449,9 +447,9 @@
    <ForcedHTP>1</ForcedHTP>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>LED FRONT </Model>
-   <Mode>4ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>4 Channel</Mode>
    <ID>71</ID>
    <Name>LED FRONT  #1</Name>
    <Universe>0</Universe>
@@ -459,9 +457,9 @@
    <Channels>4</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>LED FRONT </Model>
-   <Mode>4ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>4 Channel</Mode>
    <ID>72</ID>
    <Name>LED FRONT  #2</Name>
    <Universe>0</Universe>
@@ -469,9 +467,9 @@
    <Channels>4</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Aliexpress</Manufacturer>
-   <Model>LED FRONT </Model>
-   <Mode>4ch</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>4 Channel</Mode>
    <ID>73</ID>
    <Name>LED FRONT  #3</Name>
    <Universe>0</Universe>
@@ -546,12 +544,12 @@
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>0</FixtureGroup>
-   <Property Name="presetCollision" Value=""/>
-   <Property Name="fillSquares" Value=""/>
-   <Property Name="presetColision" Value=""/>
-   <Property Name="presetNumber" Value="5"/>
    <Property Name="presetSize" Value=""/>
    <Property Name="orientation" Value=""/>
+   <Property Name="fillSquares" Value=""/>
+   <Property Name="presetNumber" Value="5"/>
+   <Property Name="presetColision" Value=""/>
+   <Property Name="presetCollision" Value=""/>
    <Property Name="presetRandom" Value=""/>
   </Function>
   <Function ID="1" Type="Collection" Name="ALL PAR DIMMER 100%">
@@ -1157,13 +1155,13 @@
    <DimmerControl>0</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>1</FixtureGroup>
-   <Property Name="stepsize" Value="25"/>
-   <Property Name="tailfade" Value="No"/>
-   <Property Name="direction" Value="Out"/>
    <Property Name="presetSize" Value="5"/>
-   <Property Name="presetIndex" Value=""/>
-   <Property Name="taillength" Value="50"/>
    <Property Name="orientation" Value=""/>
+   <Property Name="presetIndex" Value=""/>
+   <Property Name="stepsize" Value="25"/>
+   <Property Name="taillength" Value="50"/>
+   <Property Name="direction" Value="Out"/>
+   <Property Name="tailfade" Value="No"/>
    <Property Name="ramp" Value="20"/>
   </Function>
   <Function ID="71" Type="Collection" Name="MIX RED-ORANGE" Path="PARY">
@@ -1335,10 +1333,10 @@
    <DimmerControl>0</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>1</FixtureGroup>
-   <Property Name="tailfade" Value="Yes"/>
-   <Property Name="direction" Value=""/>
-   <Property Name="taillength" Value="50"/>
    <Property Name="orientation" Value=""/>
+   <Property Name="taillength" Value="50"/>
+   <Property Name="direction" Value=""/>
+   <Property Name="tailfade" Value="Yes"/>
   </Function>
   <Function ID="95" Type="RGBMatrix" Name="PARY W LEWO" Path="ANIMACJ PARY" BlendMode="Mask">
    <Speed FadeIn="499" FadeOut="499" Duration="499"/>
@@ -1348,10 +1346,10 @@
    <DimmerControl>0</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>1</FixtureGroup>
-   <Property Name="tailfade" Value="Yes"/>
-   <Property Name="direction" Value="Left"/>
-   <Property Name="taillength" Value="50"/>
    <Property Name="orientation" Value=""/>
+   <Property Name="taillength" Value="50"/>
+   <Property Name="direction" Value="Left"/>
+   <Property Name="tailfade" Value="Yes"/>
   </Function>
   <Function ID="96" Type="RGBMatrix" Name="PARY PLAIN COLOR">
    <Speed FadeIn="0" FadeOut="0" Duration="77"/>
@@ -1361,26 +1359,26 @@
    <DimmerControl>0</DimmerControl>
    <MonoColor>4278190335</MonoColor>
    <FixtureGroup>1</FixtureGroup>
-   <Property Name="taillength" Value="50"/>
-   <Property Name="direction" Value=""/>
-   <Property Name="color5Index" Value="OFF"/>
-   <Property Name="squaresAmount" Value="3"/>
-   <Property Name="color1Index" Value=""/>
-   <Property Name="presetRandom" Value=""/>
    <Property Name="color4Index" Value="Blue"/>
-   <Property Name="orientation" Value="Horizontal"/>
-   <Property Name="presetIndex" Value="Sunset"/>
+   <Property Name="squaresAmount" Value="3"/>
    <Property Name="presetSize" Value="5"/>
-   <Property Name="fillSquares" Value=""/>
-   <Property Name="tailfade" Value="Yes"/>
-   <Property Name="ramp" Value="15"/>
    <Property Name="color2Index" Value="Red"/>
-   <Property Name="stepsize" Value="25"/>
    <Property Name="circlesAmount" Value="3"/>
    <Property Name="fadeMode" Value=""/>
    <Property Name="color3Index" Value="Green"/>
-   <Property Name="presetCollision" Value="Yes"/>
+   <Property Name="presetRandom" Value=""/>
    <Property Name="presetNumber" Value="5"/>
+   <Property Name="ramp" Value="15"/>
+   <Property Name="stepsize" Value="25"/>
+   <Property Name="direction" Value=""/>
+   <Property Name="color1Index" Value=""/>
+   <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="50"/>
+   <Property Name="presetCollision" Value="Yes"/>
+   <Property Name="color5Index" Value="OFF"/>
+   <Property Name="orientation" Value="Horizontal"/>
+   <Property Name="fillSquares" Value=""/>
+   <Property Name="presetIndex" Value="Sunset"/>
   </Function>
   <Function ID="97" Type="Scene" Name="pos krzyz scena" Path="01 POZYCJE GLOWY">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1407,10 +1405,10 @@
    <DimmerControl>0</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>1</FixtureGroup>
-   <Property Name="tailfade" Value="Yes"/>
-   <Property Name="direction" Value="Left"/>
-   <Property Name="taillength" Value="100"/>
    <Property Name="orientation" Value="Vertical"/>
+   <Property Name="taillength" Value="100"/>
+   <Property Name="direction" Value="Left"/>
+   <Property Name="tailfade" Value="Yes"/>
   </Function>
   <Function ID="100" Type="Chaser" Name="PARY gor-dol">
    <Speed FadeIn="0" FadeOut="0" Duration="1996"/>
@@ -1444,75 +1442,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -1536,61 +1534,61 @@
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>30</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>60</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>30</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>60</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -1614,75 +1612,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -1706,75 +1704,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Diamond</Algorithm>
@@ -1914,75 +1912,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Leaf</Algorithm>
@@ -2006,75 +2004,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -2135,75 +2133,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -2227,75 +2225,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -2319,75 +2317,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -2448,75 +2446,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -2540,61 +2538,61 @@
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>180</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>180</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>180</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>180</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2618,75 +2616,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Diamond</Algorithm>
@@ -2710,75 +2708,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -2802,75 +2800,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>90</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Leaf</Algorithm>
@@ -2894,75 +2892,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>60</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>60</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>60</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>60</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>60</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Backward</Direction>
     <StartOffset>60</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -3330,75 +3328,75 @@
    <Fixture>
     <ID>32</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>33</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>56</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>45</StartOffset>
    </Fixture>
    <Fixture>
     <ID>57</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>45</StartOffset>
    </Fixture>
    <Fixture>
     <ID>58</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>135</StartOffset>
    </Fixture>
    <Fixture>
     <ID>59</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>135</StartOffset>
    </Fixture>
    <Fixture>
     <ID>51</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>52</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>60</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <Fixture>
     <ID>61</ID>
     <Head>0</Head>
-    <Mode>0</Mode>
+    <Mode>1</Mode>
     <Direction>Forward</Direction>
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -3607,9 +3605,9 @@
    <DimmerControl>0</DimmerControl>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>1</FixtureGroup>
-   <Property Name="tailfade" Value="No"/>
-   <Property Name="direction" Value="In"/>
    <Property Name="taillength" Value="50"/>
+   <Property Name="direction" Value="In"/>
+   <Property Name="tailfade" Value="No"/>
   </Function>
   <Function ID="212" Type="Scene" Name="Orange" Path="LED SPOT/KOLOR">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -4850,19 +4848,19 @@
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
    <Grid Width="3" Height="1" Depth="1" Units="0"/>
-   <FxItem ID="33" XPos="2665.07" YPos="62.201"/>
-   <FxItem ID="50" XPos="2803.73" YPos="702.563"/>
-   <FxItem ID="49" XPos="-62.5195" YPos="665.952"/>
-   <FxItem ID="32" XPos="0" YPos="19.1388"/>
-   <FxItem ID="47" XPos="2153.05" YPos="208.932"/>
-   <FxItem ID="48" XPos="2506.43" YPos="397.242"/>
-   <FxItem ID="46" XPos="1728.48" YPos="127.615"/>
-   <FxItem ID="45" XPos="1003.45" YPos="137.028"/>
-   <FxItem ID="44" XPos="572.386" YPos="221.939"/>
    <FxItem ID="43" XPos="189.539" YPos="364.376"/>
    <FxItem ID="42" XPos="1329.75" YPos="1383.31"/>
    <FxItem ID="57" XPos="1504.06" YPos="409.121"/>
    <FxItem ID="56" XPos="1199.17" YPos="419.087"/>
+   <FxItem ID="47" XPos="2153.05" YPos="208.932"/>
+   <FxItem ID="46" XPos="1728.48" YPos="127.615"/>
+   <FxItem ID="45" XPos="1003.45" YPos="137.028"/>
+   <FxItem ID="44" XPos="572.386" YPos="221.939"/>
+   <FxItem ID="50" XPos="2803.73" YPos="702.563"/>
+   <FxItem ID="33" XPos="2665.07" YPos="62.201"/>
+   <FxItem ID="32" XPos="0" YPos="19.1388"/>
+   <FxItem ID="49" XPos="-62.5195" YPos="665.952"/>
+   <FxItem ID="48" XPos="2506.43" YPos="397.242"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
@@ -5637,7 +5635,7 @@
       <AbsoluteValue Minimum="0" Maximum="20000">
        <Input Universe="1" Channel="53"/>
       </AbsoluteValue>
-      <Time>3000</Time>
+      <Time>0</Time>
       <Function FadeIn="0" FadeOut="0" Duration="6">132</Function>
       <Function FadeIn="0" FadeOut="0" Duration="6">126</Function>
       <Function FadeIn="0" FadeOut="0" Duration="6">125</Function>
@@ -6797,7 +6795,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="4">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="56">5</Channel>
       <Channel Fixture="57">5</Channel>
      </Level>
@@ -6887,7 +6885,7 @@
      <Reset>
       <Input Universe="1" Channel="193"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="56">7</Channel>
       <Channel Fixture="57">7</Channel>
       <Channel Fixture="58">7</Channel>
@@ -7396,7 +7394,7 @@
      <Reset>
       <Input Universe="1" Channel="192"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="96">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="39">0</Channel>
      </Level>
      <Playback>
@@ -7503,7 +7501,7 @@
      <Reset>
       <Input Universe="1" Channel="192"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="96">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="40">0</Channel>
      </Level>
      <Playback>
@@ -7523,7 +7521,7 @@
      <Reset>
       <Input Universe="1" Channel="192"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="96">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="41">0</Channel>
      </Level>
      <Playback>
@@ -7541,7 +7539,7 @@
      </Appearance>
      <Input Universe="1" Channel="48"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Submaster</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="181">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="39">0</Channel>
      </Level>
      <Playback>
